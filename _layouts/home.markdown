@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div class="gs-home-page-slider">
   <div class="gs-slide">
     <div class="center">home</div>
