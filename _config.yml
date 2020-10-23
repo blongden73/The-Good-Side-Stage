@@ -17,5 +17,7 @@ url: ''
 twitter_username: jekyllrb
 github_username: jekyll
 theme: minima
+sass:
+  sass_dir: ./_scss
 plugins:
 - jekyll-feed
