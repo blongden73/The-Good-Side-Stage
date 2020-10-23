@@ -1,0 +1,27 @@
+.gs-home-page-slider {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+}
+
+.gs-slide {
+  height: 100vh;
+  width: 100%;
+  background-color: #e6e6e6;
+  flex-basis: 1;
+  flex:none;
+  position: relative;
+
+  &:nth-child(odd) {
+    background-color: pink;
+  }
+
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%, -50%);
+  }
+}
