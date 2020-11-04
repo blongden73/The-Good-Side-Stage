@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Bureau Grot Extra Compressed';
+    src: url('../assets/BureauGrotExtraCompressed-Book.woff2') format('woff2'),
+        url('../assets/BureauGrotExtraCompressed-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.gs-wrapper {
+  padding: 2%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Bureau Grot Extra Compressed';
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 1.1;
+
+  @include mq($from: desktop) {
+    font-size: 20vw;
+    line-height: 0;
+  }
+}

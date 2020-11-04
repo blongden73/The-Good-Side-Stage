@@ -2,6 +2,29 @@
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 1;
+}
+
+.tg-header__wrapper {
+  display: flex;
+  padding: 1%;
+
+  & > * {
+    width: 50%;
+  }
+
+  .tg-header__right {
+    display: flex;
+    justify-content: flex-end;
+
+    .tg-menu__hamburger {
+      width: 60px;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
 }
 
 .tg-footer {
