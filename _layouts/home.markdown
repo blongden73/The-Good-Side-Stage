@@ -6,17 +6,17 @@ layout: default
   <div class="gs-slide blue">
     {% include home.html %}
   </div>
-  <div class="gs-slide">
+  <div class="gs-slide pink">
     {% include ask.html %}
   </div>
-  <div class="gs-slide">
-    <div class="page-content"></div>
+  <div class="gs-slide blue">
+    {% include carousel.html %}
   </div>
-  <div class="gs-slide">
-    <div class="page-content"></div>
+  <div class="gs-slide green">
+    {% include about.html %}
   </div>
-  <div class="gs-slide">
-    <div class="page-content"></div>
+  <div class="gs-slide pink">
+    {% include themes.html %}
   </div>
 </div>
 <!-- article placeholder -->
