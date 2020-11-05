@@ -88,7 +88,7 @@
 
   @include mq($from: desktop) {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
@@ -107,36 +107,46 @@
   left: 50%;
   transform: translate(-50%, -50%);
   top: 50%;
+  justify-content: space-between;
 
-  & > * {
+  & > .gs-splash__image {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100vh;
     width: 34%;
-    padding: 1%;
+    padding: 4%;
 
     &.small {
-      div {
+      width: 20%;
+      margin-top: -9.3%;
+
+      div:not(.gs-plus) {
         background-color: $pink;
         width: 100%;
-        height: 400px;
+        height: 300px;
+        position: relative;
       }
     }
 
     &.big {
-      div {
+      width: 40%;
+      div:not(.gs-plus) {
         background-color: $pink;
         width: 100%;
         height: 650px;
+        position: relative;
       }
     }
 
     &.medium {
-      div {
+      width: 25%;
+      margin-top: -2.3%;
+      div:not(.gs-plus) {
         background-color: $pink;
         width: 100%;
-        height: 500px;
+        height: 400px;
+        position: relative;
       }
     }
   }
