@@ -17,13 +17,13 @@ description: Write an awesome description for your new site here. You can edit t
   results) and in your feed.xml site description.
 defaults:
 - scope:
-  path: 'case-studeis'
+  path: case-studies
   values:
     Case study main image:
     Blocks:
     - Image:
       Article description:
-      Video: 
+      Video:
 baseurl:
 url:
 twitter_username: jekyllrb
