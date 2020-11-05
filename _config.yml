@@ -11,15 +11,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-defaults:
-- scope:
-  path: case-studies
-  values:
-    Case study main image:
-    Blocks:
-    - Image:
-      Article description:
-      Video:
 email: your-email@example.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
