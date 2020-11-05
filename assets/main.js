@@ -19,9 +19,12 @@ function openpage() {
   var slides = document.querySelectorAll('.gs-slide');
   for(i=0; i < pageSelector.length; i++) {
     pageSelector[i].addEventListener('click', function(){
+      var closePageSelector = document.querySelector('.close-section');
+      closePageSelector.classList.add('active');
       horizontalScroll = false;
       var currentLocation = window.location.pathname;
-      history.pushState(null, null, currentLocation+'#'+'the-good-side-testing');
+      var url = this.dataset.url;
+      history.pushState(null, null, currentLocation+'#'+url);
       this.classList.add('open');
       console.log('click');
       var open = document.querySelector('.gs-slide.open');
@@ -34,6 +37,23 @@ function openpage() {
   }
 }
 openpage();
+
+function closepage(){
+  var closePageSelector = document.querySelector('.close-section');
+  console.log(closePageSelector, 'close');
+  closePageSelector.addEventListener('click', function(){
+    var closedPages = document.querySelectorAll('.gs-slide.close');
+    console.log('clicked', closedPages);
+    var sectionToClose = document.querySelector('.page-selector.open');
+    console.log(sectionToClose);
+    horizontalScroll = true;
+    sectionToClose.classList.remove('open');
+    for(i=0; i < closedPages.length; i++) {
+      closedPages[i].classList.remove('close');
+    }
+    this.classList.remove('active');
+  });
+}closepage()
 
 function openarticle() {
   var pageScroller = document.querySelector('.gs-home-page-slider');

@@ -7,10 +7,49 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'bill corp nar';
+    src: url('../assets/billcorpnar-bold.woff2') format('woff2'),
+        url('../assets/billcorpnar-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'bill corp nar';
+    src: url('../assets/billcorpnar-medium.woff2') format('woff2'),
+        url('../assets/billcorpnar-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'bill corp nar';
+    src: url('../assets/billcorpnar-extralight.woff2') format('woff2'),
+        url('../assets/billcorpnar-extralight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'bill corp nar';
+    src: url('../assets/billcorpnar-extrabold.woff2') format('woff2'),
+        url('../assets/billcorpnar-extrabold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 .gs-wrapper {
   padding: 2%;
   height: 100vh;
   box-sizing: border-box;
+  position: relative;
 }
 
 .gs-wrapper__inner {
@@ -20,6 +59,74 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+
+    li {
+      width: 33%;
+      padding-right: 20px;
+      box-sizing: border-box;
+      list-style: none;
+
+      h3 {
+        font-family: 'Bureau Grot Extra Compressed';
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        background-color: $blue;
+        padding: 10px 10px;
+        font-size: 80px;
+        display: inline-block;
+        line-height: 0.9;
+        color: $teal;
+      }
+
+      .cirlce {
+        width: 17vw;
+        height: 17vw;
+        border-radius: 50%;
+        background-color: $blue;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      h2 {
+        line-height: 1;
+        margin: 0;
+      }
+    }
+  }
+
+  &.flexible {
+    position: relative;
+    transform: none;
+    top: unset;
+    left: unset;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding-bottom: 100px;
+
+    ul {
+      margin-top: 100px;
+    }
+
+    li {
+      margin-bottom: 20px;
+
+      h2 {
+        text-align: center;
+
+        &:nth-child(even) {
+          color: #fff;
+        }
+      }
+    }
+  }
 }
 
 .gs-plus {
@@ -36,6 +143,9 @@
     margin-right: auto;
     display: block;
     margin-top: 8px;
+    bottom: unset !important;
+    right: unset !important;
+    position: relative !important;
   }
 }
 
@@ -60,4 +170,10 @@ h2 {
     font-size: 6vw;
     line-height: 1.1;
   }
+}
+
+p {
+  font-family: 'bill corp nar';
+  line-height: 1.4;
+  font-size: 18px;
 }
