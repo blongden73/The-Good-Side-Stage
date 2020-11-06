@@ -17,3 +17,22 @@
     <div class="circle theme">QUALITATIVE</div>
   </div>
 </div>
+<div class="page-content pink">
+  <div class="gs-case-study__wrapper">
+    <ul>
+      {% for case in site.case-studies %}
+        <li>
+          <div class="flex">
+            <div class="left">
+              <img src="{{case.['Case study main image']}}">
+            </div>
+            <div class="right">
+              <h1>{{case.title}}</h1>
+              <p>{{case.question}}</p>
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
