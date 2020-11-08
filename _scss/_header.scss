@@ -2,7 +2,7 @@
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 10000;
   pointer-events: none;
 }
 
@@ -27,6 +27,42 @@
         width: 100%;
         height: auto;
       }
+    }
+  }
+}
+
+.gs-hamburger-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: $yellow;
+  z-index: 1000;
+  border-radius: 50% 0 50% 50%;
+  padding: 100px;
+  width: 80vh;
+  height: 80vh;
+  margin-top: -70px;
+  margin-right: -110px;
+  transition: all ease-in-out 0.5s;
+  overflow: hidden;
+
+  &.hidden {
+    height: 0;
+    width: 0;
+    padding: 0;
+  }
+
+  ul {
+    list-style: none;
+    margin-top: 80px;
+
+    li {
+      list-style: none;
+      font-family: 'Bureau Grot Extra Compressed';
+      font-weight: 400;
+      font-size: 140px;
+      line-height: 0.8;
+      color: #000;
     }
   }
 }

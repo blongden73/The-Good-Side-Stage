@@ -94,3 +94,12 @@ function randomCircles(){
     return Math.random() * (max - min) + min;
   }
 }randomCircles();
+
+function hamburger() {
+  var hamburger = document.querySelector('.tg-menu__hamburger');
+  var menuWrapper = document.querySelector('.gs-hamburger-menu');
+  hamburger.addEventListener('click', function(){
+    this.classList.toggle('clicked');
+    menuWrapper.classList.toggle('hidden');
+  });
+}hamburger();

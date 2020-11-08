@@ -46,9 +46,30 @@
   &.open {
     overflow: scroll;
     .page-content {
-      min-height: 200vh;
-      overflow: auto;
+      overflow: visible;
       background-color: $pink;
+    }
+
+    .gs-splash.update-on-click {
+      top: 40%;
+      text-align: left;
+      padding-left: 2%;
+    }
+
+    .gs-organiser {
+      position: absolute;
+      top: unset;
+      bottom: 0;
+      width: 100%;
+      height: auto;
+
+      .circle {
+        position: relative;
+        display: inline-block;
+        top: unset !important;
+        left: unset !important;
+        margin-bottom: 4px;
+      }
     }
   }
   img {
@@ -61,6 +82,9 @@
       height: auto;
       object-fit: contain;
     }
+  }
+  .gs-organiser {
+    transition: all ease-in-out 1s;
   }
 }
 
@@ -115,6 +139,7 @@
   text-align: center;
   width: 100%;
   pointer-events: none;
+  transition: all ease-in-out 0.5s;
 
   @include mq($from: desktop) {
     position: absolute;
@@ -185,6 +210,7 @@
 .gs-questions {
   position: relative;
   z-index: 10;
+  height: 90vh;
 
   .circle {
     position: absolute;
@@ -285,6 +311,47 @@ ul.gs-client-list {
     img {
       width: 100%;
       height: auto;
+    }
+  }
+}
+
+.gs-case-study__wrapper {
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      &:nth-child(1n+1) {
+        background-color: $blue;
+      }
+      &:nth-child(2n+2) {
+        background-color: $yellow;
+      }
+      &:nth-child(3n+3) {
+        background-color: $teal;
+      }
+
+      h2, p {
+        color: #fff;
+      }
+
+      .img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .left {
+        height: 400px;
+      }
+
+      .right {
+        padding: 10px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
     }
   }
 }
