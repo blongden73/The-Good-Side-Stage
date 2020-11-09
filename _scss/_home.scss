@@ -223,6 +223,43 @@
     width: 100px;
     border-radius: 50%;
     text-align: center;
+    cursor: pointer;
+
+    &.clicked {
+      width: 80vh !important;
+      height: 80vh !important;
+      top: 50% !important;
+      left: 50% !important;
+      transform: translate(-50%, -50%) !important;
+      z-index: 100000;
+
+      h2 {
+        opacity: 1;
+        color: #fff;
+        transition: opacity 0.5s ease-in-out;
+        transition-delay: 0.5s;
+      }
+
+      h3 {
+        opacity: 1;
+        transition: opacity 0.5s ease-in-out;
+        transition-delay: 0.5s;
+        color: #fff;
+        margin-top: 30vh;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+
+    h3 {
+      opacity: 0;
+    }
+
+    h2 {
+      font-size: 80px;
+      text-transform: uppercase;
+      opacity: 0;
+    }
 
     &:hover {
       transform: scale(1.2);

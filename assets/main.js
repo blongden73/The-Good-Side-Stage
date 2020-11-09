@@ -117,3 +117,14 @@ function hamburger() {
     menuWrapper.classList.toggle('hidden');
   });
 }hamburger();
+
+function circlesCliked(){
+  var questions = document.querySelector('.gs-questions');
+  var circle = questions.querySelectorAll('.circle');
+  console.log(circle);
+  for(i=0; i<circle.length; i++){
+    circle[i].addEventListener('click', function(){
+      this.classList.toggle('clicked');
+    });
+  }
+}circlesCliked();

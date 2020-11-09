@@ -16,11 +16,26 @@ layout: default
 </div>
 <article class="article-wrapper">
   <div class="gs-container">
-    <h3>{{question}}</h3>
+    <div class="article__innner_wrapper">
+      <h3>{{question}}</h3>
+    </div>  
     {% for block in blocks %}
-      <p>{{block.['Article text']}}</p>
-      <div>{{block.['Video']}}</div>
-      <div>{{block.['Testimonial']}}</div>
+      <div class="article__innner_wrapper">
+        <p>{{block.['Article text']}}</p>
+      </div>
+      <div class="article__innner_wrapper">
+        <div>{{block.['Video']}}</div>
+      </div>
+      <div class="article__testimonial_wrapper">
+        <blockquote>{{block.['Testimonial']}}</blockquote>
+      </div>
+      {% assign blockCarousel =  block.Carousel %}
+      {% if block.Carousel %}
+        {% include block-carousel.html blocks=blockCarousel %}
+      {% endif %}
     {% endfor %}
   </div>
 </article>
+<div class="tg-footer">
+
+</div>

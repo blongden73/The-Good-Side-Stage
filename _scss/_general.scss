@@ -178,9 +178,37 @@ h2 {
   }
 }
 
+h3 {
+  @include mq($from: desktop) {
+    font-size: 2.5vw;
+    font-family: 'bill corp nar';
+    line-height: 1.1;
+  }
+}
+
+blockquote {
+  font-style: normal;
+  max-width: 665px;
+  margin-bottom: 40px;
+
+  @include mq($from: desktop) {
+    font-size: 2.5vw;
+    font-family: 'bill corp nar';
+    line-height: 1.1;
+  }
+
+  &:before {
+    content: '"';
+    display: inline;
+    font-size: 2.5vw;
+    font-family: 'bill corp nar';
+    line-height: 0;
+  }
+}
+
 p {
   font-family: 'bill corp nar';
-  line-height: 1.4;
+  line-height: 1.6;
   font-size: 18px;
 }
 
