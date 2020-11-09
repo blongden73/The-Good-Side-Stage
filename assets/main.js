@@ -53,18 +53,20 @@ openpage();
 function closepage(){
   var closePageSelector = document.querySelector('.close-section');
   console.log(closePageSelector, 'close');
-  closePageSelector.addEventListener('click', function(){
-    var closedPages = document.querySelectorAll('.gs-slide.close');
-    console.log('clicked', closedPages);
-    var sectionToClose = document.querySelector('.page-selector.open');
-    console.log(sectionToClose);
-    horizontalScroll = true;
-    sectionToClose.classList.remove('open');
-    for(i=0; i < closedPages.length; i++) {
-      closedPages[i].classList.remove('close');
-    }
-    this.classList.remove('active');
-  });
+  if(closePageSelector) {
+    closePageSelector.addEventListener('click', function(){
+      var closedPages = document.querySelectorAll('.gs-slide.close');
+      console.log('clicked', closedPages);
+      var sectionToClose = document.querySelector('.page-selector.open');
+      console.log(sectionToClose);
+      horizontalScroll = true;
+      sectionToClose.classList.remove('open');
+      for(i=0; i < closedPages.length; i++) {
+        closedPages[i].classList.remove('close');
+      }
+      this.classList.remove('active');
+    });
+  }
 }closepage()
 
 function openarticle() {

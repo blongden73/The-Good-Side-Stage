@@ -1,0 +1,21 @@
+.gs-case-study_top {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.gs-floating__headline {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  h2 {
+    color: #fff;
+  }
+}
