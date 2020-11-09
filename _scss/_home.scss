@@ -177,10 +177,13 @@
       margin-top: -9.3%;
 
       div:not(.gs-plus) {
-        background-color: $pink;
+        background-color: #fff;
         width: 100%;
         height: 300px;
         position: relative;
+      }
+      .js-tilt-glare {
+        background-color: transparent !important;
       }
     }
 
@@ -192,6 +195,9 @@
         height: 650px;
         position: relative;
       }
+      .js-tilt-glare {
+        background-color: transparent !important;
+      }
     }
 
     &.medium {
@@ -202,6 +208,9 @@
         width: 100%;
         height: 400px;
         position: relative;
+      }
+      .js-tilt-glare {
+        background-color: transparent !important;
       }
     }
   }
