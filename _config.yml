@@ -28,8 +28,7 @@ defaults:
       Video:
       Testimonial:
       Carousel:
-        Images:
-        -Image:
+        - Image:
     Meta:
     - Related links:
       Where we worked:
