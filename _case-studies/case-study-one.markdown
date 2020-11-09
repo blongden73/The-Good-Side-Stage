@@ -21,6 +21,10 @@ Blocks:
     change strategy with a sensitive, thoughtful approach to filmmaking. The documentaries
     they produced with us have furthered our mission globally, and we have experienced
     genuine impact from their human-centred approach
+  Carousel:
+  - Image: "/uploads/D98A0693.jpg"
+  - Image: "/uploads/98A0321.jpg"
+  - Image: "/uploads/tgs_human.jpg"
 Meta:
 - Where we worked: Kenya, Seychelles, Belize, Singapore, India
   The Network: 'LGBTI Sey, Jan Sahas, Women Spaces Africa, Naz Trust Foundation India,
