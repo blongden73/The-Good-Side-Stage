@@ -13,6 +13,18 @@ $(function() {
    });
 });
 
+//init lax
+window.onload = function() {
+	lax.setup() // init
+
+	const updateLax = () => {
+		lax.update(window.scrollX)
+		window.requestAnimationFrame(updateLax)
+	}
+
+	window.requestAnimationFrame(updateLax)
+}
+
 
 function openpage() {
   var pageSelector = document.querySelectorAll('.page-selector');
