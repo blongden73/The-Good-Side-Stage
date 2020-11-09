@@ -14,6 +14,9 @@ collections:
   questions:
     title: Questions
     output: true
+  themes:
+    title: Themes
+    output: true
   uploads:
     title: Uploads
     output: true
