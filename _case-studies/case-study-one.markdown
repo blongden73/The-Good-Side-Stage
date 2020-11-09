@@ -14,8 +14,8 @@ Blocks:
 
     Filming in five countries and working for more than a year, the films were widely praised by creatives, activists and experts, and are now producing real-world impact.
   Video: |-
-    <iframe src="https://player.vimeo.com/video/377610592" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    <p><a href="https://vimeo.com/377610592">A Wake Up Call</a> from <a href="https://vimeo.com/thegoodside">The Good Side</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    <iframe src="https://player.vimeo.com/video/25451551?color=bf7273&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <p><a href="https://vimeo.com/25451551">Splitscreen: A Love Story</a> from <a href="https://vimeo.com/jameswgriffiths">James W Griffiths</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
   Testimonial: Our partnership with The Good Side has been instrumental to our first
     foray in to documentary films. The team combines audience insight and behaviour
     change strategy with a sensitive, thoughtful approach to filmmaking. The documentaries
