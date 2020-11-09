@@ -27,8 +27,9 @@ defaults:
       Article text:
       Video:
       Testimonial:
-        Carousel:
-          -Image:
+      Carousel:
+        Images:
+        -Image:
     Meta:
     - Related links:
       Where we worked:
