@@ -24,16 +24,16 @@ Clients:
 - Logo: "/uploads/starbucks.png"
 Team:
 - Name: Saul Parker
-  Role: 
-  Image: 
+  Role: Founder
+  Image: "/uploads/Saul_Headshots2-4_web.jpg"
   Question: 
 - Name: James Lewis
-  Role: 
-  Image: 
+  Role: Head of production
+  Image: "/uploads/James_headshot-4_web.jpg"
   Question: 
 - Name: Catriona Hay
-  Role: 
-  Image: 
+  Role: Project director
+  Image: "/uploads/Trina_Headshots-6_web.jpg"
   Question: 
 About sentence 1: We help people to understand and impact systems, society and culture.
 About 1 image: "/uploads/door.png"
