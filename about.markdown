@@ -24,7 +24,15 @@ Clients copy: We work with organisations  from global tech giants to one woman N
 Clients:
 - Logo: 
 Team:
-- Name: 
+- Name: Saul Parker
+  Role: 
+  Image: 
+  Question: 
+- Name: James Lewis
+  Role: 
+  Image: 
+  Question: 
+- Name: Catriona Hay
   Role: 
   Image: 
   Question: 
