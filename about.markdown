@@ -1,10 +1,6 @@
 ---
 title: About
 permalink: "/about/"
-About intro: We help  people to understand and impact systems, society and culture.
-  Our team blends anthropological  thinking, communications expertise and media  production.
-  We work with organisations  from global tech giants to one woman NGOs, from international
-  brands to social enterprises.
 Manifesto:
 - Title: GO WHERE THE ACTION IS
   Text: We go where people are, immersing ourselves in their lives. Learning by doing.
@@ -24,10 +20,26 @@ Clients copy: We work with organisations  from global tech giants to one woman N
 Clients:
 - Logo: 
 Team:
-- Name: 
+- Name: Saul Parker
   Role: 
   Image: 
   Question: 
+- Name: James Lewis
+  Role: 
+  Image: 
+  Question: 
+- Name: Catriona Hay
+  Role: 
+  Image: 
+  Question: 
+About sentence 1: We help people to understand and impact systems, society and culture.
+About 1 image: "/uploads/door.png"
+About sentence 2: Our team blends anthropological thinking, communications expertise
+  and media <img class="about-image" src="assets/door.png"> production.
+About 2 image: "/uploads/circles.png"
+About sentence 3: " We work with organisations  from global tech giants to one woman
+  NGOs, from international brands to social enterprises."
+About 3 image: "/uploads/The%20Good%20Side_Icons%20&%20Illustrations-Sunset-01.png"
 layout: page
 ---
 

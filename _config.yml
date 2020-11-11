@@ -5,11 +5,17 @@ collections:
   case-studies:
     title: Case Studies
     output: true
+  home-carousel:
+    title: Home Carousel
+    output: true
   posts:
     title: Posts
     output: true
   questions:
     title: Questions
+    output: true
+  themes:
+    title: Themes
     output: true
   uploads:
     title: Uploads
