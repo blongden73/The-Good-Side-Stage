@@ -35,7 +35,7 @@ Team:
 About sentence 1: We help people to understand and impact systems, society and culture.
 About 1 image: "/uploads/door.png"
 About sentence 2: Our team blends anthropological thinking, communications expertise
-  and media <img class="about-image" src="assets/door.png"> production.
+  and media production.
 About 2 image: "/uploads/circles.png"
 About sentence 3: " We work with organisations  from global tech giants to one woman
   NGOs, from international brands to social enterprises."
