@@ -8,6 +8,9 @@ collections:
   home-carousel:
     title: Home Carousel
     output: true
+  navigation:
+    title: Navigation
+    output: false
   posts:
     title: Posts
     output: true
