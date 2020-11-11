@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: "/about/"
-About intro: We help  people to understand and impact systems, society and culture.
+About intro: We help people to understand and impact systems, society and culture.
   Our team blends anthropological  thinking, communications expertise and media  production.
   We work with organisations  from global tech giants to one woman NGOs, from international
   brands to social enterprises.
