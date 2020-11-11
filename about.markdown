@@ -18,7 +18,10 @@ Manifesto:
 Clients copy: We work with organisations  from global tech giants to one woman NGOs,
   from international brands to social enterprises.
 Clients:
-- Logo: 
+- Logo: "/uploads/apple.png"
+- Logo: "/uploads/instagram.png"
+- Logo: "/uploads/booking.png"
+- Logo: "/uploads/starbucks.png"
 Team:
 - Name: Saul Parker
   Role: 
@@ -35,7 +38,7 @@ Team:
 About sentence 1: We help people to understand and impact systems, society and culture.
 About 1 image: "/uploads/door.png"
 About sentence 2: Our team blends anthropological thinking, communications expertise
-  and media production.
+  and media  production.
 About 2 image: "/uploads/The%20Good%20Side_Icons%20&%20Illustrations-Eclipse-01.png"
 About sentence 3: " We work with organisations  from global tech giants to one woman
   NGOs, from international brands to social enterprises."
