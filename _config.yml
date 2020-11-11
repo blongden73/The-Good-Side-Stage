@@ -10,7 +10,7 @@ collections:
     output: true
   navigation:
     title: Navigation
-    output: true
+    output: false
   posts:
     title: Posts
     output: true
