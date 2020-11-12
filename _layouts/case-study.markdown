@@ -37,7 +37,7 @@ layout: default
       {% endif %}
     {% endfor %}
   </div>
-  <div class="gs__right-col">
+  <div class="gs__right-col lax"  data-lax-preset="eager">
     <div class="gs__meta-tags">
       {% for items in meta %}
         {% assign tags = items.Tags | split: ',' %}
@@ -79,7 +79,7 @@ layout: default
         {% assign video = items.['Video'] | split: ',' %}
         <ul class="gs-video">
         {% for item in video %}
-          <li>{{item}}</li>
+          <li><a href="{{item}}"><span uk-icon="vimeo"></span></a></li>
         {% endfor %}
         </ul>
         {% assign hash = items.['Hashtag'] | split: ',' %}

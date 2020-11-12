@@ -1,85 +1,16 @@
+{% assign questions = site.questions %}
 <div class="gs-wrapper">
   <div class="gs-splash">
     <h1>Ask us anything</h1>
   </div>
   <div class="gs-questions">
+    {% for question in questions%}
     <div class="circle">
       <div class="circle-inner">
-        <h3>What do culture and creativity mean to young people in France?</h3>
-        <h2>Explore Question</h2>
+        <h3>{{question.title}}</h3>
+        <h2><a href="{{question.['Case Study Link']}}">Explore Question</a></h2>
       </div>
     </div>
-    <div class="circle">
-      <div class="circle-inner">
-        <h3>What do culture and creativity mean to young people in France?</h3>
-        <h2>Explore Question</h2>
-      </div>
-    </div>
-    <div class="circle">
-      <div class="circle-inner">
-        <h3>What do culture and creativity mean to young people in France?</h3>
-        <h2>Explore Question</h2>
-      </div>
-    </div>
-    <div class="circle">
-      <div class="circle-inner">
-        <h3>What do culture and creativity mean to young people in France?</h3>
-        <h2>Explore Question</h2>
-      </div>
-    </div>
-    <div class="circle">
-      <div class="circle-inner">
-        <h3>What do culture and creativity mean to young people in France?</h3>
-        <h2>Explore Question</h2>
-      </div>
-    </div>
-    <div class="circle">
-      <div class="circle-inner">
-        <h3>What do culture and creativity mean to young people in France?</h3>
-        <h2>Explore Question</h2>
-      </div>
-    </div>
-    <div class="circle">
-      <div class="circle-inner">
-        <h3>What do culture and creativity mean to young people in France?</h3>
-        <h2>Explore Question</h2>
-      </div>
-    </div>
-    <div class="circle">
-      <div class="circle-inner">
-        <h3>What do culture and creativity mean to young people in France?</h3>
-        <h2>Explore Question</h2>
-      </div>
-    </div>
-    <div class="circle">
-      <div class="circle-inner">
-        <h3>What do culture and creativity mean to young people in France?</h3>
-        <h2>Explore Question</h2>
-      </div>
-    </div>
-    <div class="circle">
-      <div class="circle-inner">
-        <h3>What do culture and creativity mean to young people in France?</h3>
-        <h2>Explore Question</h2>
-      </div>
-    </div>
-    <div class="circle">
-      <div class="circle-inner">
-        <h3>What do culture and creativity mean to young people in France?</h3>
-        <h2>Explore Question</h2>
-      </div>
-    </div>
-    <div class="circle">
-      <div class="circle-inner">
-        <h3>What do culture and creativity mean to young people in France?</h3>
-        <h2>Explore Question</h2>
-      </div>
-    </div>
-    <div class="circle">
-      <div class="circle-inner">
-        <h3>What do culture and creativity mean to young people in France?</h3>
-        <h2>Explore Question</h2>
-      </div>
-    </div>
+    {% endfor %}
   </div>
 </div>

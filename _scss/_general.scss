@@ -195,6 +195,12 @@ h3 {
     font-family: 'bill corp nar';
     line-height: 1.1;
   }
+
+  .circle-inner & {
+    @include mq($from: desktop) {
+      font-size: 2vw;
+    }
+  }
 }
 
 blockquote {
@@ -226,6 +232,8 @@ p, ul, li {
 }
 
 a {
+  color: inherit !important;
+
   &:hover {
     text-decoration: none;
     border: none;

@@ -28,6 +28,8 @@
   }
   .uk-slider {
     background-color: #f6f6f6;
+    position: relative;
+    z-index: 100000;
   }
 
   .uk-slider-items {
@@ -70,14 +72,14 @@
 .gs__right-col {
   position: absolute;
   width: 20%;
-  background-color: pink;
   top: -40px;
   bottom: 0;
   right: 0;
   border-left: #121212 1px solid;
-  padding-top: 10px;
+  padding-top: 40px;
+  padding-right: 20px;
 
-  .gs__meta-tags, {
+  .gs__meta-tags {
     ul {
       list-style: none;
       margin: 0;

@@ -1,35 +1,19 @@
+{% assign carousel = site.home-carousel %}
+{{carousel}}
 <div class="gs-carousel">
   <div uk-slider="center: true">
   <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
       <ul class="uk-slider-items uk-child-width-1-2 uk-grid">
+          {% for item in carousel %}
           <li>
               <div class="uk-card uk-card-default">
                   <div class="uk-card-media-top">
-                    <iframe src="https://player.vimeo.com/video/442596329?color=ffffff&portrait=0&badge=0" width="640" height="337" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                    {{item.['Video Link']]}}
                   </div>
+                  <div class="gs-carousel-video-caption"><p>{{item.title}}</p></div>
               </div>
           </li>
-          <li>
-              <div class="uk-card uk-card-default">
-                  <div class="uk-card-media-top">
-                    <iframe src="https://player.vimeo.com/video/442596329?color=ffffff&portrait=0&badge=0" width="640" height="337" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                  </div>
-              </div>
-          </li>
-          <li>
-              <div class="uk-card uk-card-default">
-                  <div class="uk-card-media-top">
-                    <iframe src="https://player.vimeo.com/video/442596329?color=ffffff&portrait=0&badge=0" width="640" height="337" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                  </div>
-              </div>
-          </li>
-          <li>
-              <div class="uk-card uk-card-default">
-                  <div class="uk-card-media-top">
-                    <iframe src="https://player.vimeo.com/video/442596329?color=ffffff&portrait=0&badge=0" width="640" height="337" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                  </div>
-              </div>
-          </li>
+          {% endfor %}
       </ul>
       <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
       <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>

@@ -1,28 +1,37 @@
 console.log('the good side', 'v1');
 
 var horizontalScroll = true;
-
+var caseStudyCheck = document.querySelector('.gs-case-study_top');
 //when the page loads it needs to check the url to see if there is a horizontal scroll query in there
+if(!caseStudyCheck){
+  $(function() {
+     $(".gs-home-page-slider").mousewheel(function(event, delta) {
+       if(horizontalScroll) {
+         this.scrollLeft -= (delta * 5);
+         event.preventDefault()
+        }
+     });
+  });
+} else {
+  console.log('case study');
 
-$(function() {
-   $(".gs-home-page-slider").mousewheel(function(event, delta) {
-     if(horizontalScroll) {
-       this.scrollLeft -= (delta * 5);
-       event.preventDefault()
-      }
-   });
-});
+}
 
 //init lax
 window.onload = function() {
+  lax.addPreset("scrollquick", function() {
+  return {
+    "data-lax-translate-y": "(vh) 0, (-elh) -10"
+  }
+
 	lax.setup() // init
 
 	const updateLax = () => {
-		lax.update(window.scrollX)
+		lax.update(window.scrollY)
 		window.requestAnimationFrame(updateLax)
 	}
-
 	window.requestAnimationFrame(updateLax)
+})
 }
 
 
