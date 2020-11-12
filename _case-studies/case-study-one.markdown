@@ -32,8 +32,13 @@ Meta:
     UNIBAm Belize, NGLHRC Kenya
 
 '
+  Methods: Film
   Tags: Gender, LGBTQIA+, Film
+  Data: 1 in 17 people,  54% Increase
+  Data captions: Statistic here, caption lorem ipsum dolor, Statistic here, caption
+    lorem ipsum dolor
   Video: https://vimeo.com/showcase/6661951
+  Hashtag: "#thisisthegoodside"
 layout: case-study
 ---
 
