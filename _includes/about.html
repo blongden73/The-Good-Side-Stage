@@ -1,7 +1,12 @@
 <div class="gs-wrapper">
   <div class="gs-wrapper__inner">
     <h2>
-      We help <img class="about-image" src="assets/line_sun.png"> people to understand and impact systems, society and culture. Our team blends anthropological <img class="about-image" src="assets/circles.png"> thinking, communications expertise and media <img class="about-image" src="assets/door.png"> production. We work with organisations <img class="about-image" src="assets/pyramid.png"> from global tech giants to one woman NGOs, from international brands to social enterprises.
+      {% assign aboutPage = site.pages %}
+      {% for page in aboutPage %}
+        {% if page.title == "About" %}
+          {{page.['About sentence 1']}}<img class="about-image" src="{{page.['About 1 image']}}">{{page.['About sentence 2']}}<img class="about-image" src="{{page.['About 2 image']}}">{{page.['About sentence 3']}}<img class="about-image" src="{{page.['About 3 image']}}">
+        {% endif %}
+      {% endfor %}
     </h2>
   </div>
 </div>
@@ -9,26 +14,18 @@
   <div class="gs-wrapper">
     <div class="gs-wrapper__inner">
       <ul>
-        <li>
-          <h3>GO WHERE THE ACTION IS</h3>
-          <p>We go where people are, immersing ourselves in their lives. Learning by doing.</p>
-        </li>
-        <li>
-          <h3>EXplore the margins</h3>
-          <p>We look at the nascent shoots of emergent thinking and behaviour. Exploring where culture changes,</p>
-        </li>
-        <li>
-          <h3>BRING IT TO LIFE</h3>
-          <p>We go where people are, immersing ourselves in their lives. Learning by doing.</p>
-        </li>
-        <li>
-          <h3>DISTILL COMPLEX IDEAS </h3>
-          <p>We deconstruct complex questions by looking at all the angles to discover and tell the simple story within it.</p>
-        </li>
-        <li>
-          <h3>CREATE WAYS TO CHANGE</h3>
-          <p>We understand the bandwidth for change, what effective strategies require and how to inspire and shape action</p>
-        </li>
+        {% assign aboutPage = site.pages %}
+        {% for page in aboutPage %}
+          {% if page.title == "About" %}
+            {% assign manifesto = page.Manifesto %}
+            {% for item in manifesto %}
+              <li>
+                <h3>{{item.Title}}</h3>
+                <p>{{item.Text}}</p>
+              </li>
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
       </ul>
     </div>
   </div>
@@ -37,74 +34,37 @@
     <div class="gs-wrapper__inner">
       <h2>We work with organisations <img class="about-image" src="assets/pyramid.png"> from global tech giants to one woman NGOs, from international brands to social enterprises.</h2>
       <ul class="gs-client-list">
-        <li>
-          <img src="assets/instagram.png">
-        </li>
-        <li>
-          <img src="assets/pepsico.png">
-        </li>
-        <li>
-          <img src="assets/starbucks.png">
-        </li>
-        <li>
-          <img src="assets/booking.png">
-        </li>
-        <li>
-          <img src="assets/apple.png">
-        </li>
-        <li>
-          <img src="assets/instagram.png">
-        </li>
-        <li>
-          <img src="assets/pepsico.png">
-        </li>
-        <li>
-          <img src="assets/starbucks.png">
-        </li>
-        <li>
-          <img src="assets/booking.png">
-        </li>
-        <li>
-          <img src="assets/apple.png">
-        </li>
-        <li>
-          <img src="assets/booking.png">
-        </li>
-        <li>
-          <img src="assets/apple.png">
-        </li>
+        {% assign aboutPage = site.pages %}
+        {% for page in aboutPage %}
+          {% if page.title == "About" %}
+            {% assign clients = page.Clients %}
+            {% for item in clients %}
+            <li>
+              <img src="{{item.Logo}}">
+            </li>
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
       </ul>
     </div>
   </div>
   <div class="gs-wrapper">
-    <div class="gs-wrapper__inner flexible">
+    <div class="gs-wrapper__inner flexible gs-team">
       <h2>WE OUR A SMALL AND POWERFUL TEAM. <img class="about-image" src="assets/rain.png"> MEET THE GOOD SIDE.</h2>
       <ul>
-        <li>
-          <div class="cirlce"></div>
-          <h2>James Lewis</h2>
-          <h2>Head of Production</h2>
-        </li>
-        <li>
-          <div class="cirlce"></div>
-          <h2>James Lewis</h2>
-          <h2>Head of Production</h2>
-        </li>
-        <li>
-          <div class="cirlce"></div>
-          <h2>James Lewis</h2>
-          <h2>Head of Production</h2>
-        </li>
-        <li>
-          <div class="cirlce"></div>
-          <h2>James Lewis</h2>
-          <h2>Head of Production</h2>
-        </li>
-        <li>
-          <div class="cirlce"></div>
-          <h2>James Lewis</h2>
-          <h2>Head of Production</h2>
-        </li>
+        {% assign aboutPage = site.pages %}
+        {% for page in aboutPage %}
+          {% if page.title == "About" %}
+            {% assign team = page.Team %}
+            {% for item in team %}
+            <li>
+              <div class="cirlce"><img src="{{item.Image}}"></div>
+              <h2>{{item.Name}}</h2>
+              <h2>{{item.Role}}</h2>
+            </li>
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
       </ul>
     </div>
   </div>

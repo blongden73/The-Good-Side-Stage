@@ -120,11 +120,49 @@ function hamburger() {
 
 function circlesCliked(){
   var questions = document.querySelector('.gs-questions');
+  if(questions){
   var circle = questions.querySelectorAll('.circle');
-  console.log(circle);
-  for(i=0; i<circle.length; i++){
-    circle[i].addEventListener('click', function(){
-      this.classList.toggle('clicked');
-    });
+    console.log(circle);
+    for(i=0; i<circle.length; i++){
+      circle[i].addEventListener('click', function(){
+        this.classList.toggle('clicked');
+      });
+    }
   }
 }circlesCliked();
+
+function onscrollanimate() {
+  var isHome = document.querySelector('.gs-splash');
+  if(isHome){
+    console.log('is home');
+    document.addEventListener('mousewheel', function(){
+      console.log('scrolling');
+      var homeslides = document.querySelectorAll('.gs-slide');
+      for(i=0; i<homeslides.length; i++) {
+        var left = homeslides[i].getBoundingClientRect().left;
+        console.log(window.innerWidth);
+        if(left < (window.innerWidth / 2) && left > -(window.innerWidth / 2)) {
+          homeslides[i].classList.add('inview');
+        }else {
+          homeslides[i].classList.remove('inview');
+        }
+      }
+    });
+  }
+}onscrollanimate();
+
+function headerLogo() {
+  var isCaseStudy = document.querySelector('.gs-case-study_top');
+  var siteLogo = document.querySelector('.tg-header__logo');
+  if(isCaseStudy) {
+    document.addEventListener('scroll', function(){
+      console.log(isCaseStudy);
+      var headerImage = isCaseStudy.getBoundingClientRect().bottom;
+      if(headerImage <= 50) {
+        siteLogo.classList.add('black');
+      }else {
+        siteLogo.classList.remove('black');
+      }
+    });
+  }
+}headerLogo();

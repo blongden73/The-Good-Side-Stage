@@ -109,6 +109,18 @@
   }
 }
 
+.tg-header__logo {
+  width: 90px;
+  height: auto;
+  transition: all ease-in-out 0.5s;
+
+  &.black {
+    path {
+      fill: #121212;
+    }
+  }
+}
+
 .tg-footer {
   background-color: $blue;
   min-height: 300px;

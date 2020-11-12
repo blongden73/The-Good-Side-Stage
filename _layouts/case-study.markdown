@@ -5,6 +5,7 @@ layout: default
 {% assign topImage = page.['Case study top image'] %}
 {% assign question = page.['Question'] %}
 {% assign blocks = page.['Blocks'] %}
+{% assign meta = page.['Meta'] %}
 
 <div class="gs-case-study_top">
   <img src="{{topImage}}">
@@ -18,22 +19,77 @@ layout: default
   <div class="gs-container">
     <div class="article__innner_wrapper">
       <h3>{{question}}</h3>
-    </div>  
-    {% for block in blocks %}
-      <div class="article__innner_wrapper">
-        <p>{{block.['Article text']}}</p>
-      </div>
-      <div class="article__innner_wrapper">
-        <div>{{block.['Video']}}</div>
-      </div>
-      <div class="article__testimonial_wrapper">
-        <blockquote>{{block.['Testimonial']}}</blockquote>
-      </div>
+    </div>
+      {% for block in blocks %}
+        <div class="article__innner_wrapper">
+          <p>{{block.['Article text']}}</p>
+        </div>
+        <div class="article__innner_wrapper">
+          <div>{{block.['Video']}}</div>
+        </div>
+        <div class="article__testimonial_wrapper">
+          <blockquote>{{block.['Testimonial']}}</blockquote>
+        </div>
+    </div>
       {% assign blockCarousel =  block.Carousel %}
       {% if block.Carousel %}
         {% include block-carousel.html blocks=blockCarousel %}
       {% endif %}
     {% endfor %}
+  </div>
+  <div class="gs__right-col">
+    <div class="gs__meta-tags">
+      {% for items in meta %}
+        {% assign tags = items.Tags | split: ',' %}
+        <ul class="gs-tags">
+        {% for tag in tags %}
+          <li>{{tag}}</li>
+        {% endfor %}
+        </ul>
+        {% assign where = items.['Where we worked'] | split: ',' %}
+        <ul class="gs-where">
+          <li><strong>Where we worked</strong></li>
+        {% for place in where %}
+          <li>{{place}}</li>
+        {% endfor %}
+        </ul>
+        {% assign network = items.['The Network'] | split: ',' %}
+        <ul class="gs-network">
+          <li><strong>The Network</strong></li>
+        {% for item in network %}
+          <li>{{item}}</li>
+        {% endfor %}
+        </ul>
+        {% assign methods = items.['Methods'] | split: ',' %}
+        <ul class="gs-methods">
+        {% for item in methods %}
+          <li>{{item}}</li>
+        {% endfor %}
+        </ul>
+        {% assign data = items.['Data'] | split: ',' %}
+        <ul class="gs-data">
+        {% for item in data %}
+          {% assign dataItem = item | split: '|' %}
+            <li>
+              {{dataItem[0]}}
+              <cite>{{dataItem[1]}}</cite>
+            </li>
+        {% endfor %}
+        </ul>
+        {% assign video = items.['Video'] | split: ',' %}
+        <ul class="gs-video">
+        {% for item in video %}
+          <li>{{item}}</li>
+        {% endfor %}
+        </ul>
+        {% assign hash = items.['Hashtag'] | split: ',' %}
+        <ul class="gs-hash">
+        {% for item in hash %}
+          <li>{{item}}</li>
+        {% endfor %}
+        </ul>
+    {% endfor %}
+    </div>
   </div>
 </article>
 <div class="tg-footer">
