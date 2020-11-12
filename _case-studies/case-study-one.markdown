@@ -34,8 +34,8 @@ Meta:
 '
   Methods: Film
   Tags: Gender, LGBTQIA+, Film
-  Data: 1 in 17 people | Statistic here, caption lorem ipsum dolor,  54% Increase
-    | Statistic here, caption lorem ipsum dolor
+  Data: 1 in 17 people | Statistic here caption lorem ipsum dolor,  54% Increase |
+    Statistic here caption lorem ipsum dolor
   Video: https://vimeo.com/showcase/6661951
   Hashtag: "#thisisthegoodside"
 layout: case-study
