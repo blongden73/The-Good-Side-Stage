@@ -29,7 +29,7 @@ Blocks:
 Meta:
 - Where we worked: Kenya, Seychelles, Belize, Singapore, India
   The Network: 'LGBTI Sey, Jan Sahas, Women Spaces Africa, Naz Trust Foundation India,
-    UNIBAm Belize, NGLHRC Kenya,
+    UNIBAm Belize, NGLHRC Kenya
 
 '
   Tags: Gender, LGBTQIA+, Film
