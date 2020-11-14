@@ -35,11 +35,11 @@ Team:
   Role: Project director
   Image: "/uploads/Trina_Headshots-6_web.jpg"
   Question: 
-About sentence 1: WE HELP PEOPLE TO UNDERSTAND AND IMPACT SYSTEMS, SOCIETY AND CULTURE.
-About sentence 2: OUR TEAM BLENDS ANTHROPOLOGICAL THINKING, COMMUNICATIONS EXPERTISE
-  AND MEDIA  PRODUCTION.
-About sentence 3: "WE WORK WITH ORGANISATIONS  FROM GLOBAL TECH GIANTS TO ONE WOMAN
-  NGOS, FROM INTERNATIONAL BRANDS TO SOCIAL ENTERPRISES.\f"
+About sentence 1: We help people to understand and impact systems, society and culture.
+About sentence 2: Our team blends anthropological thinking, communications expertise
+  and media production.
+About sentence 3: "We work with organisations  from global tech giants to one woman
+  NGOs, from international brands to social enterprises.\f"
 layout: page
 ---
 
