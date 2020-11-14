@@ -1,11 +1,11 @@
 ---
-title: HUMAN DIGNITY TRUST X THE GOOD SIDE
+title: THE HUMAN DIGNITY TRUST X THE GOOD SIDE
 date: 2020-11-04 17:50:00 Z
 permalink: "/case-studies/case-study-one.html"
 position: 0
 Case study main image: "/uploads/HDT%20Sexual%20Offences%20Laws%20High%20Res%20Grab%203.png"
 Case study top image: "/uploads/tgs_human.jpg"
-Case study title: Human Dignity Trust x The Good Side
+Case study title: The Human Dignity Trust x The Good Side
 Question: How might we appeal to Commonwealth leaders to understand the impact of
   discriminatory legislation and drive legal reform?
 Blocks:
