@@ -39,7 +39,7 @@ Meta:
   Where we worked: Kenya, Seychelles, Belize, Singapore, India, UK, Canada
   The Network: LGBTI Sey, Jan Sahas, Women Spaces Africa, Naz Trust Foundation India,
     UNIBAm Belize, NGLHRC Kenya
-  Methods: Film
+  Methods: Film, Strategy
   Tags: Gender, LGBTQIA+, Film
   Data: 1 in 17 people | Statistic here caption lorem ipsum dolor,  54% Increase |
     Statistic here caption lorem ipsum dolor
