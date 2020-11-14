@@ -20,7 +20,8 @@ Blocks:
   Video: <iframe src="https://player.vimeo.com/video/333524743" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 Meta:
-- Related links: "https://www.hubbub.org.uk/grab-your-cup-jingle-huey-morgan\nhttps://www.hubbub.org.uk/blog/hubbub-cupfund-investment-installation-recycle-coffee-cups "
+- Related links: "https://www.hubbub.org.uk/grab-your-cup-jingle-huey-morgan\nhttps://www.hubbub.org.uk/blog/hubbub-cupfund-investment-installation-recycle-coffee-cups
+    \nhttps://www.theguardian.com/lifeandstyle/2020/jul/29/ditch-the-gloves-buy-a-litter-picker-but-dont-carshare-how-to-be-eco-friendly-in-a-pandemic\nhttps://www.anthropocenemagazine.org/2017/07/reusable-or-disposable-which-coffee-cup-has-a-smaller-footprint/\nhttps://medium.com/@subba.ry/a-brief-history-of-the-disposable-paper-cup-8976a657025e"
   Where we worked: UK
   The Network: https://weglimpse.co/
   Methods: Ethnography, Qualitative, Strategy
