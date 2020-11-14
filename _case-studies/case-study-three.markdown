@@ -2,7 +2,7 @@
 title: STARBUCKS + HUBBUB X THE GOOD SIDE
 date: 2020-11-05 13:51:00 Z
 position: 2
-Case study main image: "/uploads/QkwCEf_s.jpeg"
+Case study main image: "/uploads/KeepCup.png"
 Case study top image: "/uploads/chanel%20cup.png"
 Case study title: 'In partnership with creative collective Glimpse, we used our behavioural
   design process to explore consumer attitudes and behaviours around sustainability,
