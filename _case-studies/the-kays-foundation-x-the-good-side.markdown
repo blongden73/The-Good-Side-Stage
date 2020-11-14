@@ -5,6 +5,8 @@ Case study main image: "/uploads/Kays%20Headline%20Shot.png"
 Case study top image: "/uploads/Children%20Playing%20Instruments%203.jpg"
 Case study title: A year-long mixed methods project to understand early childhood
   and parenting in coastal Kenya.
+Question: How can we encourage early childhood programme designers to think about
+  the caregiver as much as the child?
 Blocks:
 - Article text: "A literature review and expert interviews fed into a month-long ethnographic
     immersion and documentary film, backed up with a qualitative survey. Full insights
