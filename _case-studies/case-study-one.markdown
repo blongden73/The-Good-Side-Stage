@@ -40,7 +40,7 @@ Meta:
   The Network: LGBTI Sey, Jan Sahas, Women Spaces Africa, Naz Trust Foundation India,
     UNIBAm Belize, NGLHRC Kenya
   Methods: Film, Strategy
-  Tags: Gender, LGBTQIA+, Film
+  Tags: Gender, LGBTQIA+, Film, Strategy
   Data: 1 in 17 people | Statistic here caption lorem ipsum dolor,  54% Increase |
     Statistic here caption lorem ipsum dolor
   Video: "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://vimeo.com/showcase/6661951/embed'
