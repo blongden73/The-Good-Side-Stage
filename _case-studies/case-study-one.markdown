@@ -3,11 +3,11 @@ title: THE HUMAN DIGNITY TRUST X THE GOOD SIDE
 date: 2020-11-04 17:50:00 Z
 permalink: "/case-studies/case-study-one.html"
 position: 0
-Case study main image: "/uploads/HDT%20Hate%20Crime%20Law%20High%20Res%20Grab%2016.png"
+Case study main image: "/uploads/Seychelles%20Beach.JPG"
 Case study top image: "/uploads/tgs_human.jpg"
 Case study title: The Human Dignity Trust x The Good Side
-Question: How might we appeal to Commonwealth leaders to understand the impact of
-  discriminatory legislation and drive legal reform?
+Question: How can we connect Commonwealth leaders to the impact of discriminatory
+  colonial laws, and drive legal reform?
 Blocks:
 - Image: 
   Article text: "**Impact documentaries, social content, research and communications
