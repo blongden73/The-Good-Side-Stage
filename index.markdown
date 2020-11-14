@@ -4,4 +4,4 @@ Home Splash: Change starts here
 layout: home
 ---
 
-We are an insight and creative ideas company, based in London and working worldwide.
+The Good Side is an insight and creative ideas company, based in London and working worldwide.
