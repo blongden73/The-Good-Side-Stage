@@ -21,6 +21,9 @@ Meta:
 - Related links: |-
     https://www.bfi.org.uk/features/britain-lockdown-online-videos-shaping-crisis-7
     https://www.linkedin.com/pulse/good-sides-corona-diaries-chosen-bfi-time-capsule-james-lewis/?trackingId=6H9cHq5VTFmE5MWEJ8apfQ%3D%3D
+    https://informationisbeautiful.net/visualizations/covid-19-coronavirus-infographic-datapack/
+    https://www.bbc.co.uk/news/explainers-52229828
+    https://www.theatlantic.com/ideas/archive/2020/06/dudes-who-wont-wear-masks/613375/
   Where we worked: UK
   Methods: Covid-19, Film, Ethnography, Online, Qualitative
   Tags: Covid-19, Film, Ethnography, Online, Qualitative
