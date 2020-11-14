@@ -3,7 +3,7 @@ title: THE HUMAN DIGNITY TRUST X THE GOOD SIDE
 date: 2020-11-04 17:50:00 Z
 permalink: "/case-studies/case-study-one.html"
 position: 0
-Case study main image: "/uploads/Seychelles%20Beach.JPG"
+Case study main image: "/uploads/A%20Wake%20Up%20Call%20Thumbnail.png"
 Case study top image: "/uploads/tgs_human.jpg"
 Case study title: The Human Dignity Trust x The Good Side
 Question: How can we connect Commonwealth leaders to the impact of discriminatory
