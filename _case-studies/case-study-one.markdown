@@ -1,5 +1,5 @@
 ---
-title: Human Dignity Trust x The Good Side
+title: HUMAN DIGNITY TRUST X THE GOOD SIDE
 date: 2020-11-04 17:50:00 Z
 permalink: "/case-studies/case-study-one.html"
 Case study main image: "/uploads/HDT%20Sexual%20Offences%20Laws%20High%20Res%20Grab%203.png"
@@ -45,7 +45,7 @@ Meta:
     Statistic here caption lorem ipsum dolor
   Video: "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://vimeo.com/showcase/6661951/embed'
     allowfullscreen frameborder='0' style='position:absolute;top:0;left:0;width:100%;height:100%;'></iframe></div>"
-  Hashtag: "#thisisthegoodside"
+  Hashtag: "#thisisthegoodside #TGSHDT2020"
 layout: case-study
 ---
 
