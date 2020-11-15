@@ -32,14 +32,17 @@ Team:
   Role: Founder
   Image: "/uploads/Saul_Headshots2-4_web.jpg"
   Question: 
+  Gif image: 
 - Name: James Lewis
   Role: Head of production
   Image: "/uploads/James_headshot-4_web.jpg"
   Question: 
+  Gif image: "/uploads/low_james.gif"
 - Name: Catriona Hay
   Role: Project director
   Image: "/uploads/Trina_Headshots-6_web.jpg"
   Question: 
+  Gif image: "/uploads/cat_low.gif"
 About sentence 1: We help people to understand and impact systems, society and culture.
 About sentence 2: Our team blends anthropological thinking, communications expertise
   and media production.
