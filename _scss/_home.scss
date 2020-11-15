@@ -170,6 +170,26 @@
     color: #fff;
     text-transform: uppercase;
   }
+
+  &.hover {
+    .init {
+      opacity: 0;
+    }
+    .reveal {
+      opacity: 1;
+      transform: translateY(-40px);
+    }
+  }
+
+  .init {
+    opacity: 1;
+    transition: all ease-in-out 0.2s;
+  }
+
+  .reveal {
+    opacity: 0;
+    transition: all ease-in-out 0.2s;
+  }
 }
 
 .gs-splash__images {
@@ -240,6 +260,38 @@
         background-color: transparent !important;
       }
     }
+  }
+}
+
+.js-hover-faux {
+  transition: all ease-in-out 0.2s;
+
+  &.fade {
+    opacity: 0.5;
+  }
+
+  &.hovered {
+    opacity: 1 !important;
+    transform: scale(1.1);
+
+    .gs-plus.go {
+      opacity: 1;
+      transform: rotate(90deg) scale(2) translateY(-20px) translateX(10px);
+    }
+    .gs-plus.plus {
+      opacity: 0;
+    }
+  }
+
+  .gs-plus.plus {
+    opacity: 1;
+  }
+
+  .gs-plus.go {
+    opacity: 0;
+    background-color: transparent;
+    transform-origin: center;
+    transition: all ease-in-out 0.2s;
   }
 }
 

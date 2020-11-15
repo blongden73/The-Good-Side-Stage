@@ -159,8 +159,22 @@ function headerLogo() {
 }headerLogo();
 
 function splashHover() {
-  var splashImage = document.querySelectorAll('.gs-splash__image');
+  var splashImage = document.querySelectorAll('.js-hover-faux');
+  var splashText = document.querySelector('.gs-splash');
   for(i = 0; i < splashImage.length; i++) {
-    splashImage[i].addEventListener('mouseover')
+    splashImage[i].addEventListener('mouseover', function(){
+      splashText.classList.add('hover');
+      this.classList.add('hovered');
+      for(j = 0; j < splashImage.length; j++) {
+        splashImage[j].classList.add('fade');
+      }
+    });
+    splashImage[i].addEventListener('mouseleave', function(){
+      splashText.classList.remove('hover');
+      this.classList.remove('hovered');
+      for(g = 0; g < splashImage.length; g++) {
+        splashImage[g].classList.remove('fade');
+      }
+    });
   }
-}
+}splashHover();
