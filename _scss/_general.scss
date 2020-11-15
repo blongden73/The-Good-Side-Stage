@@ -327,6 +327,13 @@ p, ul, li {
   color: #121212;
 }
 
+p {
+  &.blue {
+    color: $blue !important;
+    background-color: transparent !important;
+  }
+}
+
 a {
   color: inherit !important;
 
@@ -419,9 +426,11 @@ a {
 
   ul {
     margin-right: 10px;
+    color: $blue;
 
     li {
       margin-right: 10px;
+      color: $blue;
     }
   }
 }

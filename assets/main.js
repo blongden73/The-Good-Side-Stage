@@ -1,19 +1,31 @@
 console.log('the good side', 'v1');
 
-var horizontalScroll = true;
-var caseStudyCheck = document.querySelector('.gs-case-study_top');
-//when the page loads it needs to check the url to see if there is a horizontal scroll query in there
-if(!caseStudyCheck){
-  $(function() {
-     $(".gs-home-page-slider").mousewheel(function(event, delta) {
-       if(horizontalScroll) {
-         this.scrollLeft -= (delta * 5);
-         event.preventDefault()
-        }
-     });
-  });
-} else {
-  console.log('case study');
+function isMobile(){
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    console.log('mobile');
+    return true;
+  }else {
+    console.log('not mobile');
+    return false;
+  }
+}
+
+if(!isMobile()){
+  var horizontalScroll = true;
+  var caseStudyCheck = document.querySelector('.gs-case-study_top');
+  //when the page loads it needs to check the url to see if there is a horizontal scroll query in there
+  if(!caseStudyCheck){
+    $(function() {
+       $(".gs-home-page-slider").mousewheel(function(event, delta) {
+         if(horizontalScroll) {
+           this.scrollLeft -= (delta * 5);
+           event.preventDefault()
+          }
+       });
+    });
+  } else {
+    console.log('case study / mobile');
+  }
 }
 
 function openpage() {
@@ -36,7 +48,7 @@ function openpage() {
     });
   }
 }
-openpage();
+
 
 function closepage(){
   var closePageSelector = document.querySelector('.close-section');
@@ -52,7 +64,7 @@ function closepage(){
       this.classList.remove('active');
     });
   }
-}closepage()
+}
 
 function openarticle() {
   var pageScroller = document.querySelector('.gs-home-page-slider');
@@ -72,15 +84,17 @@ function openarticle() {
     });
   }
 }
-openarticle();
+
 
 function closeArticle(){
   var closeArticle = document.querySelector('.close-article');
   var article = document.querySelector('.article');
-  closeArticle.addEventListener('click', function(){
-    article.classList.remove('open');
-  });
-}closeArticle();
+  if(closeArticle) {
+    closeArticle.addEventListener('click', function(){
+      article.classList.remove('open');
+    });
+  }
+}
 
 function randomCircles(){
   // collect all the divs
@@ -103,7 +117,7 @@ function randomCircles(){
   function getRandomNumber(min, max) {
     return Math.random() * (max - min) + min;
   }
-}randomCircles();
+}
 
 function hamburger() {
   var hamburger = document.querySelector('.tg-menu__hamburger');
@@ -112,7 +126,7 @@ function hamburger() {
     this.classList.toggle('clicked');
     menuWrapper.classList.toggle('hidden');
   });
-}hamburger();
+}
 
 function circlesCliked(){
   var questions = document.querySelector('.gs-questions');
@@ -124,7 +138,7 @@ function circlesCliked(){
       });
     }
   }
-}circlesCliked();
+}
 
 function onscrollanimate() {
   var isHome = document.querySelector('.gs-splash');
@@ -141,7 +155,7 @@ function onscrollanimate() {
       }
     });
   }
-}onscrollanimate();
+}
 
 function headerLogo() {
   var isCaseStudy = document.querySelector('.gs-case-study_top');
@@ -156,7 +170,7 @@ function headerLogo() {
       }
     });
   }
-}headerLogo();
+}
 
 function splashHover() {
   var splashImage = document.querySelectorAll('.js-hover-faux');
@@ -177,7 +191,7 @@ function splashHover() {
       }
     });
   }
-}splashHover();
+}
 
 function delayFloat() {
   var circles = document.querySelectorAll('.circle');
@@ -187,7 +201,7 @@ function delayFloat() {
       circles[i].style.animationDelay = random + 's';
     }
   }
-}delayFloat();
+}
 
 function clickArrow(){
   var nextArrow = document.querySelectorAll('.arrow-container');
@@ -202,7 +216,7 @@ function clickArrow(){
       next.scrollIntoView({behavior: "smooth"});
     });
   }
-}clickArrow();
+}
 
 function teamQuestions() {
   var teamQuestions = document.querySelectorAll('.circle-question');
@@ -211,7 +225,7 @@ function teamQuestions() {
       this.classList.toggle('clicked');
     });
   }
-}teamQuestions();
+}
 
 function themeSelector(){
   var selector = document.querySelectorAll('.theme-selector');
@@ -237,4 +251,21 @@ function themeSelector(){
       }
     });
   }
-}themeSelector();
+}
+
+function init(){
+  openpage();
+  closepage();
+  openarticle();
+  closeArticle();
+  randomCircles();
+  hamburger();
+  circlesCliked();
+  onscrollanimate();
+  headerLogo();
+  splashHover();
+  delayFloat();
+  clickArrow();
+  teamQuestions();
+  themeSelector();
+}init();

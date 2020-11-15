@@ -4,7 +4,7 @@
       {% assign aboutPage = site.pages %}
       {% for page in aboutPage %}
         {% if page.title == "About" %}
-          {{page.['About sentence 1']}} {{page.['About sentence 2']}} {{page.['About sentence 3']}} 
+          {{page.['About sentence 1']}} {{page.['About sentence 2']}} {{page.['About sentence 3']}}
         {% endif %}
       {% endfor %}
     </h2>
@@ -80,4 +80,7 @@
   </div>
   {% include tg-footer.html %}
   {% include tg-footer-base.html %}
+</div>
+<div class="gs-section-footer">
+  <p class="blue">About The Good Side</p>
 </div>

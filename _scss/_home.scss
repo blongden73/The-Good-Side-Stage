@@ -2,8 +2,12 @@
   height: 100vh;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   overflow-x: auto;
+
+  @include mq($from: desktop) {
+    flex-direction: row;
+  }
 
   svg {
     &.close-section {
