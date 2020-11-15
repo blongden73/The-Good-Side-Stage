@@ -212,3 +212,29 @@ function teamQuestions() {
     });
   }
 }teamQuestions();
+
+function themeSelector(){
+  var selector = document.querySelectorAll('.theme-selector');
+  var organiser = document.querySelector('.gs-organiser');
+  var caseStudies = document.querySelectorAll('.case-study-theme');
+
+  for(i=0; i<selector.length; i++) {
+    selector[i].addEventListener('click', function(){
+      var theme = this.dataset.theme;
+      var caseStudy = document.querySelector('.case-study-theme.'+theme);
+      organiser.scrollIntoView({behavior: "smooth"});
+      if(caseStudy && caseStudy != null && theme != 'all') {
+        console.log(caseStudy);
+        for(j=0; j<caseStudies.length; j++) {
+          console.log(caseStudies[j]);
+          caseStudies[j].classList.add('hide');
+        }
+        caseStudy.classList.remove('hide');
+      }else if(theme == 'all'){
+        for(j=0; j<caseStudies.length; j++) {
+          caseStudies[j].classList.remove('hide');
+        }
+      }
+    });
+  }
+}themeSelector();

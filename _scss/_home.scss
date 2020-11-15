@@ -472,6 +472,7 @@
       padding: 20px 10px;
       text-transform: uppercase;
       letter-spacing: 0.5px;
+      cursor: pointer;
 
       &:hover {
         width: auto !important;
@@ -610,5 +611,11 @@ ul.gs-client-list {
     margin-right: auto;
     color: #fff;
     line-height: 1.2;
+  }
+}
+
+.case-study-theme {
+  &.hide {
+    display: none;
   }
 }

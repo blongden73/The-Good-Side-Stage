@@ -22,14 +22,14 @@ layout: default
     </div>
       {% for block in blocks %}
         <div class="article__innner_wrapper">
-          <p>{{block.['Article text'] | markdown}}</p>
+          <p>{{block.['Article text'] | markdownify }}</p>
         </div>
         <div class="article__innner_wrapper">
           <div>{{block.['Video']}}</div>
         </div>
         {% if block.['Testimonial'] %}
         <div class="article__testimonial_wrapper">
-          <blockquote>{{block.['Testimonial'] | markdown}}</blockquote>
+          <blockquote>{{block.['Testimonial']}}</blockquote>
         </div>
         {% endif %}
     </div>
@@ -45,7 +45,7 @@ layout: default
         {% assign tags = items.Tags | split: ',' %}
         <ul class="gs-tags">
         {% for tag in tags %}
-          <li>{{tag}}</li>
+          <li><a href="/?{{tag | downcase | handle}}">{{tag}}</a></li>
         {% endfor %}
         </ul>
         {% assign where = items.['Where we worked'] | split: ',' %}
@@ -59,12 +59,6 @@ layout: default
         <ul class="gs-network">
           <li><strong>The Network</strong></li>
         {% for item in network %}
-          <li>{{item}}</li>
-        {% endfor %}
-        </ul>
-        {% assign methods = items.['Methods'] | split: ',' %}
-        <ul class="gs-methods">
-        {% for item in methods %}
           <li>{{item}}</li>
         {% endfor %}
         </ul>

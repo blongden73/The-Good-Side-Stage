@@ -45,6 +45,7 @@
 
 body, html {
   color: #121212;
+  scroll-behavior: smooth;
 }
 
 .gs-wrapper {
@@ -309,7 +310,7 @@ blockquote {
   color: #121212;
 
   @include mq($from: desktop) {
-    font-size: 2.5vw;
+    font-size: 2vw;
     font-family: 'bill corp nar';
     line-height: 1.1;
   }
@@ -414,7 +415,7 @@ a {
 
   ul {
     margin-right: 10px;
-    
+
     li {
       margin-right: 10px;
     }

@@ -4,21 +4,24 @@
   </div>
   <div class="gs-questions">
     <div class="gs-organiser">
+      <div data-theme="all" class="circle theme theme-selector">All</div>
       {% assign themes = site.themes %}
       {% for theme in themes %}
-      <div class="circle theme">
-        {{theme.title}}
-      </div>
+        <div data-theme="{{theme.title | downcase | slugify }}" class="circle theme theme-selector">
+          {{theme.title}}
+        </div>
       {% endfor %}
 
     </div>
   </div>
 </div>
-<div class="page-content pink">
+<div id="case-studies" class="page-content pink">
   <div class="gs-case-study__wrapper">
     <ul>
       {% for case in site.case-studies %}
-        <li>
+      {% assign meta = case.['Meta'] %}
+
+        <li class="case-study-theme {% for items in meta %}{% assign tags = items.Tags | split: ',' %}{% for tag in tags %} {{tag | downcase | slugify }} {% endfor %}{% endfor %}">
           <a class="article-selector" href="{{case.permalink}}" data-link="{{case.permalink}}"></a>
           <div class="flex">
             <div class="left">
