@@ -80,6 +80,7 @@
     bottom: 10px;
     right: 10px;
     z-index: 100000;
+    display: flex;
 
     &:before {
       content: 'Next';
@@ -96,7 +97,7 @@
       overflow: hidden;
       width: 0;
       transition: all ease-in-out 0.2s;
-      transform: translateY(22px) translateX(50px);
+      transform: translateX(50px);
     }
 
     &:hover {
