@@ -191,3 +191,12 @@ function clickArrow(){
     });
   }
 }clickArrow();
+
+function teamQuestions() {
+  var teamQuestions = document.querySelectorAll('.circle-question');
+  for(i=0; i<teamQuestions.length; i++) {
+    teamQuestions[i].addEventListener('click', function(){
+      this.classList.toggle('clicked');
+    });
+  }
+}teamQuestions();

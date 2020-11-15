@@ -79,6 +79,7 @@ body, html {
       padding-right: 20px;
       box-sizing: border-box;
       list-style: none;
+      position: relative;
 
       img {
         width: 110px;
@@ -98,6 +99,51 @@ body, html {
         display: inline-block;
         line-height: 0.9;
         color: $teal;
+      }
+
+      &:nth-child(2n+2) {
+        .circle-question {
+          background-color: $yellow;
+        }
+      }
+      &:nth-child(3n+3) {
+        .circle-question {
+          background-color: $blue;
+        }
+      }
+
+      .circle-question {
+        width: 8vw;
+        height: 8vw;
+        background-color: $red;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        transition: all ease-in-out 0.2s;
+
+        &.clicked {
+          width: 18vw;
+          height: 18vw;
+          top: 0;
+          left: 48%;
+          transform: translate(-50%, 0px);
+
+          p {
+            opacity: 1;
+          }
+        }
+
+        p {
+          position: absolute;
+          top: 50%;
+          width: 70%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+          line-height: 1.2;
+          color: #fff;
+          opacity: 0;
+        }
       }
 
       .cirlce {
