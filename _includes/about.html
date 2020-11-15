@@ -1,6 +1,6 @@
 <div class="gs-wrapper">
   <div class="gs-wrapper__inner">
-    <h2>
+    <h2 class="blue" >
       {% assign aboutPage = site.pages %}
       {% for page in aboutPage %}
         {% if page.title == "About" %}
@@ -13,6 +13,7 @@
 <div class="page-content green">
   <div class="gs-wrapper">
     <div class="gs-wrapper__inner">
+      <h4 class="padd">How we work</h4>
       <ul>
         {% assign aboutPage = site.pages %}
         {% for page in aboutPage %}
@@ -20,6 +21,7 @@
             {% assign manifesto = page.Manifesto %}
             {% for item in manifesto %}
               <li>
+                <img src="{{item.Image}}">
                 <h3>{{item.Title}}</h3>
                 <p>{{item.Text}}</p>
               </li>
@@ -32,7 +34,7 @@
 
   <div class="gs-wrapper">
     <div class="gs-wrapper__inner">
-      <h2>We work with organisations <img class="about-image" src="assets/pyramid.png"> from global tech giants to one woman NGOs, from international brands to social enterprises.</h2>
+      <h4 class="padd">Who we work with</h4>
       <ul class="gs-client-list">
         {% assign aboutPage = site.pages %}
         {% for page in aboutPage %}
@@ -50,7 +52,7 @@
   </div>
   <div class="gs-wrapper">
     <div class="gs-wrapper__inner flexible gs-team">
-      <h2>WE OUR A SMALL AND POWERFUL TEAM. <img class="about-image" src="assets/rain.png"> MEET THE GOOD SIDE.</h2>
+      <h4 class="">WE ARE THE GOOD SIDE</h4>
       <ul>
         {% assign aboutPage = site.pages %}
         {% for page in aboutPage %}
@@ -58,7 +60,12 @@
             {% assign team = page.Team %}
             {% for item in team %}
             <li>
-              <div class="cirlce"><img src="{{item.Image}}"></div>
+              <div class="cirlce">
+                {% if item.['Gif image'] %}
+                  <img class="gif-hover" src="{{item.['Gif image']}}">
+                {% endif %}
+                <img src="{{item.Image}}">
+              </div>
               <h2>{{item.Name}}</h2>
               <h2>{{item.Role}}</h2>
             </li>
