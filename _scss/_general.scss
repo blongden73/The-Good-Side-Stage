@@ -58,6 +58,10 @@ body, html {
     min-height: 100vh;
     height: auto;
   }
+
+  &.half-height {
+    height: 40vh;
+  }
 }
 
 .gs-container {
@@ -418,6 +422,29 @@ a {
 
     li {
       margin-right: 10px;
+    }
+  }
+}
+
+.left.padd {
+  padding-top: 18%;
+  padding-left: 8%;
+  box-sizing: border-box;
+
+  h1 {
+    color: $blue;
+  }
+}
+
+.right {
+  .tg-footer {
+    height: 76vh;
+    padding-left: 5%;
+    padding-top: 15vh;
+  }
+  .tg-header__wrapper {
+    & > * {
+      width: 100%;
     }
   }
 }
