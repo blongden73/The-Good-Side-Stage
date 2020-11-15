@@ -38,5 +38,6 @@ Meta:
   Video: <iframe src="https://player.vimeo.com/video/364765544" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   Hashtag: "#tgskaysecd"
+layout: case-study
 ---
 

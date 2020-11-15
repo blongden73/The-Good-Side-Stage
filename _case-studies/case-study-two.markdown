@@ -29,5 +29,6 @@ Meta:
   Methods: Covid-19, Film, Ethnography, Online, Qualitative
   Tags: Covid-19, Film, Ethnography, Online, Qualitative
   Hashtag: "#TGSCoronaTag\t"
+layout: case-study
 ---
 
