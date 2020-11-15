@@ -10,20 +10,16 @@ Question: How can we connect Commonwealth leaders to the impact of discriminator
   colonial laws, and drive legal reform?
 Blocks:
 - Image: 
-  Article text: "**Impact documentaries, social content, research and communications
-    strategic support - to reform discriminatory and archaic colonial laws. \n**\nWe
-    interviewed and immersed ourselves in the lives of activists, lawyers, legislators,
-    faith leaders, world leaders and, most importantly, those affected by largely
-    British colonial laws. \n\nThese laws leave leave people unprotected against sexual
-    violence, criminalise homosexuality and gender difference, and do not protect
-    against hate-fueled violence. The films connected a powerful audience to change-makers
-    and to those directly experiencing the human impact of inherited systemic legal
-    failings, particularly LGBTQIA\\+ people and women and girls.\n\nWe developed
-    a messaging and media strategy tailored to fit audiences across vastly different
-    cultures. We extended the life of the film through cutdowns, short soundbite films
-    and social media content to support HDT’s online fundraising and advocacy.\n\nFilming
-    in five countries and working for more than a year, the films were widely praised
-    by creatives, activists and experts, and are now producing real-world impact."
+  Article text: |-
+    **Impact documentaries, social content, research and communications strategic support - to reform discriminatory and archaic colonial laws.**
+
+    We interviewed and immersed ourselves in the lives of activists, lawyers, legislators, faith leaders, world leaders and, most importantly, those affected by largely British colonial laws.
+
+    These laws leave leave people unprotected against sexual violence, criminalise homosexuality and gender difference, and do not protect against hate-fueled violence. The films connected a powerful audience to change-makers and to those directly experiencing the human impact of inherited systemic legal failings, particularly LGBTQIA\+ people and women and girls.
+
+    We developed a messaging and media strategy tailored to fit audiences across vastly different cultures. We extended the life of the film through cutdowns, short soundbite films and social media content to support HDT’s online fundraising and advocacy.
+
+    Filming in five countries and working for more than a year, the films were widely praised by creatives, activists and experts, and are now producing real-world impact.
   Video: <iframe src="https://player.vimeo.com/video/377610592" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   Testimonial: |-
