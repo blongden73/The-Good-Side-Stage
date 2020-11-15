@@ -23,6 +23,24 @@
   }
 }
 
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .gs-slide {
   height: 100vh;
   width: 100%;
@@ -312,6 +330,10 @@
     border-radius: 50%;
     text-align: center;
     cursor: pointer;
+    animation-name: float;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
     &.clicked {
       width: 80vh !important;
@@ -321,6 +343,12 @@
       transition: all ease-in-out .5s;
       transform: translate(-50%, -50%) !important;
       z-index: 100000;
+      animation: none;
+
+      &:hover {
+        width: 80vh !important;
+        height: 80vh !important;
+      }
 
       h2 {
         opacity: 1;
@@ -352,6 +380,8 @@
 
     &:hover {
       transform: scale(1.2);
+      height: 120px !important;
+      width: 120px !important;
     }
 
     &:nth-child(even) {
@@ -379,6 +409,11 @@
       padding: 20px 10px;
       text-transform: uppercase;
       letter-spacing: 0.5px;
+
+      &:hover {
+        width: auto !important;
+        height: auto !important;
+      }
 
       &:nth-child(1n+1) {
         color: $pink;
@@ -412,7 +447,7 @@
 
       iframe {
         width: 100%;
-        height: 27vw;
+        height: 29vw;
       }
 
       .uk-card-default {

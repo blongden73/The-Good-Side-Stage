@@ -178,3 +178,15 @@ function splashHover() {
     });
   }
 }splashHover();
+
+function delayFloat() {
+  var circles = document.querySelectorAll('.circle');
+  if(circles){
+    for(i=0; i < circles.length; i++){
+      var random = Math.random() * (2 - 0) + 0;
+      console.log(random);
+      circles[i].style.animationDelay = random + 's';
+      console.log(circles[i]);
+    }
+  }
+}delayFloat();
