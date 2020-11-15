@@ -28,5 +28,6 @@ Meta:
   Methods: Ethnography, Qualitative, Strategy
   Tags: Ethnography, Qualitative, Strategy, Sustainability, Behaviour change
   Hashtag: "#TGSCoffeeCups #reusablecoffeecup #GrabYourCup\n"
+layout: case-study
 ---
 
