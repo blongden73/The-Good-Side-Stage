@@ -10,7 +10,7 @@
       position: fixed;
       bottom: 10px;
       right: 10px;
-      z-index: 10;
+      z-index: 1000000;
       cursor: pointer;
       opacity: 0;
       pointer-events: none;
@@ -63,7 +63,7 @@
   }
 
   &.arrow-right {
-    svg {
+    svg.arrow {
       transform: rotate(-90deg);
     }
   }
@@ -72,6 +72,7 @@
     position: absolute;
     bottom: 10px;
     right: 10px;
+    z-index: 100000;
   }
 
   &.close{
@@ -294,7 +295,7 @@
 
     .gs-plus.go {
       opacity: 1;
-      transform: rotate(90deg) scale(2) translateY(-20px) translateX(10px);
+      transform: scale(2) translateX(10px);
     }
     .gs-plus.plus {
       opacity: 0;
@@ -334,6 +335,7 @@
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    overflow: hidden;
 
     &.clicked {
       width: 80vh !important;

@@ -4,18 +4,13 @@
   </div>
   <div class="gs-questions">
     <div class="gs-organiser">
-      <div class="circle theme">SUSTAINABILITY</div>
-      <div class="circle theme">GENDER</div>
-      <div class="circle theme">LGBTQIA+</div>
-      <div class="circle theme">MENTAL HEALTH</div>
-      <div class="circle theme">YOUNG PEOPLE</div>
-      <div class="circle theme">FILM</div>
-      <div class="circle theme">STRATEGY</div>
-      <div class="circle theme">INTERNATIONAL DEVELOPMENT</div>
-      <div class="circle theme">QUANTATIVE</div>
-      <div class="circle theme">ETHNOGRAPHY</div>
-      <div class="circle theme">ONLINE</div>
-      <div class="circle theme">QUALITATIVE</div>
+      {% assign themes = site.themes %}
+      {% for theme in themes %}
+      <div class="circle theme">
+        {{theme.title}}
+      </div>
+      {% endfor %}
+
     </div>
   </div>
 </div>

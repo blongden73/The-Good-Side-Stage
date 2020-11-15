@@ -14,7 +14,6 @@ if(!caseStudyCheck){
   });
 } else {
   console.log('case study');
-
 }
 
 function openpage() {
@@ -29,9 +28,7 @@ function openpage() {
       var url = this.dataset.url;
       history.pushState(null, null, currentLocation+'#'+url);
       this.classList.add('open');
-      console.log('click');
       var open = document.querySelector('.gs-slide.open');
-      console.log(open);
       for(j=0; j<slides.length; j++ ) {
         slides[j].classList.add('close');
         open.classList.remove('close');
@@ -43,13 +40,10 @@ openpage();
 
 function closepage(){
   var closePageSelector = document.querySelector('.close-section');
-  console.log(closePageSelector, 'close');
   if(closePageSelector) {
     closePageSelector.addEventListener('click', function(){
       var closedPages = document.querySelectorAll('.gs-slide.close');
-      console.log('clicked', closedPages);
       var sectionToClose = document.querySelector('.page-selector.open');
-      console.log(sectionToClose);
       horizontalScroll = true;
       sectionToClose.classList.remove('open');
       for(i=0; i < closedPages.length; i++) {
@@ -79,10 +73,9 @@ openarticle();
 function randomCircles(){
   // collect all the divs
   var divs = document.querySelectorAll('.circle');
-  console.log(divs);
   // get window width and height
-  var winWidth = window.innerWidth - 100;
-  var winHeight = window.innerHeight - 100;
+  var winWidth = window.innerWidth - 200;
+  var winHeight = window.innerHeight - 200;
   // i stands for "index". you could also call this banana or haircut. it's a variable
   for ( var i=0; i < divs.length; i++ ) {
       // shortcut! the current div in the list
@@ -113,7 +106,6 @@ function circlesCliked(){
   var questions = document.querySelector('.gs-questions');
   if(questions){
   var circle = questions.querySelectorAll('.circle');
-    console.log(circle);
     for(i=0; i<circle.length; i++){
       circle[i].addEventListener('click', function(){
         this.classList.toggle('clicked');
@@ -125,13 +117,10 @@ function circlesCliked(){
 function onscrollanimate() {
   var isHome = document.querySelector('.gs-splash');
   if(isHome){
-    console.log('is home');
     document.addEventListener('wheel', function(){
-      console.log('scrolling');
       var homeslides = document.querySelectorAll('.gs-slide');
       for(i=0; i<homeslides.length; i++) {
         var left = homeslides[i].getBoundingClientRect().left;
-        console.log(window.innerWidth);
         if(left < (window.innerWidth / 2) && left > -(window.innerWidth / 2)) {
           homeslides[i].classList.add('inview');
         }else {
@@ -147,7 +136,6 @@ function headerLogo() {
   var siteLogo = document.querySelector('.tg-header__logo');
   if(isCaseStudy) {
     document.addEventListener('scroll', function(){
-      console.log(isCaseStudy);
       var headerImage = isCaseStudy.getBoundingClientRect().bottom;
       if(headerImage <= 50) {
         siteLogo.classList.add('black');
@@ -184,9 +172,22 @@ function delayFloat() {
   if(circles){
     for(i=0; i < circles.length; i++){
       var random = Math.random() * (2 - 0) + 0;
-      console.log(random);
       circles[i].style.animationDelay = random + 's';
-      console.log(circles[i]);
     }
   }
 }delayFloat();
+
+function clickArrow(){
+  var nextArrow = document.querySelectorAll('.next-arrow');
+  console.log(nextArrow);
+  for(i=0; i<nextArrow.length; i++) {
+    nextArrow[i].addEventListener('click', function(){
+      var parent = this.parentNode;
+      var next = parent.nextSibling.nextElementSibling;
+      console.log(next);
+      console.log('click');
+      next.classList.add('inview');
+      next.scrollIntoView({behavior: "smooth"});
+    });
+  }
+}clickArrow();
