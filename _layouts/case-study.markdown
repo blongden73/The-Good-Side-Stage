@@ -27,9 +27,11 @@ layout: default
         <div class="article__innner_wrapper">
           <div>{{block.['Video']}}</div>
         </div>
+        {% if block.['Testimonial'] %}
         <div class="article__testimonial_wrapper">
           <blockquote>{{block.['Testimonial']}}</blockquote>
         </div>
+        {% endif %}
     </div>
       {% assign blockCarousel =  block.Carousel %}
       {% if block.Carousel %}
@@ -92,6 +94,5 @@ layout: default
     </div>
   </div>
 </article>
-<div class="tg-footer">
-
-</div>
+{% include tg-footer.html %}
+{% include tg-footer-base.html %}

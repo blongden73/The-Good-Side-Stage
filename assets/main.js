@@ -59,16 +59,28 @@ function openarticle() {
   var articleSelector = document.querySelectorAll('.article-selector');
   var article = document.querySelector('.article');
   for(i=0; i < articleSelector.length; i++) {
-    articleSelector[i].addEventListener('click', function(){
+    articleSelector[i].addEventListener('click', function(e){
+      e.preventDefault();
       horizontalScroll = false;
       var currentLocation = window.location.pathname;
       history.pushState(null, null, currentLocation+'#'+'the-good-side-testing-article');
+      var articleLink = this.dataset.link;
+      var iframe = article.querySelector('iframe');
+      iframe.setAttribute('src', articleLink);
       article.classList.add('open');
       pageScroller.classList.add('fix');
     });
   }
 }
 openarticle();
+
+function closeArticle(){
+  var closeArticle = document.querySelector('.close-article');
+  var article = document.querySelector('.article');
+  closeArticle.addEventListener('click', function(){
+    article.classList.remove('open');
+  });
+}closeArticle();
 
 function randomCircles(){
   // collect all the divs

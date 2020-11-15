@@ -19,7 +19,7 @@
     <ul>
       {% for case in site.case-studies %}
         <li>
-          <a href="{{case.permalink}}"></a>
+          <a class="article-selector" href="{{case.permalink}}" data-link="{{case.permalink}}"></a>
           <div class="flex">
             <div class="left">
               <img src="{{case.['Case study main image']}}">

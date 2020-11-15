@@ -196,13 +196,26 @@
 .article {
   position: absolute;
   top: 0;
-  width: 95%;
-  min-height: 300vh;
+  width: 0;
+  min-height: 100vh;
   background-color: white;
-  display: none;
+  z-index: 10000;
+  transition: all ease-in-out 0.5s;
+  background-color: $pink;
+
+  .close-article {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+  }
+
+  iframe {
+    height: 100vh;
+    width: 95%;
+  }
 
   &.open {
-    display: block;
+    width: 100%;
   }
 
   img {

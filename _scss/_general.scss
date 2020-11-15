@@ -52,6 +52,11 @@ body, html {
   height: 100vh;
   box-sizing: border-box;
   position: relative;
+
+  &.flexible {
+    min-height: 100vh;
+    height: auto;
+  }
 }
 
 .gs-container {
@@ -308,14 +313,6 @@ blockquote {
     font-family: 'bill corp nar';
     line-height: 1.1;
   }
-
-  &:before {
-    content: '"';
-    display: inline;
-    font-size: 2.5vw;
-    font-family: 'bill corp nar';
-    line-height: 0;
-  }
 }
 
 p, ul, li {
@@ -345,5 +342,81 @@ a {
 
   & > * {
     width: 50%;
+  }
+}
+
+.tg-footer {
+  .tg-header__wrapper {
+    & > * {
+      width: 100%;
+    }
+
+    h2, p {
+      color: #fff;
+    }
+
+    p {
+      width: 80%;
+    }
+  }
+
+  form {
+    input {
+      width: 90%;
+      display: block;
+    }
+    textarea {
+      width: 90%;
+      display: block;
+    }
+
+    select, button {
+      padding: 10px;
+      margin-bottom: 10px;
+      font-family: 'bill corp nar';
+      font-size: 18px;
+      border: none;
+      border-radius: 0;
+    }
+
+    button {
+      margin-top: 10px;
+      &:hover {
+        background-color: $yellow;
+      }
+    }
+
+    input, textarea {
+      border: none;
+      font-family: 'bill corp nar';
+      font-size: 18px;
+      padding: 10px;
+    }
+
+    input {
+      margin-bottom: 10px;
+      height: 30px;
+    }
+  }
+}
+
+.tg-footer-base {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+}
+
+.tg-footer-base-wrapper {
+  display: flex;
+
+  ul {
+    margin-right: 10px;
+    
+    li {
+      margin-right: 10px;
+    }
   }
 }
