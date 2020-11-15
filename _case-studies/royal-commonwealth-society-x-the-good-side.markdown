@@ -9,5 +9,6 @@ Case study title: 'Creating a groundswell of youth noise to impact leaders atten
 Blocks:
 - Article text: 'Creating a groundswell of youth noise to impact leaders attending
     CHOGM 2020. '
+layout: case-study
 ---
 
