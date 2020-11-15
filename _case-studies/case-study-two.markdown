@@ -2,7 +2,7 @@
 title: THE CORONA DIARIES
 date: 2020-11-05 13:51:00 Z
 permalink: "/case-studies/case-study-two.html"
-position: 3
+position: 1
 Case study main image: "/uploads/TCD%20Episode%205%20Coping%201.4_JL%20Part%201.00_00_51.314.Still023.png"
 Case study top image: "/uploads/Jenny%20and%20Piers%204%20(laughing%20only).mp4.00_00_08_00.Still001.png"
 Case study title: In the first week of widespread global lockdown we decided to create
