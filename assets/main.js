@@ -178,7 +178,7 @@ function delayFloat() {
 }delayFloat();
 
 function clickArrow(){
-  var nextArrow = document.querySelectorAll('.next-arrow');
+  var nextArrow = document.querySelectorAll('.arrow-container');
   console.log(nextArrow);
   for(i=0; i<nextArrow.length; i++) {
     nextArrow[i].addEventListener('click', function(){

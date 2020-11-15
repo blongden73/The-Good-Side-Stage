@@ -62,17 +62,64 @@
     }
   }
 
-  &.arrow-right {
-    svg.arrow {
-      transform: rotate(-90deg);
+  &.arrow-down {
+    .arrow-container:before {
+      content: 'Read more';
+    }
+    .arrow-container {
+      &:hover {
+        &:before {
+          width: 78px;
+        }
+      }
     }
   }
 
-  svg {
+  .arrow-container {
     position: absolute;
     bottom: 10px;
     right: 10px;
     z-index: 100000;
+
+    &:before {
+      content: 'Next';
+      display: inline-block;
+      color: #fff;
+      font-family: 'bill corp nar';
+      background-color: $pink;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-right: 0;
+      padding-left: 0;
+      transform: translateX(50px);
+      border-radius: 30px;
+      overflow: hidden;
+      width: 0;
+      transition: all ease-in-out 0.2s;
+      transform: translateY(22px) translateX(50px);
+    }
+
+    &:hover {
+      &:before {
+        width: 40px;
+        padding-top: 15px;
+        padding-bottom: 13px;
+        padding-right: 56px;
+        padding-left: 20px;
+      }
+    }
+
+    svg {
+      position: relative;
+      z-index: 10000;
+    }
+  }
+
+  &.arrow-right {
+    svg.arrow {
+      transform: rotate(-90deg);
+      cursor: pointer;
+    }
   }
 
   &.close{
