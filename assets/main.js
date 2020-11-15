@@ -17,24 +17,6 @@ if(!caseStudyCheck){
 
 }
 
-//init lax
-window.onload = function() {
-  lax.addPreset("scrollquick", function() {
-  return {
-    "data-lax-translate-y": "(vh) 0, (-elh) -10"
-  }
-
-	lax.setup() // init
-
-	const updateLax = () => {
-		lax.update(window.scrollY)
-		window.requestAnimationFrame(updateLax)
-	}
-	window.requestAnimationFrame(updateLax)
-})
-}
-
-
 function openpage() {
   var pageSelector = document.querySelectorAll('.page-selector');
   var slides = document.querySelectorAll('.gs-slide');
@@ -144,7 +126,7 @@ function onscrollanimate() {
   var isHome = document.querySelector('.gs-splash');
   if(isHome){
     console.log('is home');
-    document.addEventListener('mousewheel', function(){
+    document.addEventListener('wheel', function(){
       console.log('scrolling');
       var homeslides = document.querySelectorAll('.gs-slide');
       for(i=0; i<homeslides.length; i++) {
@@ -175,3 +157,10 @@ function headerLogo() {
     });
   }
 }headerLogo();
+
+function splashHover() {
+  var splashImage = document.querySelectorAll('.gs-splash__image');
+  for(i = 0; i < splashImage.length; i++) {
+    splashImage[i].addEventListener('mouseover')
+  }
+}
