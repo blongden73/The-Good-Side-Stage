@@ -4,7 +4,7 @@
       {% assign aboutPage = site.pages %}
       {% for page in aboutPage %}
         {% if page.title == "About" %}
-          {{page.['About sentence 1']}}<img class="about-image" src="{{page.['About 1 image']}}">{{page.['About sentence 2']}}<img class="about-image" src="{{page.['About 2 image']}}">{{page.['About sentence 3']}}<img class="about-image" src="{{page.['About 3 image']}}">
+          {{page.['About sentence 1']}} {{page.['About sentence 2']}} {{page.['About sentence 3']}} 
         {% endif %}
       {% endfor %}
     </h2>

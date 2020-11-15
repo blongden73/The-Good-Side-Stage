@@ -22,14 +22,14 @@ layout: default
     </div>
       {% for block in blocks %}
         <div class="article__innner_wrapper">
-          <p>{{block.['Article text']}}</p>
+          <p>{{block.['Article text'] | markdown}}</p>
         </div>
         <div class="article__innner_wrapper">
           <div>{{block.['Video']}}</div>
         </div>
         {% if block.['Testimonial'] %}
         <div class="article__testimonial_wrapper">
-          <blockquote>{{block.['Testimonial']}}</blockquote>
+          <blockquote>{{block.['Testimonial'] | markdown}}</blockquote>
         </div>
         {% endif %}
     </div>
