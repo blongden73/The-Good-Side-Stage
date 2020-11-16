@@ -21,18 +21,21 @@ layout: default
       <h3>{{question}}</h3>
     </div>
       {% for block in blocks %}
-        <div class="article__innner_wrapper">
-          <p>{{block.['Article text'] | markdownify }}</p>
-        </div>
-        <div class="article__innner_wrapper">
-          <div>{{block.['Video']}}</div>
-        </div>
+        {% if block.['Article text'] %}
+          <div class="article__innner_wrapper">
+            <p>{{block.['Article text'] | markdownify }}</p>
+          </div>
+        {% endif %}
+        {% if block.['Video'] %}
+          <div class="article__innner_wrapper">
+            <div>{{block.['Video']}}</div>
+          </div>
+        {% endif %}
         {% if block.['Testimonial'] %}
         <div class="article__testimonial_wrapper">
           <blockquote>{{block.['Testimonial']}}</blockquote>
         </div>
         {% endif %}
-    </div>
       {% assign blockCarousel =  block.Carousel %}
       {% if block.Carousel %}
         {% include block-carousel.html blocks=blockCarousel %}
