@@ -7,6 +7,8 @@ Case study main image: "/uploads/Jenny%20and%20Piers%204%20(laughing%20only).mp4
 Case study top image: "/uploads/Jenny%20and%20Piers%204%20(laughing%20only).mp4.00_00_08_00.Still001.png"
 Case study title: In the first week of widespread global lockdown we decided to create
   a documentary series exploring the social impact of COVID-19 on Britain.
+Question: How can we remotely use our research and storytelling skills to capture
+  insights during the unfolding events of a global pandemic?
 Blocks:
 - Article text: "In the first week of widespread global lockdown we decided to create
     a documentary series exploring the social impact of COVID-19 on Britain.\n\nChosen
