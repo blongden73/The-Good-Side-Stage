@@ -243,14 +243,24 @@
 
   .close-article {
     position: absolute;
-    top: 20px;
-    right: 10px;
+    bottom: 20px;
+    right: 6px;
     cursor: pointer;
+
+    @include mq($from: desktop) {
+      top: 20px;
+      right: 10px;
+      bottom: unset;
+    }
   }
 
   iframe {
     height: 100vh;
-    width: 95%;
+    width: 92%;
+
+    @include mq($from: desktop) {
+      width: 95%;
+    }
   }
 
   &.open {
