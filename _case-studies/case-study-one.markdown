@@ -38,8 +38,9 @@ Meta:
     UNIBAm Belize, NGLHRC Kenya
   Methods: Film, Strategy
   Tags: Gender, LGBTQIA+, Film, Strategy
-  Data: 1 in 17 people | Statistic here caption lorem ipsum dolor,  54% Increase |
-    Statistic here caption lorem ipsum dolor
+  Data: |-
+    11 jurisdictions | can or do impose the death penalty for same-sex intimacy,  35
+    Commonwealth | jurisdictions which criminalise private, same-sex, consensual sexual activity
   Video: "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://vimeo.com/showcase/6661951/embed'
     allowfullscreen frameborder='0' style='position:absolute;top:0;left:0;width:100%;height:100%;'></iframe></div>"
   Hashtag: "#thisisthegoodside #TGSHDT2020"
