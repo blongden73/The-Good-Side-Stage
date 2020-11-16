@@ -84,7 +84,11 @@
     bottom: 10px;
     right: 10px;
     z-index: 100000;
-    display: flex;
+    display: none;
+
+    @include mq($from: desktop) {
+      display: flex;
+    }
 
     &:before {
       content: 'Next';
@@ -242,6 +246,11 @@
   width: 100%;
   pointer-events: none;
   transition: all ease-in-out 0.5s;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 1000;
 
   @include mq($from: desktop) {
     position: absolute;
@@ -280,11 +289,15 @@
 .gs-splash__images {
   position: absolute;
   display: flex;
-  width: 90%;
+  width: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
   top: 50%;
   justify-content: space-between;
+
+  @include mq($from: desktop) {
+    width: 90%;
+  }
 
   & > .gs-splash__image {
     display: flex;
@@ -307,6 +320,11 @@
     &.small {
       width: 20%;
       margin-top: -9.3%;
+      display: none;
+
+      @include mq($from: desktop) {
+        display: flex;
+      }
 
       div:not(.gs-plus) {
         background-color: $pink;
@@ -320,12 +338,19 @@
     }
 
     &.big {
-      width: 40%;
+      width: 100%;
+      @include mq($from: desktop) {
+        width: 40%;
+      }
       div:not(.gs-plus) {
         background-color: $pink;
         width: 100%;
-        height: 600px;
+        height: 450px;
         position: relative;
+
+        @include mq($from: desktop) {
+          height: 600px;
+        }
       }
       .js-tilt-glare {
         background-color: transparent !important;
@@ -335,6 +360,12 @@
     &.medium {
       width: 25%;
       margin-top: -2.3%;
+      display: none;
+
+      @include mq($from: desktop) {
+        display: flex;
+      }
+
       div:not(.gs-plus) {
         background-color: $pink;
         width: 100%;
@@ -515,8 +546,13 @@
       padding-left: 0;
 
       iframe {
-        width: 100%;
-        height: 29vw;
+        width: 107%;
+        height: 57vw;
+
+        @include mq($from: desktop) {
+          width: 100%;
+          height: 29vw;
+        }
       }
 
       .uk-card-default {
@@ -531,6 +567,9 @@
     p {
       color: #fff;
       margin-top: 20px;
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
   .uk-dotnav > .uk-active > * {
@@ -606,21 +645,37 @@ ul.gs-client-list {
 
 .gs-section-footer {
   position: absolute;
-  width: 100%;
   bottom: 0px;
   text-align: center;
+  width: 94%;
+
+  @include mq($from: desktop) {
+    width: 100%;
+  }
 
   p {
-    max-width: 380px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     color: #fff;
     line-height: 1.2;
+
+    @include mq($from: desktop) {
+      max-width: 380px;
+    }
   }
 }
 
 .case-study-theme {
   &.hide {
     display: none;
+  }
+}
+
+.uk-child-width-1-2 > * {
+  width: 100%;
+
+  @include mq($from: desktop) {
+    width: 50%;
   }
 }

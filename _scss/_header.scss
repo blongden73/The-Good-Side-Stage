@@ -26,7 +26,11 @@
 
 .tg-header__wrapper {
   display: flex;
-  padding: 1%;
+  padding: 3%;
+
+  @include mq($from: desktop) {
+    padding: 1%;
+  }
 
   & > * {
     width: 50%;

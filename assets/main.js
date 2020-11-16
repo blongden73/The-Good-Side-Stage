@@ -100,7 +100,15 @@ function randomCircles(){
   // collect all the divs
   var divs = document.querySelectorAll('.circle');
   // get window width and height
-  var winWidth = window.innerWidth - 400;
+  var variablewidth;
+
+  if(isMobile()) {
+    variablewidth = 100;
+  } else {
+    variablewidth = 400;
+  }
+
+  var winWidth = window.innerWidth - variablewidth;
   var winHeight = window.innerHeight - 200;
   // i stands for "index". you could also call this banana or haircut. it's a variable
   for ( var i=0; i < divs.length; i++ ) {
