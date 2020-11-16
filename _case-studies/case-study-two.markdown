@@ -3,8 +3,8 @@ title: THE CORONA DIARIES
 date: 2020-11-05 13:51:00 Z
 permalink: "/case-studies/case-study-two.html"
 position: 1
-Case study main image: "/uploads/Jenny%20and%20Piers%204%20(laughing%20only).mp4.00_00_08_00.Still001.png"
-Case study top image: "/uploads/Jenny%20and%20Piers%204%20(laughing%20only).mp4.00_00_08_00.Still001.png"
+Case study main image: "/uploads/Small%20Jenny%20and%20Piers%204%20(laughing%20only).mp4.00_00_08_00.Still001.jpg"
+Case study top image: "/uploads/Small%20Jenny%20and%20Piers%204%20(laughing%20only).mp4.00_00_08_00.Still001.jpg"
 Case study title: In the first week of widespread global lockdown we decided to create
   a documentary series exploring the social impact of COVID-19 on Britain.
 Question: How can we remotely use our research and storytelling skills to capture
