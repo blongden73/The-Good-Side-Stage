@@ -351,10 +351,18 @@ a {
 
 .flex {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+
+  @include mq($from: desktop) {
+    flex-direction: row;
+  }
 
   & > * {
-    width: 50%;
+    width: 100%;
+
+    @include mq($from: desktop) {
+      width: 50%;
+    }
   }
 }
 
