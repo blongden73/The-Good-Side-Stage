@@ -12,6 +12,13 @@ Blocks:
     CHOGM 2020. '
   Video: <iframe src="https://player.vimeo.com/video/379073876" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  Carousel:
+  - Image: "/uploads/Small%20D98A0693.jpg"
+  - Image: "/uploads/Small%20D98A0859.jpg"
+  - Image: "/uploads/Small%20D98A0100.jpg"
+  - Image: "/uploads/Small%20D98A0403.jpg"
+  - Image: "/uploads/Small%20D98A0662.jpg"
+  - Image: 
 Meta:
 - Related links: "https://www.dosomething.org/us/11-young-activists-leading-the-way-for-lgbtq-equality\nhttps://unfoundation.org/blog/post/not-too-young-to-make-a-difference-young-leaders-are-leading-on-the-global-goals/\nhttps://www.sistersforchange.org.uk/project/legal-reform-of-discriminatory-laws-in-the-commonwealth/\nhttps://www.independent.co.uk/voices/commonwealth-gender-equality-countries-women-rights-a9108381.html
     \nhttps://medium.com/tsrkbd/reform53-a-call-to-reform-discriminatory-laws-of-the-commonwealth-countries-80553e37cc51 "
