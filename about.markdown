@@ -51,6 +51,6 @@ About sentence 3: "We work with organisations  from global tech giants to one wo
 About 1 image: "/uploads/door.png"
 About 2 image: "/uploads/The%20Good%20Side_Icons%20&%20Illustrations-Eclipse-01.png"
 About 3 image: "/uploads/pyramid.png"
-layout: page
+layout: about
 ---
 
