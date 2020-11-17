@@ -40,7 +40,7 @@ Meta:
     Link Text: 'Amazing Tweet!
 
 '
-  - Link: https://twitter.com/stephenfry/status/1273878035801026561
+  - Link: www.twitter.com/stephenfry/status/1273878035801026561
     Link Text: 'Another Amazing Tweet!
 
 '
