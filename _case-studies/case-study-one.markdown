@@ -29,8 +29,8 @@ Blocks:
   - Image: "/uploads/HDT%20Sexual%20Offences%20Laws%20High%20Res%20Grab%2042.png"
   - Image: "/uploads/HDT%20Hate%20Crime%20Law%20High%20Res%20Grab%201.png"
   - Image: "/uploads/HDT%20Sexual%20Offences%20Laws%20High%20Res%20Grab%2023.png"
-- Video: <iframe src="https://player.vimeo.com/video/385260549" width="640" height="360"
-    frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+- Video: "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://vimeo.com/showcase/6661951/embed'
+    allowfullscreen frameborder='0' style='position:absolute;top:0;left:0;width:100%;height:100%;'></iframe></div>"
 Meta:
 - Related links: "Amazing Tweet!, https://twitter.com/victor_madrigal/status/1273726042289713162
     \nAnother Amazing Tweet!, https://twitter.com/stephenfry/status/1273878035801026561\nThe
@@ -43,8 +43,6 @@ Meta:
   Data: |-
     11 jurisdictions | can or do impose the death penalty for same-sex intimacy,  35
     Commonwealth | jurisdictions which criminalise private same-sex consensual sexual activity
-  Video: "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://vimeo.com/showcase/6661951/embed'
-    allowfullscreen frameborder='0' style='position:absolute;top:0;left:0;width:100%;height:100%;'></iframe></div>"
   Hashtag: "#thisisthegoodside #TGSHDT2020"
 layout: case-study
 ---
