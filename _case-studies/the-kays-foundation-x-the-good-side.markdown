@@ -39,8 +39,9 @@ Meta:
 - Related links: 
   Where we worked: Kenya
   The Network: 
-  Methods: Film, Ethnography, Quantitative, Qualitative
-  Tags: Gender, Mental health, International development, Behaviour change
+  Methods: 
+  Tags: Gender, Film, International development, Behaviour change, Ethnography, Quantitative,
+    Qualitative
   Video: <iframe src="https://player.vimeo.com/video/364765544" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   Hashtag: "#tgskaysecd"
