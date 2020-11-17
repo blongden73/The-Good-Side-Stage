@@ -51,7 +51,7 @@ Team:
   Gif image: 
 - Name: James Lewis
   Role: Head of production
-  Image: "/uploads/James_headshot-4_web.jpg"
+  Image: "/uploads/James_headshot-4_websquare.jpg"
   Question: What is Madonna’s best album?
   Gif image: "/uploads/low_james.gif"
 - Name: Liz Cheesbrough
