@@ -1,7 +1,7 @@
 ---
 title: GIRL EFFECT X THE GOOD SIDE
 date: 2020-11-17 17:56:00 Z
-position: 3
+position: 4
 Case study title: 'Co-creating youth media brands for behaviour change with Girl Effect. '
 Blocks:
 - Article text: "We collaborated with Girl Effect over eight years to launch youth
