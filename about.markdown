@@ -72,7 +72,7 @@ Team:
   Gif image: 
 - Name: Odette Schwartz
   Role: Researcher
-  Image: 
+  Image: "/uploads/Headshot.jpg"
   Question: 
   Gif image: 
 About sentence 1: We help people to understand and impact systems, society and culture.
