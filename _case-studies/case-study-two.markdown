@@ -10,7 +10,8 @@ Case study title: In the first week of widespread global lockdown we decided to 
 Question: How can we remotely use our research and storytelling skills to capture
   insights during the unfolding events of a global pandemic?
 Blocks:
-- Article text: "In the first week of widespread global lockdown we decided to create
+- Image: 
+  Article text: "In the first week of widespread global lockdown we decided to create
     a documentary series exploring the social impact of COVID-19 on Britain.\n\nChosen
     for the BFI’s Britain in Lockdown series of the best online videos made during
     the pandemic. \n\n\nIn The Corona Diaries we brought to life a diverse range of
@@ -18,8 +19,10 @@ Blocks:
     In making the series we have seen marked shifts in attitudes, behaviours, values
     and priorities, and we anticipate this will continue as people adjust to their
     changing social realities. "
-  Video: "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://vimeo.com/showcase/6901631/embed'
-    allowfullscreen frameborder='0' style='position:absolute;top:0;left:0;width:100%;height:100%;'></iframe></div>"
+  Video: <iframe src="https://player.vimeo.com/video/400023781" width="640" height="360"
+    frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+- Video: <iframe src="https://player.vimeo.com/video/421584273" width="640" height="360"
+    frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 Meta:
 - Related links: |-
     https://www.bfi.org.uk/features/britain-lockdown-online-videos-shaping-crisis-7
