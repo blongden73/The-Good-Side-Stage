@@ -1,6 +1,7 @@
 ---
 title: SAVE THE CHILDREN X THE GOOD SIDE
 date: 2020-11-17 16:43:00 Z
+position: 3
 Case study main image: "/uploads/110929606-dark-background-colorful-handp.jpeg"
 Case study top image: "/uploads/110929606-dark-background-colorful-handp.jpeg"
 Case study title: Supporting the development of a funding strategy Save the Children.
