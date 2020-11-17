@@ -14,8 +14,8 @@ Blocks:
     to understand early childhood and parenting in coastal Kenya.\n\nA literature
     review and expert interviews led to a month-long ethnographic immersion and powerful
     documentary film, validated and evidenced through a quantitative survey. \n\nWe
-    workshopped our insights and conclusions with Kays Foundation and local government
-    and NGO stakeholders, to ensure outputs were owned and co-created with the people
+    workshopped insights and conclusions with Kays Foundation and local government
+    and NGO stakeholders, to ensure the outputs were owned and co-created with people
     who could truly act on them. \n\nWe built a microsite to house our report and
     documentary, so it could act as an ongoing source of insight and guidance for
     anybody involved in Early Child Development.\n"
