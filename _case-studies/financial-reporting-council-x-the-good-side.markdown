@@ -14,6 +14,9 @@ Blocks:
     This research demonstrated that there is a clear and pressing need for leaders across the business world to rise to the challenge and recognise that a commitment to LGBTQ+ inclusion and progression is not simply a commitment to the principles of equality. Progress also supports securing the future prosperity and sustainable growth of businesses and the economy at large.
 Meta:
 - Where we worked: UK
+  The Network:
+  - Link: https://www.frc.org.uk/
+    Network Text: Financial Reporting Council
   Tags: LGBTQIA+, Finance, Qualitative, Ethnography
   Hashtag: "#TGSXFRC"
 ---
