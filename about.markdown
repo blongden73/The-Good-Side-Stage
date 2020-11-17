@@ -62,7 +62,7 @@ Team:
   Gif image: 
 - Name: Lamis Harper
   Role: Associate Director
-  Image: "/uploads/WhatsApp%20Image%202020-11-17%20at%2018.03.17.jpeg"
+  Image: "/uploads/Lamis.jpg"
   Question: 
   Gif image: 
 - Name: Matthew Huntley
