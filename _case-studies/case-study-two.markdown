@@ -22,9 +22,10 @@ Blocks:
     realities. "
   Video: <iframe src="https://player.vimeo.com/video/400023781" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-  Testimonial: '"Well done. Great project and a fantastic opportunity to do something
-    a bit different! The power of filming and recording did come off :)" Michal, a
-    diarist'
+  Testimonial: '"A thoughtful series put together by creative strategy company The
+    Good Side, its broader age demographic facilitating adult subjects including local
+    businesses, financial hardships and the government’s handling of the crisis."
+    BFI Lockdown Archive'
 - Video: <iframe src="https://player.vimeo.com/video/421584273" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 Meta:
