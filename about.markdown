@@ -61,7 +61,7 @@ Team:
   Gif image: 
 - Name: Adrianne Colyer
   Role: People and Projects Manager
-  Image: 
+  Image: "/uploads/adriannecolyerweb.jpg"
   Question: How do we keep participants engaged throughout the research process and
     ensure they have a positive experience?
   Gif image: 
