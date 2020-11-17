@@ -24,7 +24,7 @@ Clients copy: We work with organisations  from global tech giants to one woman N
   from international brands to social enterprises.
 Clients:
 - Logo: "/uploads/apple.png"
-- 
+- Logo: "/uploads/TGS_clients_IG-35a9c5.png"
 - Logo: "/uploads/booking.png"
 - Logo: "/uploads/starbucks.png"
 - Logo: "/uploads/TGS_clients_aviva.png"
@@ -37,6 +37,10 @@ Clients:
 - Logo: "/uploads/TGS_clients_hub.png"
 - Logo: "/uploads/TGS_clients_glimpse.png"
 - Logo: "/uploads/TGS_clients_deptdev.png"
+- Logo: "/uploads/TGS_clients_year.png"
+- Logo: "/uploads/TGS_clients_girl.png"
+- Logo: "/uploads/TGS_clients_world.png"
+- Logo: "/uploads/TGS_clients_children.png"
 Team:
 - Name: Saul Parker
   Role: Founder
