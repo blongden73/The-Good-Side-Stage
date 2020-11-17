@@ -54,6 +54,14 @@ Meta:
     Network Text: Naz Trust Foundation India
   - Link: https://www.facebook.com/LGBTISey/
     Network Text: LGBTI Sey
+  - Link: https://www.nglhrc.com/
+    Network Text: NGLHRC Kenya
+  - Link: https://unibam.org/
+    Network Text: UNIBAM Belize
+  - Link: https://jansahas.org/
+    Network Text: Jan Sahas
+  - Link: https://www.facebook.com/Women-Spaces-Africa-349182032217005/
+    Network Text: Women Spaces Africa
   Methods: Film, Strategy
   Tags: Gender, LGBTQIA+, Film, Strategy
   Data: |-
