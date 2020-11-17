@@ -34,7 +34,8 @@ Meta:
   The Network:
   - Link: https://www.shujaazinc.com/
     Network Text: A network of social ventures based in Nairobi and Dar Es Salaam
-  Tags: Strategy, International development, Behaviour Change, Ethnography, Qualitative
+  Tags: Strategy, International development, Sustainability, Ethnography, Qualitative,
+    Technology
   Data: |-
     200 million hours every day | women and girls spend collecting water globally. In Africa, 90% of the water collecting work is done by women and girls
 
