@@ -1,5 +1,5 @@
 ---
-title: What does creativity mean for Gen Z?
+title: What does creativity mean for Gen Z across the world?
 date: 2020-11-17 21:12:00 Z
 ---
 
