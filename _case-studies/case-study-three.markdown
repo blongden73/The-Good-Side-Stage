@@ -21,7 +21,18 @@ Blocks:
   Video: <iframe src="https://player.vimeo.com/video/333524743" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 Meta:
-- Where we worked: UK
+- Related links:
+  - Link: 'https://www.hubbub.org.uk/blog/hubbub-cupfund-investment-installation-recycle-coffee-cups '
+    Link Text: Hubbub cup recylging
+  - Link: https://medium.com/@subba.ry/a-brief-history-of-the-disposable-paper-cup-8976a657025e
+    Link Text: A history of the disposable cup
+  - Link: https://www.theguardian.com/lifeandstyle/2020/jul/29/ditch-the-gloves-buy-a-litter-picker-but-dont-carshare-how-to-be-eco-friendly-in-a-pandemic
+    Link Text: Eco-friendly in a pandemic
+  - Link: https://www.anthropocenemagazine.org/2017/07/reusable-or-disposable-which-coffee-cup-has-a-smaller-footprint/
+    Link Text: Reusable or Disposable
+  - Link: https://www.hubbub.org.uk/grab-your-cup-jingle-huey-morgan
+    Link Text: Hubbub Grab your Cup
+  Where we worked: UK
   Methods: Ethnography, Qualitative, Strategy
   Tags: Ethnography, Qualitative, Strategy, Sustainability, Behaviour change
   Hashtag: "#TGSCoffeeCups #reusablecoffeecup #GrabYourCup\n"
