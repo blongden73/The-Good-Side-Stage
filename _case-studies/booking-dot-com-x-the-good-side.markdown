@@ -3,6 +3,7 @@ title: BOOKING.COM X THE GOOD SIDE
 date: 2020-11-17 16:30:00 Z
 position: 2
 Case study main image: "/uploads/115340007-lgbt-flag-blue-wooden-boards-c.jpeg"
+Case study top image: "/uploads/115340007-lgbt-flag-blue-wooden-boards-c.jpeg"
 Case study title: Understanding the LGBTQ+ travel experience.
 Question: How might we help LGBTQ+ travelers make travel plans in a safe and welcoming
   way?
@@ -24,8 +25,7 @@ Meta:
     https://www.youtube.com/watch?v=HgjXw2OMEIQ
     https://www.youtube.com/watch?v=MrNCVAqbCD0
   Where we worked: UK, Netherlands, Germany
-  Methods: Quantitative, Qualitative
-  Tags: Gender, LGBTQIA+
+  Tags: Gender, LGBTQIA+, Quantitative, Qualitative
   Data: "64% of UK adults think it's positive for the LGBTQ+ community to be visible
     in advertising. \n\n72% of LGBTQ+ adults feel the advertising that represents
     them is too tokenistic.\n\n(Gay times/ Karmarama Research, UK)\n"
