@@ -25,12 +25,13 @@ Blocks:
   Testimonial: |-
     "Our partnership with The Good Side has been instrumental to our first foray in to documentary films. The team combines audience insight and behaviour change strategy with a sensitive, thoughtful approach to filmmaking. The documentaries they produced with us have furthered our mission globally, and we have experienced genuine impact from their human-centred approach."
     Emma Eastwood, Head of Strategic Communications at The Human Dignity Trust
-  Carousel:
-  - Image: "/uploads/HDT%20Sexual%20Offences%20Laws%20High%20Res%20Grab%2042.png"
-  - Image: "/uploads/HDT%20Hate%20Crime%20Law%20High%20Res%20Grab%201.png"
-  - Image: "/uploads/HDT%20Sexual%20Offences%20Laws%20High%20Res%20Grab%2023.png"
 - Video: "<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://vimeo.com/showcase/6661951/embed'
     allowfullscreen frameborder='0' style='position:absolute;top:0;left:0;width:100%;height:100%;'></iframe></div>"
+  Carousel:
+  - Image: "/uploads/small%20hdt%20girls.jpg"
+  - Image: "/uploads/small%20hdt%20delhi.jpg"
+  - Image: "/uploads/small%20hdt%20carousel%20caleb.jpg"
+  - Image: "/uploads/small%20hdt%20women.jpg"
 Meta:
 - Related links: "Amazing Tweet!, https://twitter.com/victor_madrigal/status/1273726042289713162
     \nAnother Amazing Tweet!, https://twitter.com/stephenfry/status/1273878035801026561\nThe
