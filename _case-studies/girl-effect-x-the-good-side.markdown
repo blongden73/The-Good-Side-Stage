@@ -11,10 +11,10 @@ Blocks:
     to shift social norms around gender. \n\nWe defined and crafted the Girl Effect
     global strategy on using brands and media for cultural change, writing their Theory
     of Change and a white paper to share with funders and technical partners.\n\nOver
-    nearly a decade we have helped Girl Effect team understand everyday life for young
-    women and girls, and social norms around gender and identity through ethnographic
-    immersion, media studies, participatory research methods and rich documentary
-    outputs.\n"
+    nearly a decade we have helped Girl Effect teams understand everyday life for
+    young women and girls, and explored social norms around gender and identity through
+    ethnographic immersion, media studies, participatory research methods and rich
+    documentary outputs.\n"
 Meta:
 - Where we worked: Rwanda, Ethiopia, Malawi, Tanzania and India
   Tags: Gender, International development, Film, Ethnography, Qualitative, Young people
