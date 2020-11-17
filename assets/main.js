@@ -284,6 +284,16 @@ function themeSelector(){
   }
 }
 
+function taginUrl(){
+  var currentLocation = window.location.href;
+  console.log(currentLocation);
+
+  if (currentLocation.includes("/case-studies/")){
+    var tag = currentLocation.split('?');
+    console.log(tag[1]);
+  }
+}
+
 function init(){
   openpage();
   closepage();
@@ -299,4 +309,5 @@ function init(){
   clickArrow();
   teamQuestions();
   themeSelector();
+  taginUrl();
 }init();
