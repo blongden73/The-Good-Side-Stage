@@ -6,6 +6,8 @@ Case study main image: "/uploads/transform%20web.jpg"
 Case study top image: "/uploads/transform%20web%208.jpg"
 Case study title: 'Powering the comms strategy with human stories for Unilever and
   Department for International Development '
+Question: How can public-private partnerships deliver against the Sustainable Development
+  Goals and support social enterprises in the global South?
 Blocks:
 - Article text: "We partnered with MLS to develop a communications strategy aimed
     at inspiring engagement from donors and social entrepreneurs for Unilever and
