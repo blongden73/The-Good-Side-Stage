@@ -27,40 +27,40 @@ defaults:
 - scope:
     path: questions
   values:
-    Case Study Link:
+    Case Study Link: 
 - scope:
     path: case-studies
   values:
-    Case study main image:
-    Case study top image:
-    Case study title:
-    Question:
+    Case study main image: 
+    Case study top image: 
+    Case study title: 
+    Question: 
     Blocks:
-    - Image:
-      Article text:
-      Video:
-      Testimonial:
+    - Image: 
+      Article text: 
+      Video: 
+      Testimonial: 
       Carousel:
-      - Image:
+      - Image: 
     Meta:
     - Related links:
-      - Link:
-        Link Text:
-      Where we worked:
+      - Link: 
+        Link Text: 
+      Where we worked: 
       The Network:
-        - Link:
-          Network Text:
-      Methods:
-      Tags:
-      Data:
-      Video:
-      Hashtag:
+      - Link: 
+        Network Text: 
+      Methods: 
+      Tags: 
+      Data: 
+      Video: 
+      Hashtag: 
 email: your-email@example.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
-baseurl:
-url:
+baseurl: 
+url: 
 twitter_username: jekyllrb
 github_username: jekyll
 theme: minima
