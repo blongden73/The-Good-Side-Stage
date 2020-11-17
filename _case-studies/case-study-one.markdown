@@ -13,7 +13,7 @@ Blocks:
   Article text: |-
     **Impact documentaries, social content and communications strategy, to drive change in discriminatory and archaic colonial laws.**
 
-    We interviewed and immersed ourselves in the lives of activists, lawyers, legislators, faith leaders, world leaders and many of those affected by colonial-era laws.
+    We immersed ourselves in the lives of activists, lawyers, legislators, faith leaders, world leaders and many of those affected by colonial-era laws, documenting powerful movements for change around the Commonwealth.
 
     The films connected a powerful audience to change-makers and to those directly experiencing the human impact of inherited systemic legal failings, particularly LGBTQIA\+ people and women and girls.
 
