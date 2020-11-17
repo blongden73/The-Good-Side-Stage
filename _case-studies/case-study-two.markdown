@@ -26,8 +26,6 @@ Blocks:
     Good Side, its broader age demographic facilitating adult subjects including local
     businesses, financial hardships and the government’s handling of the crisis."
     BFI Lockdown Archive'
-  Carousel:
-  - Image: 
 - Video: <iframe src="https://player.vimeo.com/video/421584273" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 Meta:
