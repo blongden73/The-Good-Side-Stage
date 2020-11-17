@@ -27,6 +27,7 @@ Blocks:
   - Image: "/uploads/Mug1%20web.jpg"
   - Image: "/uploads/Keep%20Cup%20pram%20web.jpg"
   - Image: "/uploads/Keys%20headphones%20cup%20web.jpg"
+  - Image: "/uploads/Water%20on%20the%20go%20web.jpg"
 Meta:
 - Related links:
   - Link: 'https://www.hubbub.org.uk/blog/hubbub-cupfund-investment-installation-recycle-coffee-cups '
