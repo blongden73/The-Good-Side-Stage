@@ -39,11 +39,42 @@ Team:
   Image: "/uploads/James_headshot-4_web.jpg"
   Question: What is Madonna’s best album?
   Gif image: "/uploads/low_james.gif"
+- Name: Liz Cheesbrough
+  Role: Senior Insight Director
+  Image: 
+  Question: 
+  Gif image: 
+- Name: Adrianne Colyer
+  Role: People and Projects Manager
+  Image: 
+  Question: How do we keep participants engaged throughout the research process and
+    ensure they have a positive experience?
+  Gif image: 
 - Name: Catriona Hay
   Role: Project director
   Image: "/uploads/Trina_Headshots-6_web.jpg"
   Question: How can we uncover what people actually do, vs. what they say they do?
   Gif image: "/uploads/cat_low.gif"
+- Name: Connie Flude
+  Role: Project Director
+  Image: 
+  Question: 'How ironic is the phrase ''sleeping like a baby''? '
+  Gif image: 
+- Name: Lamis Harper
+  Role: 
+  Image: 
+  Question: 
+  Gif image: 
+- Name: Matthew Huntley
+  Role: Senior Research Executive
+  Image: 
+  Question: 
+  Gif image: 
+- Name: Odette Schwartz
+  Role: Researcher
+  Image: 
+  Question: 
+  Gif image: 
 About sentence 1: We help people to understand and impact systems, society and culture.
 About sentence 2: Our team blends anthropological thinking, communications expertise
   and media production.
