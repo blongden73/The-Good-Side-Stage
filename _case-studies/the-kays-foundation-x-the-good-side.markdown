@@ -28,9 +28,7 @@ Blocks:
   - Image: "/uploads/WhatsApp%20Image%202019-02-13%20at%2010.38.23.jpeg"
   - Image: "/uploads/Workshop%20output1.jpg"
 Meta:
-- Related links: |-
-    https://www.tkfinsights2019.org/
-    https://ecdnetworkforkenya.org/
+- Related links: 
   Where we worked: Kenya
   The Network: 
   Methods: Film, Ethnography, Quantitative, Qualitative
