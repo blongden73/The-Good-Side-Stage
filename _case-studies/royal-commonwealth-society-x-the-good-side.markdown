@@ -7,8 +7,8 @@ Case study main image: "/uploads/Small%20_98A0295.jpg"
 Case study top image: "/uploads/Small%20_98A0417.jpg"
 Case study title: 'Creating a groundswell of youth noise to impact leaders attending
   CHOGM 2020. '
-Question: How can we engage young people across the Commonwealth with the discriminatory
-  laws and the activists seeking to reform those laws?
+Question: How can we connect young people across the Commonwealth with activists and
+  the need to reform discriminatory laws?
 Blocks:
 - Article text: "Creating a groundswell of youth noise to impact leaders attending
     CHOGM 2020. \n\nWe produced six short campaign films in collaboration with 12
