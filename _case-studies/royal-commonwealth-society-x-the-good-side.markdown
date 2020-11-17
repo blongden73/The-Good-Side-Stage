@@ -35,7 +35,7 @@ Blocks:
   - Image: "/uploads/Small%20_98A0369.jpg"
 Meta:
 - Where we worked: Seychelles
-  Tags: Gender, LGBTQIA+, Young people, Film
+  Tags: Gender, LGBTQIA+, Young people, Film, Behaviour change
   Video: https://vimeo.com/showcase/6648948
   Hashtag: "#TGSCYGEN"
 layout: case-study
