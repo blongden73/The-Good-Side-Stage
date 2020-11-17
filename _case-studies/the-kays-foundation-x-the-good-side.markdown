@@ -5,16 +5,16 @@ permalink: "/the-kays-foundation-x-the-good-side.html"
 position: 0
 Case study main image: "/uploads/Kays%20Headline%20Shot.png"
 Case study top image: "/uploads/Small%20Children%20Playing%20Instruments%203.jpg"
-Case study title: A year-long mixed methods project to understand early childhood
-  and parenting in coastal Kenya.
+Case study title: 
 Question: How can we encourage early childhood programme designers to think about
   the caregiver as much as the child?
 Blocks:
-- Article text: "A literature review and expert interviews fed into a month-long ethnographic
-    immersion and documentary film, backed up with a qualitative survey. Full insights
-    and film at tkfinsights2019.org\n\nWe workshopped insights and conclusions with
-    Kays and government and NGO stakeholders to ensure outputs were owned and co-created
-    with people who could act on them.  \n"
+- Article text: "**A year-long mixed methods project to understand early childhood
+    and parenting in coastal Kenya.\n**\n\nA literature review and expert interviews
+    fed into a month-long ethnographic immersion and documentary film, backed up with
+    a qualitative survey. Full insights and film at tkfinsights2019.org\n\nWe workshopped
+    insights and conclusions with Kays and government and NGO stakeholders to ensure
+    outputs were owned and co-created with people who could act on them.  \n"
   Video: <iframe src="https://player.vimeo.com/video/364756937" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   Testimonial: |-
