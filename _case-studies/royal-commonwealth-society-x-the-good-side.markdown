@@ -24,10 +24,10 @@ Blocks:
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   Carousel:
   - Image: "/uploads/Small%20D98A0859.jpg"
-  - Image: "/uploads/Small%20D98A0693.jpg"
   - Image: "/uploads/Small%20D98A0403.jpg"
   - Image: "/uploads/Small%20D98A0662.jpg"
   - Image: "/uploads/Small%20D98A0100.jpg"
+  - Image: "/uploads/Small%20D98A0693.jpg"
   - Image: "/uploads/Small%20_98A0369.jpg"
 Meta:
 - Where we worked: Seychelles
