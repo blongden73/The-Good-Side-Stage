@@ -25,6 +25,8 @@ Blocks:
   Testimonial: |-
     "The Good Side team combines audience insight and behaviour change strategy with a sensitive, thoughtful approach to filmmaking. The documentaries they produced with us have furthered our mission globally, and we have experienced genuine impact from their human-centred approach."
     Emma Eastwood, Head of Strategic Communications at The Human Dignity Trust
+  Carousel:
+  - Image: 
 - Video: <iframe src="https://player.vimeo.com/video/385260549" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   Carousel:
@@ -60,7 +62,6 @@ Meta:
     Network Text: Jan Sahas
   - Link: https://www.facebook.com/Women-Spaces-Africa-349182032217005/
     Network Text: Women Spaces Africa
-  Methods: Film, Strategy
   Tags: Gender, LGBTQIA+, Film, Strategy
   Data: |-
     11 jurisdictions | can or do impose the death penalty for same-sex intimacy,  35
