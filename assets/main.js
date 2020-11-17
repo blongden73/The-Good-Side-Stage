@@ -57,7 +57,12 @@ function closepage(){
       var closedPages = document.querySelectorAll('.gs-slide.close');
       var sectionToClose = document.querySelector('.page-selector.open');
       horizontalScroll = true;
+      console.log(sectionToClose);
       sectionToClose.classList.remove('open');
+      console.log(sectionToClose);
+      setTimeout(function(){
+        sectionToClose.scrollIntoView({behavior: "smooth"});
+      }, 500);
       for(i=0; i < closedPages.length; i++) {
         closedPages[i].classList.remove('close');
       }
@@ -69,10 +74,14 @@ function closepage(){
 function openarticle() {
   var pageScroller = document.querySelector('.gs-home-page-slider');
   var articleSelector = document.querySelectorAll('.article-selector');
+  var closeArticle = document.querySelector('.close-article');
   var article = document.querySelector('.article');
   for(i=0; i < articleSelector.length; i++) {
     articleSelector[i].addEventListener('click', function(e){
       e.preventDefault();
+      if(this.classList.contains('article-selector__splash')) {
+        closeArticle.classList.add('splash__close');
+      }
       horizontalScroll = false;
       var currentLocation = window.location.pathname;
       history.pushState(null, null, currentLocation+'#'+'the-good-side-testing-article');
@@ -91,6 +100,9 @@ function closeArticle(){
   var article = document.querySelector('.article');
   if(closeArticle) {
     closeArticle.addEventListener('click', function(){
+      if(this.classList.contains('splash__close')){
+        horizontalScroll = true;
+      }
       article.classList.remove('open');
     });
   }
