@@ -4,7 +4,7 @@ date: 2020-11-14 09:55:00 Z
 permalink: "/the-kays-foundation-x-the-good-side.html"
 position: 0
 Case study main image: "/uploads/Kays%20Headline%20Shot.png"
-Case study top image: "/uploads/Children%20Playing%20Instruments%203.jpg"
+Case study top image: "/uploads/Small%20Children%20Playing%20Instruments%203.jpg"
 Case study title: A year-long mixed methods project to understand early childhood
   and parenting in coastal Kenya.
 Question: How can we encourage early childhood programme designers to think about
@@ -24,9 +24,13 @@ Blocks:
     “Wow – just watched your Mama Kwanza video from Kilifi and Mombasa on mothers and their children under 3... It is such a powerful video, with clear messages, a strong narrative, great pictures etc etc. I found it heart breaking – and very authentic. It paints a very accurate picture of how it is for mothers and their children on the coast. And it needs to be seen by people who make decisions that affect the lives of the children and the parents. Well done, it is great work.”
     Sarah Forde - Communication consultant, based in coastal Kenya for 20 years.
   Carousel:
-  - Image: "/uploads/Anzazi%20and%20Rye.jpg"
-  - Image: "/uploads/WhatsApp%20Image%202019-02-13%20at%2010.38.23.jpeg"
-  - Image: "/uploads/Workshop%20output1.jpg"
+  - Image: "/uploads/Small%20Claris%20Eye%20Contact.jpg"
+  - Image: "/uploads/Small%20Komaza_956_2058.jpg"
+  - Image: "/uploads/Small%20Children%20Playing%20Sand.jpg"
+  - Image: "/uploads/Small%20Anzazi%20and%20Rye.jpg"
+  - Image: "/uploads/Small%20Eunice%20(b)%20and%20Baby%204.jpg"
+  - Image: "/uploads/Small%20Child%20Solhouette%20Kibarani.jpg"
+  - Image: "/uploads/Small%20Untended%20Child%201.jpg"
 Meta:
 - Related links: 
   Where we worked: Kenya
