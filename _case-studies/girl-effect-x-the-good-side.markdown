@@ -2,6 +2,8 @@
 title: GIRL EFFECT X THE GOOD SIDE
 date: 2020-11-17 17:56:00 Z
 position: 4
+Case study main image: "/uploads/nigeria%20girl%20at%20home.jpg"
+Case study top image: "/uploads/nigeria%20girl%20leaving%20house.jpg"
 Case study title: 'Co-creating youth media brands for behaviour change with Girl Effect. '
 Blocks:
 - Article text: "We collaborated with Girl Effect over eight years to launch youth
