@@ -41,6 +41,7 @@ Clients:
 - Logo: "/uploads/TGS_clients_girl.png"
 - Logo: "/uploads/TGS_clients_world.png"
 - Logo: "/uploads/TGS_clients_children.png"
+- Logo: "/uploads/TGS_clients_human.png"
 Team:
 - Name: Saul Parker
   Role: Founder
