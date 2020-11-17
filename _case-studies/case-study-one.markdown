@@ -2,7 +2,7 @@
 title: THE HUMAN DIGNITY TRUST X THE GOOD SIDE
 date: 2020-11-04 17:50:00 Z
 permalink: "/case-studies/case-study-one.html"
-position: 0
+position: 1
 Case study main image: "/uploads/tgs_human.jpg"
 Case study top image: "/uploads/tgs_human.jpg"
 Case study title: The Human Dignity Trust x The Good Side
