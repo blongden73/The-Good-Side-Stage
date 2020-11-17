@@ -62,12 +62,12 @@ Team:
   Gif image: 
 - Name: Lamis Harper
   Role: Associate Director
-  Image: 
+  Image: "/uploads/WhatsApp%20Image%202020-11-17%20at%2018.03.17.jpeg"
   Question: 
   Gif image: 
 - Name: Matthew Huntley
   Role: Senior Research Executive
-  Image: 
+  Image: "/uploads/Matthew.jpg"
   Question: 
   Gif image: 
 - Name: Odette Schwartz
