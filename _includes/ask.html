@@ -8,7 +8,11 @@
     <div class="circle">
       <div class="circle-inner">
         <h3>{{question.title}}</h3>
-        <h2><a href="{{question.['Case Study Link']}}">Explore Question</a></h2>
+        {% if question.['Case Study Link'] %}
+        <h2>
+          <a href="{{question.['Case Study Link']}}">Explore Question</a>
+        </h2>
+        {% endif %}
       </div>
     </div>
     {% endfor %}
