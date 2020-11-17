@@ -82,7 +82,7 @@ Team:
   Gif image: 
 - Name: Lamis Harper
   Role: Associate Director
-  Image: "/uploads/Lamis.jpg"
+  Image: "/uploads/Lamiswebsquare.jpg"
   Question: 
   Gif image: 
 - Name: Matthew Huntley
