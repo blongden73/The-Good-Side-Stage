@@ -8,7 +8,7 @@ Case study top image: "/uploads/Small%20Jenny%20and%20Piers%204%20(laughing%20on
 Case study title: In the first week of widespread global lockdown we decided to create
   a documentary series exploring the social impact of COVID-19 on Britain.
 Question: How can we remotely use our research and storytelling skills to capture
-  insights during the unfolding events of a global pandemic?
+  insights during the Covid-19 lockdown?
 Blocks:
 - Image: 
   Article text: "In the first week of widespread global lockdown we decided to create
@@ -26,6 +26,8 @@ Blocks:
     Good Side, its broader age demographic facilitating adult subjects including local
     businesses, financial hardships and the government’s handling of the crisis."
     BFI Lockdown Archive'
+  Carousel:
+  - Image: 
 - Video: <iframe src="https://player.vimeo.com/video/421584273" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 Meta:
