@@ -67,7 +67,7 @@ Team:
   Gif image: 
 - Name: Catriona Hay
   Role: Project director
-  Image: "/uploads/Trina_Headshots-6_web.jpg"
+  Image: "/uploads/Trina_Headshots-6_websquare.jpg"
   Question: How can we uncover what people actually do, vs. what they say they do?
   Gif image: "/uploads/cat_low.gif"
 - Name: Connie Flude
