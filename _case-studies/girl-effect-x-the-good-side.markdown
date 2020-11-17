@@ -5,6 +5,8 @@ position: 4
 Case study main image: "/uploads/nigeria%20girl%20at%20home.jpg"
 Case study top image: "/uploads/nigeria%20girl%20leaving%20house.jpg"
 Case study title: 'Co-creating youth media brands for behaviour change with Girl Effect. '
+Question: What can we learn about gender norms for young people, and how can branded
+  media change the status quo?
 Blocks:
 - Article text: "We have collaborated with Girl Effect over eight years to help them
     launch youth media brands in Rwanda, Ethiopia, Malawi, Tanzania and India, designed
