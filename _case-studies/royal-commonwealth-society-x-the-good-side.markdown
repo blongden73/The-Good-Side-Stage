@@ -21,9 +21,6 @@ Blocks:
     people determined to create change for the next generation across the Commonwealth."
   Video: <iframe src="https://player.vimeo.com/video/379073876" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-  Testimonial: 
-  Carousel:
-  - Image: 
 - Video: <iframe src="https://player.vimeo.com/video/379074251" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   Carousel:
