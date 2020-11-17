@@ -32,7 +32,9 @@ Blocks:
 - Video: <iframe src="https://player.vimeo.com/video/385260549" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 Meta:
-- Related links: "https://twitter.com/victor_madrigal/status/1273726042289713162 \nhttps://twitter.com/stephenfry/status/1273878035801026561\nhttps://www.thedrum.com/creative-works/project/the-good-side-the-human-dignity-trust"
+- Related links: "Amazing Tweet!, https://twitter.com/victor_madrigal/status/1273726042289713162
+    \nAnother Amazing Tweet!, https://twitter.com/stephenfry/status/1273878035801026561\nThe
+    Drum, https://www.thedrum.com/creative-works/project/the-good-side-the-human-dignity-trust"
   Where we worked: Kenya, Seychelles, Belize, Singapore, India, UK, Canada
   The Network: LGBTI Sey, Jan Sahas, Women Spaces Africa, Naz Trust Foundation India,
     UNIBAm Belize, NGLHRC Kenya
