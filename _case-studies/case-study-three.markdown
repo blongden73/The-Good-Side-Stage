@@ -33,6 +33,13 @@ Meta:
   - Link: https://www.hubbub.org.uk/grab-your-cup-jingle-huey-morgan
     Link Text: Hubbub Grab your Cup
   Where we worked: UK
+  The Network:
+  - Link: https://weglimpse.co/
+    Network Text: Glimpse
+  - Link: https://www.hubbub.org.uk/
+    Network Text: Hubbub
+  - Link: https://www.starbucks.co.uk/responsibility
+    Network Text: Starbucks
   Methods: Ethnography, Qualitative, Strategy
   Tags: Ethnography, Qualitative, Strategy, Sustainability, Behaviour change
   Hashtag: "#TGSCoffeeCups #reusablecoffeecup #GrabYourCup\n"
