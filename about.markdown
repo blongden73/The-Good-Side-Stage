@@ -49,16 +49,16 @@ Team:
   Question: What do values really mean to people, and how do they show up in their
     lives and choices?
   Gif image: 
-- Name: James Lewis
-  Role: Head of production
-  Image: "/uploads/James_headshot-4_websquare.jpg"
-  Question: What is Madonna’s best album?
-  Gif image: "/uploads/low_james.gif"
 - Name: Liz Cheesbrough
   Role: Senior Insight Director
   Image: "/uploads/Liz_TGS-1%20Small.jpg"
   Question: 
   Gif image: 
+- Name: James Lewis
+  Role: Head of production
+  Image: "/uploads/James_headshot-4_websquare.jpg"
+  Question: What is Madonna’s best album?
+  Gif image: "/uploads/low_james.gif"
 - Name: Adrianne Colyer
   Role: People and Projects Manager
   Image: "/uploads/adriannecolyerweb.jpg"
