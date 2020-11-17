@@ -3,8 +3,8 @@ title: STARBUCKS + HUBBUB X THE GOOD SIDE
 date: 2020-11-05 13:51:00 Z
 permalink: "/case-studies/case-study-three.html"
 position: 10
-Case study main image: "/uploads/KeepCupsmaller-17e0a6.jpg"
-Case study top image: "/uploads/sol%20cup%20latte.jpg"
+Case study main image: "/uploads/starbucks%20cup%20web.jpg"
+Case study top image: "/uploads/Coffee%20counter%20web.jpg"
 Case study title: 'In partnership with creative collective Glimpse, we used our behavioural
   design process to explore consumer attitudes and behaviours around sustainability,
   informing campaign strategies to promote reusable coffee cup use. '
@@ -23,6 +23,10 @@ Blocks:
     developed creative briefs for Hubbub and Glimpse in their campaign development.\n\n"
   Video: <iframe src="https://player.vimeo.com/video/333524743" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  Carousel:
+  - Image: "/uploads/Mug1%20web.jpg"
+  - Image: "/uploads/Keep%20Cup%20pram%20web.jpg"
+  - Image: "/uploads/Keys%20headphones%20cup%20web.jpg"
 Meta:
 - Related links:
   - Link: 'https://www.hubbub.org.uk/blog/hubbub-cupfund-investment-installation-recycle-coffee-cups '
