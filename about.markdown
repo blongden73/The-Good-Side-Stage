@@ -24,7 +24,7 @@ Clients copy: We work with organisations  from global tech giants to one woman N
   from international brands to social enterprises.
 Clients:
 - Logo: "/uploads/apple.png"
-- Logo: "/uploads/TGS_clients_IG-35a9c5.png"
+- Logo: "/uploads/TGS_clients_IG-85d061.png"
 - Logo: "/uploads/booking.png"
 - Logo: "/uploads/starbucks.png"
 - Logo: "/uploads/TGS_clients_aviva.png"
