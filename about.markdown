@@ -86,7 +86,7 @@ Team:
   Question: 
   Gif image: 
 - Name: Matthew Huntley
-  Role: Senior Research Executive
+  Role: Senior Researcher
   Image: "/uploads/Matthew.jpg"
   Question: 
   Gif image: 
