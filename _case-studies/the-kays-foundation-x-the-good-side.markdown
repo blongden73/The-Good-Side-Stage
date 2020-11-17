@@ -32,7 +32,7 @@ Meta:
     https://www.tkfinsights2019.org/
     https://ecdnetworkforkenya.org/
   Where we worked: Kenya
-  The Network: ECD Network for Kenya
+  The Network: 
   Methods: Film, Ethnography, Quantitative, Qualitative
   Tags: Gender, Mental health, International development, Behaviour change
   Video: <iframe src="https://player.vimeo.com/video/364765544" width="640" height="360"
