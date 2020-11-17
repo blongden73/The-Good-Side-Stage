@@ -2,7 +2,7 @@
 title: THE CORONA DIARIES
 date: 2020-11-05 13:51:00 Z
 permalink: "/case-studies/case-study-two.html"
-position: 2
+position: 5
 Case study main image: "/uploads/Small%20Jenny%20and%20Piers%204%20(laughing%20only).mp4.00_00_08_00.Still001.jpg"
 Case study top image: "/uploads/Small%20Jenny%20and%20Piers%204%20(laughing%20only).mp4.00_00_08_00.Still001.jpg"
 Case study title: In the first week of widespread global lockdown we decided to create
