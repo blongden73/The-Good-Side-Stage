@@ -15,7 +15,7 @@ Blocks:
     Our behavioural design rethink has reshaped Think!, and our social practice conceptual framework has become central to how DfT now communicate with young drivers.
 Meta:
 - Where we worked: UK
-  Tags: 'Young people, Behaviour change, Strategy, '
+  Tags: Young people, Behaviour change, Strategy
   Hashtag: "#TGSXYRTHINK"
 ---
 
