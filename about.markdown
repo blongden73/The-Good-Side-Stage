@@ -29,6 +29,8 @@ Clients:
 - Logo: "/uploads/starbucks.png"
 - Logo: "/uploads/TGS_clients_aviva.png"
 - Logo: "/uploads/TGS_clients_yandr.png"
+- Logo: "/uploads/TGS_clients_pepsico.png"
+- Logo: "/uploads/TGS_clients_booking.png"
 Team:
 - Name: Saul Parker
   Role: Founder
