@@ -27,7 +27,7 @@ Meta:
     https://www.youtube.com/watch?v=HgjXw2OMEIQ
     https://www.youtube.com/watch?v=MrNCVAqbCD0
   Where we worked: UK, Netherlands, Germany
-  Tags: Gender, LGBTQIA+, Quantitative, Qualitative, Strategy
+  Tags: Gender, LGBTQIA+, Quantitative, Qualitative, Strategy, Technology
   Data: "64% of UK adults think it's positive for the LGBTQ+ community to be visible
     in advertising. \n\n72% of LGBTQ+ adults feel the advertising that represents
     them is too tokenistic.\n\n(Gay times/ Karmarama Research, UK)\n"
