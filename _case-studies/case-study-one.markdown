@@ -35,7 +35,25 @@ Blocks:
   - Image: "/uploads/small%20hdt%20carousel%20caleb.jpg"
   - Image: "/uploads/small%20hdt%20women.jpg"
 Meta:
-- Where we worked: Kenya, Seychelles, Belize, Singapore, India, UK, Canada
+- Related links:
+  - Link: 'https://twitter.com/victor_madrigal/status/1273726042289713162 '
+    Link Text: 'Amazing Tweet!
+
+'
+  - Link: https://twitter.com/stephenfry/status/1273878035801026561
+    Link Text: 'Another Amazing Tweet!
+
+'
+  - Link: https://www.thedrum.com/creative-works/project/the-good-side-the-human-dignity-trust
+    Link Text: 'The Drum
+
+'
+  Where we worked: Kenya, Seychelles, Belize, Singapore, India, UK, Canada
+  The Network:
+  - Link: https://www.nazindia.org/
+    Network Text: Naz Trust Foundation India
+  - Link: https://www.facebook.com/LGBTISey/
+    Network Text: LGBTI Sey
   Methods: Film, Strategy
   Tags: Gender, LGBTQIA+, Film, Strategy
   Data: |-
