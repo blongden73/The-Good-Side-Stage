@@ -150,11 +150,22 @@ function hamburger() {
 
 function circlesCliked(){
   var questions = document.querySelector('.gs-questions');
+  var circlesContainer = document.querySelector('.circles-slide');
+  var fullScreenClose = document.querySelector('.close-circles');
   if(questions){
   var circle = questions.querySelectorAll('.circle');
     for(i=0; i<circle.length; i++){
       circle[i].addEventListener('click', function(){
         this.classList.toggle('clicked');
+        circlesContainer.classList.toggle('clickToClose');
+        //add eventlister to screen to close cirlces
+        fullScreenClose.classList.toggle('active');
+        fullScreenClose.addEventListener('click', function(){
+          console.log(fullScreenClose);
+          this.classList.remove('active');
+          var circleOpen = document.querySelector('.circle.clicked');
+          circleOpen.classList.remove('clicked');
+        });
       });
     }
   }
