@@ -30,7 +30,7 @@ Clients:
 - Logo: "/uploads/TGS_clients_aviva.png"
 - Logo: "/uploads/TGS_clients_yandr.png"
 - Logo: "/uploads/TGS_clients_pepsico.png"
-- Logo: "/uploads/TGS_clients_booking.png"
+- Logo: "/uploads/TGS_clients_hub-e633e1.png"
 - Logo: "/uploads/TGS_clients_mov.png"
 - Logo: "/uploads/TGS_clients_unilever.png"
 - Logo: "/uploads/TGS_clients_bond.png"
