@@ -35,10 +35,10 @@ Meta:
   - Link: https://www.shujaazinc.com/
     Network Text: A network of social ventures based in Nairobi and Dar Es Salaam
   Tags: Strategy, International development, Behaviour Change, Ethnography, Qualitative
-  Data: "200 million hours every day | women and girls spend collecting water globally.
-    In Africa, 90% of the water collecting work is done by women and girls. \n\n570
-    million people | in sub-Saharan Africa do not have electricity, and one in four
-    clinics do not have energy."
+  Data: |-
+    200 million hours every day | women and girls spend collecting water globally. In Africa, 90% of the water collecting work is done by women and girls
+
+    570 million people | in sub-Saharan Africa do not have electricity, and one in four clinics do not have energy
   Hashtag: TRANSFORMXTGS
 ---
 
