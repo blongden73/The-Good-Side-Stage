@@ -45,7 +45,7 @@ Clients:
 Team:
 - Name: Saul Parker
   Role: Founder
-  Image: "/uploads/Saul_Headshots2-4_web.jpg"
+  Image: "/uploads/Saul_Headshots2-4_web2.jpg"
   Question: What do values really mean to people, and how do they show up in their
     lives and choices?
   Gif image: 
@@ -56,7 +56,7 @@ Team:
   Gif image: "/uploads/low_james.gif"
 - Name: Liz Cheesbrough
   Role: Senior Insight Director
-  Image: 
+  Image: "/uploads/Liz_TGS-1%20Small.jpg"
   Question: 
   Gif image: 
 - Name: Adrianne Colyer
@@ -72,8 +72,13 @@ Team:
   Gif image: "/uploads/cat_low.gif"
 - Name: Connie Flude
   Role: Project Director
-  Image: 
+  Image: "/uploads/uzhuBG5wQ0eHOnGiJ1OiKw_thumb_1a3d.jpg"
   Question: 'How ironic is the phrase ''sleeping like a baby''? '
+  Gif image: 
+- Name: Leva Kwestany
+  Role: Senior Filmmaker
+  Image: "/uploads/Leva.jpg"
+  Question: 
   Gif image: 
 - Name: Lamis Harper
   Role: Associate Director
