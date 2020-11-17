@@ -11,13 +11,16 @@ Case study title: 'In partnership with creative collective Glimpse, we used our 
 Question: How do we get more British people to adopt reusable coffee cups, and save
   150 million single-use coffee cups from landfill?
 Blocks:
-- Article text: "Through ethnographies, user diaries, industry interviews, cultural
-    and social media analysis we unpacked the contemporary sustainability movement,
-    and identified narratives and intervention sites to help shift behaviours. \nAdopting
-    decision science levers and user personas from our research, we developed creative
-    briefs for Glimpse and partner agencies tasked with inventing campaign ideas.
-    \n\nWe attended the London Coffee Festival to interview reusable cup vendors about
-    the market and consumer behaviours, and made a short film about what we found.\n\n"
+- Article text: "Employing ethnographic immersion, user diaries, industry interviews,
+    cultural and social media analysis, we unpacked contemporary sustainability trends
+    and attitudes. Through our behavioural design process we identified narratives
+    and intervention sites to help change behaviours and reinforce reusable cup usage
+    across Britain. \n\nWe hung out at the London Coffee Festival (and hundreds of
+    coffee shops across Britain) to interview reusable cup makers and coffee companies
+    about the market and consumer behaviours, and made a short film about what we
+    found to bring the debate to life.\n\nUsing our 10 Behavioural Levers and user
+    personas derived from from our research, we workshopped a design strategy and
+    developed creative briefs for Hubbub and Glimpse in their campaign development.\n\n"
   Video: <iframe src="https://player.vimeo.com/video/333524743" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 Meta:
