@@ -26,7 +26,7 @@ Blocks:
 Meta:
 - Related links:
   - Link: 'https://www.hubbub.org.uk/blog/hubbub-cupfund-investment-installation-recycle-coffee-cups '
-    Link Text: Hubbub cup recylging
+    Link Text: Hubbub cup recyling
   - Link: https://medium.com/@subba.ry/a-brief-history-of-the-disposable-paper-cup-8976a657025e
     Link Text: A history of the disposable cup
   - Link: https://www.theguardian.com/lifeandstyle/2020/jul/29/ditch-the-gloves-buy-a-litter-picker-but-dont-carshare-how-to-be-eco-friendly-in-a-pandemic
@@ -43,7 +43,6 @@ Meta:
     Network Text: Hubbub
   - Link: https://www.starbucks.co.uk/responsibility
     Network Text: Starbucks
-  Methods: Ethnography, Qualitative, Strategy
   Tags: Ethnography, Qualitative, Strategy, Sustainability, Behaviour change
   Hashtag: "#TGSCoffeeCups #reusablecoffeecup #GrabYourCup\n"
 layout: case-study
