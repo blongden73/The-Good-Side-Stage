@@ -19,6 +19,7 @@ Blocks:
     Specialist at Booking.com"
 Meta:
 - Related links: |-
+    https://www.linkedin.com/feed/update/urn:li:activity:6680760996023402496/
     https://www.youtube.com/watch?v=HgjXw2OMEIQ
     https://www.youtube.com/watch?v=MrNCVAqbCD0
   Where we worked: UK, Netherlands, Germany
