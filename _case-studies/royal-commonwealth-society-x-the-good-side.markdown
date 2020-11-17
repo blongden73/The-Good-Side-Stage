@@ -11,23 +11,27 @@ Question: How can we connect young people across the Commonwealth with activists
   the need to reform discriminatory laws?
 Blocks:
 - Image: 
-  Article text: "Creating a groundswell of youth noise to impact leaders attending
-    CHOGM 2020. \n\nWe produced six short campaign films in collaboration with 12
-    young activists from across the Commonwealth.\n\nScripted with the activists,
-    two films acted as a “call to arms” for young people to get behind the campaign
-    to reform discriminatory legislation.\n\nThis audience needed to be emotionally
-    connected to the campaign through individual stories and beautiful images that
-    celebrated and amplified these incredible young people."
+  Article text: "We wanted to create a groundswell of youth noise to impact global
+    leaders attending CHOGM 2020, and highlight the need to urgently reform discriminatory
+    colonial era laws. \n\nWe created six short campaign films in collaboration with
+    12 young activists from across the Commonwealth, to share their stories and amplify
+    their voices to the growing movement for change.\n\nOur aim was to emotionally
+    connect global youth audiences to the campaign through individual stories and
+    beautiful imagery that celebrated and amplified these incredible activists, young
+    people determined to create change for the next generation across the Commonwealth."
   Video: <iframe src="https://player.vimeo.com/video/379073876" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  Testimonial: 
+  Carousel:
+  - Image: 
 - Video: <iframe src="https://player.vimeo.com/video/379074251" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   Carousel:
   - Image: "/uploads/Small%20D98A0859.jpg"
+  - Image: "/uploads/Small%20D98A0693.jpg"
   - Image: "/uploads/Small%20D98A0403.jpg"
   - Image: "/uploads/Small%20D98A0662.jpg"
   - Image: "/uploads/Small%20D98A0100.jpg"
-  - Image: "/uploads/Small%20D98A0693.jpg"
   - Image: "/uploads/Small%20_98A0369.jpg"
 Meta:
 - Where we worked: Seychelles
