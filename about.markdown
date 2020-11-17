@@ -61,7 +61,7 @@ Team:
   Question: 'How ironic is the phrase ''sleeping like a baby''? '
   Gif image: 
 - Name: Lamis Harper
-  Role: 
+  Role: Associate Director
   Image: 
   Question: 
   Gif image: 
