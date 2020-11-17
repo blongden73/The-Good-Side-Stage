@@ -76,12 +76,12 @@ Team:
   Question: 
   Gif image: 
 About sentence 1: We help people to understand and impact systems, society and culture.
+About 1 image: "/uploads/door.png"
 About sentence 2: Our team blends anthropological thinking, communications expertise
   and media production.
+About 2 image: "/uploads/The%20Good%20Side_Icons%20&%20Illustrations-Eclipse-01.png"
 About sentence 3: "We work with organisations  from global tech giants to one woman
   NGOs, from international brands to social enterprises.\f"
-About 1 image: "/uploads/door.png"
-About 2 image: "/uploads/The%20Good%20Side_Icons%20&%20Illustrations-Eclipse-01.png"
 About 3 image: "/uploads/pyramid.png"
 layout: about
 ---
