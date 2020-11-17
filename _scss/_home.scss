@@ -522,7 +522,7 @@
 
         @include mq($from: desktop) {
           margin-top: 30vh;
-          font-size: inherit;
+          font-size: 2vw;
         }
       }
     }
