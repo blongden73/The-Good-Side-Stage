@@ -2,8 +2,8 @@
 title: Y&R:Think! X THE GOOD SIDE
 date: 2020-11-17 18:36:00 Z
 position: 3
-Case study main image: "/uploads/download.png"
-Case study top image: "/uploads/download.png"
+Case study main image: "/uploads/rezasaad-U9XPkBu3oc8-unsplash.jpg"
+Case study top image: "/uploads/charles-postiaux-R_Umtq1j6gA-unsplash.jpg"
 Case study title: We partnered with Y&R to rethink their approach to engaging with
   risky young drivers for the UK Dept. for Transport Think! Campaign.
 Blocks:
