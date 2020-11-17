@@ -12,15 +12,19 @@ Question: How can we remotely use our research and storytelling skills to captur
 Blocks:
 - Image: 
   Article text: "In the first week of widespread global lockdown we decided to create
-    a documentary series exploring the social impact of COVID-19 on Britain.\n\nChosen
-    for the BFI’s Britain in Lockdown series of the best online videos made during
-    the pandemic. \n\n\nIn The Corona Diaries we brought to life a diverse range of
-    experiences, giving voice to people in different situations to tell their stories.
-    In making the series we have seen marked shifts in attitudes, behaviours, values
-    and priorities, and we anticipate this will continue as people adjust to their
-    changing social realities. "
+    a documentary series exploring the social impact of COVID-19 on Britain.\n\nThe
+    resulting series, **The Corona Diaries**, was chosen for inclusion in the BFI’s
+    **Britain in Lockdown** series of the best online videos made during the pandemic.
+    \n\n\nIn The Corona Diaries we brought to life a diverse range of experiences,
+    giving voice to people in different situations to tell their stories. In making
+    the series we have seen marked shifts in attitudes, behaviours, values and priorities,
+    and we anticipate this will continue as people adjust to their changing social
+    realities. "
   Video: <iframe src="https://player.vimeo.com/video/400023781" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  Testimonial: 
+  Carousel:
+  - Image: 
 - Video: <iframe src="https://player.vimeo.com/video/421584273" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 Meta:
