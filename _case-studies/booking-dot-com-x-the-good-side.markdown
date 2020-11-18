@@ -20,7 +20,7 @@ Blocks:
     for LGBTQ+ people."
   Testimonial: "“If you are interested in doing similar work, research is your best
     starting point & I can't speak highly enough of our partner agency The Good Side.
-    Please check them out & continue the good work!!” Jennifer Summers, Senior Insights
+    Please check them out & continue the good work!!” — Jennifer Summers, Senior Insights
     Specialist at Booking.com"
 Meta:
 - Where we worked: UK, Netherlands, Germany
