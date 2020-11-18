@@ -1,6 +1,7 @@
 ---
 title: Y&R:Think! X THE GOOD SIDE
 date: 2020-11-17 18:36:00 Z
+permalink: "/case-studies/y-and-r-think-x-the-good-side.html "
 position: 3
 Case study main image: "/uploads/rezasaad-U9XPkBu3oc8-unsplash.jpg"
 Case study top image: "/uploads/charles-postiaux-R_Umtq1j6gA-unsplash.jpg"
@@ -17,5 +18,6 @@ Meta:
 - Where we worked: UK
   Tags: Young people, Behaviour change, Strategy
   Hashtag: "#TGSXYRTHINK"
+layout: case-study
 ---
 
