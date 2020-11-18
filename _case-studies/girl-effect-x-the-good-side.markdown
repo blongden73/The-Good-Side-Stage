@@ -1,6 +1,7 @@
 ---
 title: GIRL EFFECT X THE GOOD SIDE
 date: 2020-11-17 17:56:00 Z
+permalink: "/case-studies/girl-effect-x-the-good-side.html"
 position: 4
 Case study main image: "/uploads/nigeria%20girl%20at%20home.jpg"
 Case study top image: "/uploads/nigeria%20girl%20leaving%20house.jpg"
@@ -22,5 +23,6 @@ Meta:
   Tags: Gender, International development, Film, Ethnography, Qualitative, Young people,
     Behaviour change
   Hashtag: "#TGSXGIRLEFFECT"
+layout: case-study
 ---
 
