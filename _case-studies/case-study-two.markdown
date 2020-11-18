@@ -28,7 +28,7 @@ Blocks:
   Testimonial: '"A thoughtful series put together by creative strategy company The
     Good Side, its broader age demographic facilitating adult subjects including local
     businesses, financial hardships and the government’s handling of the crisis."
-    BFI Lockdown Archive'
+    — BFI Lockdown Archive'
   Carousel:
   - Image: "/uploads/Maz.png"
   - Image: "/uploads/Michal%203.mp4.00_04_52_09.Still001.png"
