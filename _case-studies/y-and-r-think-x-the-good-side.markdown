@@ -17,10 +17,12 @@ Blocks:
 Meta:
 - Related links:
   - Link: https://www.thedrum.com/creative-works/project/yr-london-think-mate-doesn-t-let-mate-drink-drive
-    Link Text: The Drum
+    Link Text: The Drum coverage
   Where we worked: UK
+  The Network:
+  - Link: https://www.think.gov.uk/
+    Network Text: THINK!
   Tags: Young people, Behaviour change, Strategy
-  Hashtag: "#TGSXYRTHINK"
 layout: case-study
 ---
 
