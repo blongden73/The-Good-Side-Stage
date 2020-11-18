@@ -4,7 +4,7 @@ date: 2020-11-05 13:51:00 Z
 permalink: "/case-studies/case-study-two.html"
 tags:
 - featured
-- big
+- medium
 position: 0
 Case study main image: "/uploads/Small%20Jenny%20and%20Piers%204%20(laughing%20only).mp4.00_00_08_00.Still001.jpg"
 Case study top image: "/uploads/Small%20Jenny%20and%20Piers%204%20(laughing%20only).mp4.00_00_08_00.Still001.jpg"
@@ -29,16 +29,19 @@ Blocks:
     Good Side, its broader age demographic facilitating adult subjects including local
     businesses, financial hardships and the government’s handling of the crisis."
     BFI Lockdown Archive'
+  Carousel:
+  - Image: "/uploads/Maz.png"
+  - Image: "/uploads/Michal%203.mp4.00_04_52_09.Still001.png"
+  - Image: "/uploads/Fleur.png"
+  - Image: "/uploads/Brendan.png"
+  - Image: "/uploads/Lila%202.png"
+  - Image: "/uploads/Bee.png"
+  - Image: "/uploads/John%20and%20Marion%206a.mov.00_07_38_14.Still001.png"
+  - Image: "/uploads/Bob%20Painting.png"
 - Video: <iframe src="https://player.vimeo.com/video/421584273" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 Meta:
-- Related links: |-
-    https://www.bfi.org.uk/features/britain-lockdown-online-videos-shaping-crisis-7
-    https://www.linkedin.com/pulse/good-sides-corona-diaries-chosen-bfi-time-capsule-james-lewis/?trackingId=6H9cHq5VTFmE5MWEJ8apfQ%3D%3D
-    https://informationisbeautiful.net/visualizations/covid-19-coronavirus-infographic-datapack/
-    https://www.bbc.co.uk/news/explainers-52229828
-    https://www.theatlantic.com/ideas/archive/2020/06/dudes-who-wont-wear-masks/613375/
-  Where we worked: UK
+- Where we worked: UK
   The Network:
   - Link: https://www.bfi.org.uk/bfi-national-archive/look-behind-scenes/britain-lockdown-online-video-archive
     Network Text: BFI Lockdown Archive

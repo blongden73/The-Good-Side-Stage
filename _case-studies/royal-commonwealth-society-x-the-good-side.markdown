@@ -35,13 +35,13 @@ Meta:
 - Related links:
   - Link: https://www.dosomething.org/us/11-young-activists-leading-the-way-for-lgbtq-equality
     Link Text: Leading activists
-  - Link: https://unfoundation.org/blog/post/not-too-young-to-make-a-difference-young-leaders-are-leading-on-the-global-goals/
+  - Link: https://www.unfoundation.org/blog/post/not-too-young-to-make-a-difference-young-leaders-are-leading-on-the-global-goals/
     Link Text: UN global goal youth activism
   - Link: https://www.sistersforchange.org.uk/project/legal-reform-of-discriminatory-laws-in-the-commonwealth/
     Link Text: Sisters for change
   - Link: 'https://www.independent.co.uk/voices/commonwealth-gender-equality-countries-women-rights-a9108381.html '
     Link Text: Commonwealth and gender equality
-  - Link: 'https://medium.com/tsrkbd/reform53-a-call-to-reform-discriminatory-laws-of-the-commonwealth-countries-80553e37cc51 '
+  - Link: 'https://www.medium.com/tsrkbd/reform53-a-call-to-reform-discriminatory-laws-of-the-commonwealth-countries-80553e37cc51 '
     Link Text: "#Reform53"
   Where we worked: Seychelles
   Tags: Gender, LGBTQIA+, Young people, Film, International development

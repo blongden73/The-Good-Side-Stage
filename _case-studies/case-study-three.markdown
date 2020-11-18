@@ -32,7 +32,7 @@ Meta:
 - Related links:
   - Link: 'https://www.hubbub.org.uk/blog/hubbub-cupfund-investment-installation-recycle-coffee-cups '
     Link Text: Hubbub cup recyling
-  - Link: https://medium.com/@subba.ry/a-brief-history-of-the-disposable-paper-cup-8976a657025e
+  - Link: https://www.medium.com/@subba.ry/a-brief-history-of-the-disposable-paper-cup-8976a657025e
     Link Text: A history of the disposable cup
   - Link: https://www.theguardian.com/lifeandstyle/2020/jul/29/ditch-the-gloves-buy-a-litter-picker-but-dont-carshare-how-to-be-eco-friendly-in-a-pandemic
     Link Text: Eco-friendly in a pandemic
@@ -42,7 +42,7 @@ Meta:
     Link Text: Hubbub Grab your Cup
   Where we worked: UK
   The Network:
-  - Link: https://weglimpse.co/
+  - Link: https://www.weglimpse.co/
     Network Text: Glimpse
   - Link: https://www.hubbub.org.uk/
     Network Text: Hubbub

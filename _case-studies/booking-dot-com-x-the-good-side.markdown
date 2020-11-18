@@ -20,18 +20,11 @@ Blocks:
     for LGBTQ+ people."
   Testimonial: "“If you are interested in doing similar work, research is your best
     starting point & I can't speak highly enough of our partner agency The Good Side.
-    Please check them out & continue the good work!!” Jennifer Summers, Senior Insights
+    Please check them out & continue the good work!!” — Jennifer Summers, Senior Insights
     Specialist at Booking.com"
 Meta:
-- Related links: |-
-    https://www.linkedin.com/feed/update/urn:li:activity:6680760996023402496/
-    https://www.youtube.com/watch?v=HgjXw2OMEIQ
-    https://www.youtube.com/watch?v=MrNCVAqbCD0
-  Where we worked: UK, Netherlands, Germany
+- Where we worked: UK, Netherlands, Germany
   Tags: Gender, LGBTQIA+, Quantitative, Qualitative, Strategy, Technology
-  Data: "64% of UK adults | think it's positive for the LGBTQ+ community to be visible
-    in advertising. \n\n72% of LGBTQ+ adults | feel the advertising that represents
-    them is too tokenistic."
   Hashtag: "#TGSBooking"
 layout: case-study
 ---
