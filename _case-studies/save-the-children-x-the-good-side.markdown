@@ -21,5 +21,6 @@ Meta:
 - Where we worked: UK
   Tags: 'Ethnography, Film, Qualitative, Online, Strategy '
   Hashtag: "#TGSXSTC"
+layout: case-study
 ---
 
