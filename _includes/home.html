@@ -1,4 +1,4 @@
-{% assign caseStudies = site.case-studies %}
+{% assign caseStudies = site.case-studies | sort:"position" %}
 <div class="gs-wrapper">
   <div class="gs-splash">
     <h1 class="init">{{page.['Home Splash']}}</h1>
@@ -9,16 +9,42 @@
     {% for case in caseStudies %}
     {% assign tags = case.tags %}
     {% if tags contains 'featured' %}
-    <div class="gs-splash__image {% if tags contains 'medium' %}medium{% endif %} {% if tags contains 'small' %}small{% endif %} {% if tags contains 'big' %}big{% endif %}">
-      <div class="js-hover-faux"><a class="article-selector article-selector__splash" data-link="{{case.permalink}}" href="{{case.permalink}}"></a>
-        <div class="gs-plus plus">
-          <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.89065 5.80833V0h-2.805v5.80833H.333984V8.5H6.08565v5.8083h2.805V8.5h5.78005V5.80833H8.89065z" fill="#28275C"/></svg>
+      {% if tags contains 'medium' %}
+        <div class="gs-splash__image medium">
+          <div class="js-hover-faux"><a class="article-selector article-selector__splash" data-link="{{case.permalink}}" href="{{case.permalink}}"></a>
+            <div class="gs-plus plus">
+              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.89065 5.80833V0h-2.805v5.80833H.333984V8.5H6.08565v5.8083h2.805V8.5h5.78005V5.80833H8.89065z" fill="#28275C"/></svg>
+            </div>
+            <div class="gs-plus go">
+              <svg width="91" height="91" viewBox="0 0 91 91" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M91 45.5C91 70.629 70.629 91 45.5 91S0 70.629 0 45.5 20.371 0 45.5 0 91 20.371 91 45.5z" fill="#EEA4AF"/><path d="M44.2495 53.005l1.4167 2.5217 12.9766-10.54-12.9766-10.5684-1.4167 2.5217 8.2167 6.545H33.6528v2.975h18.8134l-8.2167 6.545z" fill="#28275C"/></svg>
+            </div>
+            <img src="{{case.['Case study main image']}}"></div>
         </div>
-        <div class="gs-plus go">
-          <svg width="91" height="91" viewBox="0 0 91 91" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M91 45.5C91 70.629 70.629 91 45.5 91S0 70.629 0 45.5 20.371 0 45.5 0 91 20.371 91 45.5z" fill="#EEA4AF"/><path d="M44.2495 53.005l1.4167 2.5217 12.9766-10.54-12.9766-10.5684-1.4167 2.5217 8.2167 6.545H33.6528v2.975h18.8134l-8.2167 6.545z" fill="#28275C"/></svg>
+      {% endif %}
+      {% if tags contains 'big' %}
+        <div class="gs-splash__image big {% if tags contains 'small' %}small{% endif %}">
+          <div class="js-hover-faux"><a class="article-selector article-selector__splash" data-link="{{case.permalink}}" href="{{case.permalink}}"></a>
+            <div class="gs-plus plus">
+              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.89065 5.80833V0h-2.805v5.80833H.333984V8.5H6.08565v5.8083h2.805V8.5h5.78005V5.80833H8.89065z" fill="#28275C"/></svg>
+            </div>
+            <div class="gs-plus go">
+              <svg width="91" height="91" viewBox="0 0 91 91" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M91 45.5C91 70.629 70.629 91 45.5 91S0 70.629 0 45.5 20.371 0 45.5 0 91 20.371 91 45.5z" fill="#EEA4AF"/><path d="M44.2495 53.005l1.4167 2.5217 12.9766-10.54-12.9766-10.5684-1.4167 2.5217 8.2167 6.545H33.6528v2.975h18.8134l-8.2167 6.545z" fill="#28275C"/></svg>
+            </div>
+            <img src="{{case.['Case study main image']}}"></div>
         </div>
-        <img src="{{case.['Case study main image']}}"></div>
-    </div>
+      {% endif %}
+      {% if tags contains 'small' %}
+        <div class="gs-splash__image small">
+          <div class="js-hover-faux"><a class="article-selector article-selector__splash" data-link="{{case.permalink}}" href="{{case.permalink}}"></a>
+            <div class="gs-plus plus">
+              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.89065 5.80833V0h-2.805v5.80833H.333984V8.5H6.08565v5.8083h2.805V8.5h5.78005V5.80833H8.89065z" fill="#28275C"/></svg>
+            </div>
+            <div class="gs-plus go">
+              <svg width="91" height="91" viewBox="0 0 91 91" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M91 45.5C91 70.629 70.629 91 45.5 91S0 70.629 0 45.5 20.371 0 45.5 0 91 20.371 91 45.5z" fill="#EEA4AF"/><path d="M44.2495 53.005l1.4167 2.5217 12.9766-10.54-12.9766-10.5684-1.4167 2.5217 8.2167 6.545H33.6528v2.975h18.8134l-8.2167 6.545z" fill="#28275C"/></svg>
+            </div>
+            <img src="{{case.['Case study main image']}}"></div>
+        </div>
+      {% endif %}
     {% endif %}
     {% endfor %}
     <!-- <div class="gs-splash__image big">
