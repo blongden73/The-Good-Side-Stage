@@ -33,7 +33,11 @@ layout: default
         {% endif %}
         {% if block.['Testimonial'] %}
         <div class="article__testimonial_wrapper">
-          <blockquote>{{block.['Testimonial']}}</blockquote>
+          <blockquote>
+            {% assign testimonial = block.['Testimonial'] | split: '—' %}
+            {{testimonial[0]}}
+            <cite>{{testimonial[1]}}</cite>
+          </blockquote>
         </div>
         {% endif %}
       {% assign blockCarousel =  block.Carousel %}
@@ -58,11 +62,18 @@ layout: default
           <li>{{place}}</li>
         {% endfor %}
         </ul>
-        {% assign network = items.['The Network'] | split: ',' %}
+        {% assign network = items.['The Network'] %}
         <ul class="gs-network">
           <li><strong>The Network</strong></li>
         {% for item in network %}
-          <li>{{item}}</li>
+          <li><a href="{{item.['Link']}}">{{item.['Network Text']}}</a></li>
+        {% endfor %}
+        </ul>
+        {% assign related = items.['Related links'] %}
+        <ul class="gs-network">
+          <li><strong>Related</strong></li>
+        {% for item in related %}
+          <li><a href="{{item.['Link']}}">{{item.['Link Text']}}</a></li>
         {% endfor %}
         </ul>
         {% assign data = items.['Data'] | split: ',' %}
