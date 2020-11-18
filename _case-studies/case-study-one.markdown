@@ -5,7 +5,7 @@ permalink: "/case-studies/case-study-one.html"
 tags:
 - featured
 - medium
-position: 1
+position: 2
 Case study main image: "/uploads/tgs_human.jpg"
 Case study top image: "/uploads/tgs_human.jpg"
 Case study title: The Human Dignity Trust x The Good Side
