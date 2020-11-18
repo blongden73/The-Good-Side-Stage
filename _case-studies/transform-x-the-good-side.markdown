@@ -19,7 +19,7 @@ Blocks:
     with Unilever's experts teams on the ground. \n\nWe worked with MLS to populate
     a multi-channel comms plan with rich documentary content, to position TRANSFORM
     as a leading example of a public private partnership, inspiring and equipping
-    other partners to replicate and invest in the model.\n"
+    other partners to replicate and invest in the model.\n\n\n\n"
   Carousel:
   - Image: "/uploads/transform%20web%207.jpg"
   - Image: "/uploads/transform%20web%206.jpg"
