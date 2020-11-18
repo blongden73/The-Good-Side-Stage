@@ -33,5 +33,6 @@ Meta:
     in advertising. \n\n72% of LGBTQ+ adults feel the advertising that represents
     them is too tokenistic.\n\n(Gay times/ Karmarama Research, UK)\n"
   Hashtag: "#TGSBooking"
+layout: case-study
 ---
 
