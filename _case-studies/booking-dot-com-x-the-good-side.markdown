@@ -23,7 +23,10 @@ Blocks:
     Please check them out & continue the good work!!” — Jennifer Summers, Senior Insights
     Specialist at Booking.com"
 Meta:
-- Where we worked: UK, Netherlands, Germany
+- Related links:
+  - Link: https://www.partner.booking.com/en-gb/proud-certified
+    Link Text: Travel Proud
+  Where we worked: UK, Netherlands, Germany
   Tags: Gender, LGBTQIA+, Quantitative, Qualitative, Strategy, Technology
   Hashtag: "#TGSBooking"
 layout: case-study
