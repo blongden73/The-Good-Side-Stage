@@ -39,7 +39,7 @@ Blocks:
   - Image: "/uploads/small%20hdt%20women.jpg"
 Meta:
 - Related links:
-  - Link: 'https://twitter.com/victor_madrigal/status/1273726042289713162 '
+  - Link: 'https://www.twitter.com/victor_madrigal/status/1273726042289713162 '
     Link Text: 'Amazing Tweet!
 
 '
@@ -59,9 +59,9 @@ Meta:
     Network Text: LGBTI Sey
   - Link: https://www.nglhrc.com/
     Network Text: NGLHRC Kenya
-  - Link: https://unibam.org/
+  - Link: https://www.unibam.org/
     Network Text: UNIBAM Belize
-  - Link: https://jansahas.org/
+  - Link: https://www.jansahas.org/
     Network Text: Jan Sahas
   - Link: https://www.facebook.com/Women-Spaces-Africa-349182032217005/
     Network Text: Women Spaces Africa
