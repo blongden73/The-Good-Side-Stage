@@ -1,6 +1,7 @@
 ---
 title: SAVE THE CHILDREN X THE GOOD SIDE
 date: 2020-11-17 16:43:00 Z
+permalink: "/case-studies/save-the-children-x-the-good-side.html"
 position: 8
 Case study main image: "/uploads/110929606-dark-background-colorful-handp.jpeg"
 Case study top image: "/uploads/110929606-dark-background-colorful-handp.jpeg"
