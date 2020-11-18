@@ -28,13 +28,12 @@ Blocks:
   - Image: "/uploads/transform%20web%201.jpg"
   - Image: "/uploads/transform%20web%202.jpg"
 Meta:
-- Related links:
-  - Link: https://www.transform.global/modules/Content/NewsFeed.aspx?appid=2
-    Link Text: Transform
-  Where we worked: 'Kenya, Bangladesh '
+- Where we worked: 'Kenya, Bangladesh '
   The Network:
   - Link: https://www.shujaazinc.com/
     Network Text: A network of social ventures based in Nairobi and Dar Es Salaam
+  - Link: https://www.transform.global/modules/Content/NewsFeed.aspx?appid=2
+    Network Text: Transform
   Tags: Strategy, International development, Sustainability, Ethnography, Qualitative,
     Technology
   Hashtag: "#TRANSFORMXTGS"
