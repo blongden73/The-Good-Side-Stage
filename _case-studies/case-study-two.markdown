@@ -4,7 +4,7 @@ date: 2020-11-05 13:51:00 Z
 permalink: "/case-studies/case-study-two.html"
 tags:
 - featured
-- big
+- medium
 position: 0
 Case study main image: "/uploads/Small%20Jenny%20and%20Piers%204%20(laughing%20only).mp4.00_00_08_00.Still001.jpg"
 Case study top image: "/uploads/Small%20Jenny%20and%20Piers%204%20(laughing%20only).mp4.00_00_08_00.Still001.jpg"
@@ -29,6 +29,8 @@ Blocks:
     Good Side, its broader age demographic facilitating adult subjects including local
     businesses, financial hardships and the government’s handling of the crisis."
     BFI Lockdown Archive'
+  Carousel:
+  - Image: 
 - Video: <iframe src="https://player.vimeo.com/video/421584273" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 Meta:
