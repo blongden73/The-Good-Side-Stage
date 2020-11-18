@@ -20,8 +20,8 @@ Blocks:
     from Amazon, Santander and Global Butterflies. \n"
 Meta:
 - Related links:
-  - Link: https://www.frc.org.uk/
-    Link Text: FRC
+  - Link: https://www.linkedin.com/feed/update/urn:li:activity:6734804659942240256
+    Link Text: 'Report: "Building more open business"'
   Where we worked: UK
   The Network:
   - Link: https://www.frc.org.uk/
