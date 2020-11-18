@@ -1,6 +1,7 @@
 ---
 title: BOOKING.COM X THE GOOD SIDE
 date: 2020-11-17 16:30:00 Z
+permalink: "/case-studies/booking-dot-com-x-the-good-side.html"
 position: 7
 Case study main image: "/uploads/malcolm-lightbody-2UnJUrpzy6w-unsplash.jpg"
 Case study top image: "/uploads/115340007-lgbt-flag-blue-wooden-boards-c.jpeg"
