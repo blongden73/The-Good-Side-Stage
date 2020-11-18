@@ -19,7 +19,10 @@ Blocks:
     was launched at a webinar co-hosted by The Good Side and the FRC, with guest speakers
     from Amazon, Santander and Global Butterflies. \n"
 Meta:
-- Where we worked: UK
+- Related links:
+  - Link: https://www.frc.org.uk/
+    Link Text: FRC
+  Where we worked: UK
   The Network:
   - Link: https://www.frc.org.uk/
     Network Text: Financial Reporting Council
