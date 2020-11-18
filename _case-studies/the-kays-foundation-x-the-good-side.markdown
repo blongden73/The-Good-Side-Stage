@@ -2,6 +2,9 @@
 title: THE KAYS FOUNDATION X THE GOOD SIDE
 date: 2020-11-14 09:55:00 Z
 permalink: "/the-kays-foundation-x-the-good-side.html"
+tags:
+- featured
+- small
 position: 0
 Case study main image: "/uploads/Kays%20Headline%20Shot.png"
 Case study top image: "/uploads/Small%20Children%20Playing%20Instruments%203.jpg"
