@@ -38,8 +38,7 @@ Blocks:
   - Image: "/uploads/Small%20Eunice%20(b)%20and%20Baby%204.jpg"
   - Image: "/uploads/Small%20Child%20Solhouette%20Kibarani.jpg"
   - Image: "/uploads/Small%20Untended%20Child%201.jpg"
-- Article text: 
-  Testimonial: "“Wow – just watched your Mama Kwanza video from Kilifi and Mombasa
+- Testimonial: "“Wow – just watched your Mama Kwanza video from Kilifi and Mombasa
     on mothers and their children under 3... It is such a powerful video, with clear
     messages, a strong narrative, great pictures etc etc. I found it heart breaking
     – and very authentic. It paints a very accurate picture of how it is for mothers
