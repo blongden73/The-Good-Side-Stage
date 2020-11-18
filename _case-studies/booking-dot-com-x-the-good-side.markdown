@@ -24,7 +24,7 @@ Blocks:
     Specialist at Booking.com"
 Meta:
 - Related links:
-  - Link: https://www.partner.booking.com/en-gb/proud-certified
+  - Link: https://partner.booking.com/en-gb/proud-certified
     Link Text: Travel Proud
   Where we worked: UK, Netherlands, Germany
   Tags: Gender, LGBTQIA+, Quantitative, Qualitative, Strategy, Technology
