@@ -21,8 +21,6 @@ Blocks:
     documentary outputs.\n"
   Video: 
   Testimonial: 
-  Carousel:
-  - Image: 
 - Carousel:
   - Image: "/uploads/IMGR_1492717494_PET_0277.jpg"
   - Image: "/uploads/IMGR_1492717494_PET_0015.jpg"
