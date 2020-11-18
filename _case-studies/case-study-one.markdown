@@ -4,7 +4,7 @@ date: 2020-11-04 17:50:00 Z
 permalink: "/case-studies/case-study-one.html"
 tags:
 - featured
-- big
+- medium
 position: 1
 Case study main image: "/uploads/tgs_human.jpg"
 Case study top image: "/uploads/tgs_human.jpg"
