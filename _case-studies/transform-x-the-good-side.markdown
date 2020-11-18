@@ -31,7 +31,7 @@ Meta:
 - Where we worked: 'Kenya, Bangladesh '
   The Network:
   - Link: https://www.shujaazinc.com/
-    Network Text: A network of social ventures based in Nairobi and Dar Es Salaam
+    Network Text: Shujaaz Inc
   - Link: https://www.transform.global/modules/Content/NewsFeed.aspx?appid=2
     Network Text: Transform
   Tags: Strategy, International development, Sustainability, Ethnography, Qualitative,
