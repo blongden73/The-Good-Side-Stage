@@ -20,7 +20,7 @@ Blocks:
     from Amazon, Santander and Global Butterflies. \n"
 Meta:
 - Related links:
-  - Link: https://www.linkedin.com/feed/update/urn:li:activity:6734804659942240256
+  - Link: https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6734804659942240256/?actorCompanyId=28970363
     Link Text: 'Report: "Building more open business"'
   Where we worked: UK
   The Network:
