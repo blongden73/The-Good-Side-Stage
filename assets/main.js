@@ -31,21 +31,24 @@ if(!isMobile()){
 function openpage() {
   var pageSelector = document.querySelectorAll('.page-selector');
   var slides = document.querySelectorAll('.gs-slide');
+  var currentLocation = window.location.href;
   for(i=0; i < pageSelector.length; i++) {
-    pageSelector[i].addEventListener('click', function(){
-      var closePageSelector = document.querySelector('.close-section');
-      closePageSelector.classList.add('active');
-      horizontalScroll = false;
-      var currentLocation = window.location.pathname;
-      var url = this.dataset.url;
-      history.pushState(null, null, currentLocation+'#'+url);
-      this.classList.add('open');
-      var open = document.querySelector('.gs-slide.open');
-      for(j=0; j<slides.length; j++ ) {
-        slides[j].classList.add('close');
-        open.classList.remove('close');
-      }
-    });
+    if(!currentLocation.includes('/case-studies/')) {
+      pageSelector[i].addEventListener('click', function(){
+        var closePageSelector = document.querySelector('.close-section');
+        closePageSelector.classList.add('active');
+        horizontalScroll = false;
+        var currentLocation = window.location.pathname;
+        var url = this.dataset.url;
+        history.pushState(null, null, currentLocation+'#'+url);
+        this.classList.add('open');
+        var open = document.querySelector('.gs-slide.open');
+        for(j=0; j<slides.length; j++ ) {
+          slides[j].classList.add('close');
+          open.classList.remove('close');
+        }
+      });
+    }
   }
 }
 
@@ -152,21 +155,24 @@ function circlesCliked(){
   var questions = document.querySelector('.gs-questions');
   var circlesContainer = document.querySelector('.circles-slide');
   var fullScreenClose = document.querySelector('.close-circles');
+  var currentLocation = window.location.href;
   if(questions){
   var circle = questions.querySelectorAll('.circle');
     for(i=0; i<circle.length; i++){
-      circle[i].addEventListener('click', function(){
-        this.classList.toggle('clicked');
-        circlesContainer.classList.toggle('clickToClose');
-        //add eventlister to screen to close cirlces
-        fullScreenClose.classList.toggle('active');
-        fullScreenClose.addEventListener('click', function(){
-          console.log(fullScreenClose);
-          this.classList.remove('active');
-          var circleOpen = document.querySelector('.circle.clicked');
-          circleOpen.classList.remove('clicked');
+      if(!currentLocation.includes('/case-studies/')) {
+        circle[i].addEventListener('click', function(){
+          this.classList.toggle('clicked');
+          circlesContainer.classList.toggle('clickToClose');
+          //add eventlister to screen to close cirlces
+          fullScreenClose.classList.toggle('active');
+          fullScreenClose.addEventListener('click', function(){
+            console.log(fullScreenClose);
+            this.classList.remove('active');
+            var circleOpen = document.querySelector('.circle.clicked');
+            circleOpen.classList.remove('clicked');
+          });
         });
-      });
+      }
     }
   }
 }
@@ -293,7 +299,7 @@ function taginUrl(){
   var currentLocation = window.location.href;
   console.log(currentLocation);
   var caseStudies = document.querySelectorAll('.case-study-theme');
-  if (currentLocation.includes("/case-studies/")){
+  if (currentLocation.includes("/case-studies/?")){
     var tag = currentLocation.split('?');
     console.log(tag[1]);
     var theme = tag[1].trim();
