@@ -25,5 +25,6 @@ Meta:
     Network Text: Financial Reporting Council
   Tags: LGBTQIA+, Qualitative, Strategy
   Hashtag: "#TGSXFRC"
+layout: case-study
 ---
 
