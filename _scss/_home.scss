@@ -215,7 +215,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 10000;
+  z-index: 1000;
   pointer-events: none;
 
   &.active {
@@ -476,6 +476,7 @@
   position: relative;
   z-index: 1000;
   height: 90vh;
+  pointer-events: none;
 
   .circle {
     position: absolute;
@@ -494,6 +495,7 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     overflow: hidden;
+    pointer-events: all;
 
     &.clicked {
       width: 90vw !important;
@@ -533,6 +535,8 @@
         padding-left: 20px;
         padding-right: 20px;
         font-size: 18px;
+        position: relative;
+        z-index: 10000;
 
         @include mq($from: desktop) {
           margin-top: 30vh;
@@ -669,7 +673,7 @@
 }
 
 ul.gs-client-list {
-  margin-top: 100px;
+  margin-top: 0;
   flex-direction: row !important;
 
   li {
@@ -677,7 +681,7 @@ ul.gs-client-list {
     margin-bottom: 20px;
 
     @include mq($from: desktop) {
-      width: 15%;
+      width: 13%;
     }
 
     img {

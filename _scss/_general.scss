@@ -328,6 +328,10 @@ h2 {
 
   &.padd {
     margin-bottom: 100px;
+
+    &.client-title {
+      margin-bottom: 30px;
+    }
   }
 }
 
@@ -361,6 +365,11 @@ h4 {
 
   &.padd {
     margin-bottom: 100px;
+
+    &.client-title {
+      margin-bottom: 30px;
+      margin-top: 120px;
+    }
   }
 }
 

@@ -287,10 +287,19 @@ function themeSelector(){
 function taginUrl(){
   var currentLocation = window.location.href;
   console.log(currentLocation);
-
+  var caseStudies = document.querySelectorAll('.case-study-theme');
   if (currentLocation.includes("/case-studies/")){
     var tag = currentLocation.split('?');
     console.log(tag[1]);
+    var theme = tag[1].trim();
+    var caseStudy = document.querySelector('.case-study-theme.'+theme);
+    if(caseStudy && caseStudy != null) {
+      for(j=0; j<caseStudies.length; j++) {
+        console.log(caseStudies[j]);
+        caseStudies[j].classList.add('hide');
+      }
+      caseStudy.classList.remove('hide');
+    }
   }
 }
 
