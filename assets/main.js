@@ -185,7 +185,7 @@ function onscrollanimate() {
         }
       }
     });
-  } elseif(isMobile()) {
+  } else if(isMobile()) {
     var homeslides = document.querySelectorAll('.gs-slide');
     for(i=0; i<homeslides.length; i++) {
       homeslides[i].classList.add('inview');
