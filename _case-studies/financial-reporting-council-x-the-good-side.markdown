@@ -1,6 +1,7 @@
 ---
 title: FINANCIAL REPORTING COUNCIL X THE GOOD SIDE
 date: 2020-11-17 12:49:00 Z
+permalink: "/case-studies/financial-reporting-council-x-the-good-side.html"
 position: 9
 Case study main image: "/uploads/Small%20FRS.jpg"
 Case study top image: "/uploads/Small%20FRS.jpg"
