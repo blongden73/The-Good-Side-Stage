@@ -29,18 +29,10 @@ Blocks:
     Good Side, its broader age demographic facilitating adult subjects including local
     businesses, financial hardships and the government’s handling of the crisis."
     BFI Lockdown Archive'
-  Carousel:
-  - Image: 
 - Video: <iframe src="https://player.vimeo.com/video/421584273" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 Meta:
-- Related links: |-
-    https://www.bfi.org.uk/features/britain-lockdown-online-videos-shaping-crisis-7
-    https://www.linkedin.com/pulse/good-sides-corona-diaries-chosen-bfi-time-capsule-james-lewis/?trackingId=6H9cHq5VTFmE5MWEJ8apfQ%3D%3D
-    https://informationisbeautiful.net/visualizations/covid-19-coronavirus-infographic-datapack/
-    https://www.bbc.co.uk/news/explainers-52229828
-    https://www.theatlantic.com/ideas/archive/2020/06/dudes-who-wont-wear-masks/613375/
-  Where we worked: UK
+- Where we worked: UK
   The Network:
   - Link: https://www.bfi.org.uk/bfi-national-archive/look-behind-scenes/britain-lockdown-online-video-archive
     Network Text: BFI Lockdown Archive
