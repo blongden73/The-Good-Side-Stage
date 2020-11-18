@@ -46,7 +46,7 @@
 }
 
 .gs-slide {
-  height: 100vh;
+  height: 96vh;
   width: 100%;
   background-color: #e6e6e6;
   flex-basis: 1;
@@ -54,6 +54,10 @@
   position: relative;
   transform: all ease-in-out 0.5s;
   overflow: hidden;
+
+  @include mq($from: desktop) {
+    height: 100vh;
+  }
 
   .gs-wrapper, .gs-carousel {
     opacity: 0;
