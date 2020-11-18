@@ -173,7 +173,7 @@ function circlesCliked(){
 
 function onscrollanimate() {
   var isHome = document.querySelector('.gs-splash');
-  if(isHome){
+  if(isHome && !isMobile()){
     document.addEventListener('wheel', function(){
       var homeslides = document.querySelectorAll('.gs-slide');
       for(i=0; i<homeslides.length; i++) {
@@ -185,6 +185,11 @@ function onscrollanimate() {
         }
       }
     });
+  } elseif(isMobile()) {
+    var homeslides = document.querySelectorAll('.gs-slide');
+    for(i=0; i<homeslides.length; i++) {
+      homeslides[i].classList.add('inview');
+    }
   }
 }
 
