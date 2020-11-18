@@ -24,7 +24,12 @@ Blocks:
     Specialist at Booking.com"
 Meta:
 - Where we worked: UK, Netherlands, Germany
+  The Network:
+  - Link: https://partner.booking.com/en-gb/proud-certified
+    Network Text: Booking.com Travel Proud
   Tags: Gender, LGBTQIA+, Quantitative, Qualitative, Strategy, Technology
+  Data: 64% of UK adults | think it's positive for the LGBTQ+ community to be visible
+    in advertising
   Hashtag: "#TGSBooking"
 layout: case-study
 ---

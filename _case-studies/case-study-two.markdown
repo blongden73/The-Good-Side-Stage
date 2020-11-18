@@ -28,7 +28,7 @@ Blocks:
   Testimonial: '"A thoughtful series put together by creative strategy company The
     Good Side, its broader age demographic facilitating adult subjects including local
     businesses, financial hardships and the government’s handling of the crisis."
-    BFI Lockdown Archive'
+    — BFI Lockdown Archive'
   Carousel:
   - Image: "/uploads/Maz.png"
   - Image: "/uploads/Michal%203.mp4.00_04_52_09.Still001.png"
@@ -41,10 +41,16 @@ Blocks:
 - Video: <iframe src="https://player.vimeo.com/video/421584273" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 Meta:
-- Where we worked: UK
-  The Network:
+- Related links:
   - Link: https://www.bfi.org.uk/bfi-national-archive/look-behind-scenes/britain-lockdown-online-video-archive
-    Network Text: BFI Lockdown Archive
+    Link Text: BFI Lockdown Archive
+  - Link: https://www.linkedin.com/pulse/good-sides-corona-diaries-chosen-bfi-time-capsule-james-lewis/?trackingId=6H9cHq5VTFmE5MWEJ8apfQ%3D%3D
+    Link Text: Making The Corona Diaries
+  - Link: https://informationisbeautiful.net/visualizations/covid-19-coronavirus-infographic-datapack/
+    Link Text: Information is Beautiful
+  - Link: https://www.theatlantic.com/ideas/archive/2020/06/dudes-who-wont-wear-masks/613375/
+    Link Text: Men and masks
+  Where we worked: UK
   Methods: Covid-19, Film, Ethnography, Online, Qualitative
   Tags: Covid-19, Film, Ethnography, Online, Qualitative
   Hashtag: "#TGSCoronaTag\t"
