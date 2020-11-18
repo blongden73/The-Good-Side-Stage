@@ -95,7 +95,7 @@ layout: default
         {% assign hash = items.['Hashtag'] | split: ',' %}
         <ul class="gs-hash">
         {% for item in hash %}
-          <li>{{item}}</li>
+          <li><a href="">{{item}}</li>
         {% endfor %}
         </ul>
     {% endfor %}
