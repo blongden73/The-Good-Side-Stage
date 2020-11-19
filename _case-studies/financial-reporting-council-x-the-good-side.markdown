@@ -22,6 +22,8 @@ Meta:
 - Related links:
   - Link: https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6734804659942240256/?actorCompanyId=28970363
     Link Text: 'Report: "Building more open business"'
+  - Link: https://uk.reuters.com/article/britain-lgbt-regulator/uk-regulator-sets-out-guidance-on-lgbtq-corporate-disclosures-idUSL8N2I43SD
+    Link Text: Reuters Coverage
   Where we worked: UK
   The Network:
   - Link: https://www.frc.org.uk/
