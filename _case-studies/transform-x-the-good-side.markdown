@@ -36,7 +36,6 @@ Meta:
     Network Text: Transform
   Tags: Strategy, International development, Sustainability, Ethnography, Qualitative,
     Technology
-  Hashtag: "#TRANSFORMXTGS"
 layout: case-study
 ---
 
