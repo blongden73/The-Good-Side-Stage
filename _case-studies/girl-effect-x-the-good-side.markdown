@@ -19,10 +19,6 @@ Blocks:
     young women and girls, and explored social norms around gender and identity through
     ethnographic immersion, media studies, participatory research methods and rich
     documentary outputs.\n\n\n\n"
-  Video: 
-  Testimonial: 
-  Carousel:
-  - Image: 
 - Carousel:
   - Image: "/uploads/IMGR_1492717494_PET_0277.jpg"
   - Image: "/uploads/IMGR_1492717494_PET_0015.jpg"
