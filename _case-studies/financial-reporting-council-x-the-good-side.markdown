@@ -20,7 +20,7 @@ Blocks:
     from Amazon, Santander and Global Butterflies. \n"
 Meta:
 - Related links:
-  - Link: https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6734804659942240256/?actorCompanyId=28970363
+  - Link: https://www.frc.org.uk/getattachment/19f3b216-bd45-4d46-af2f-f191f5bf4a07/The-Good-Side-x-Financial-Reporting-Council-1811-AMENDED.pdf
     Link Text: 'Report: "Building more open business"'
   - Link: https://uk.reuters.com/article/britain-lgbt-regulator/uk-regulator-sets-out-guidance-on-lgbtq-corporate-disclosures-idUSL8N2I43SD
     Link Text: Reuters Coverage
