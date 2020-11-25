@@ -41,7 +41,7 @@ function openpage() {
         var currentLocation = window.location.pathname;
         var url = this.dataset.url;
         history.pushState(null, null, currentLocation+'#'+url);
-        this.classList.add('open');
+        this.parentNode.classList.add('open');
         var open = document.querySelector('.gs-slide.open');
         for(j=0; j<slides.length; j++ ) {
           slides[j].classList.add('close');
@@ -58,7 +58,7 @@ function closepage(){
   if(closePageSelector) {
     closePageSelector.addEventListener('click', function(){
       var closedPages = document.querySelectorAll('.gs-slide.close');
-      var sectionToClose = document.querySelector('.page-selector.open');
+      var sectionToClose = document.querySelector('.gs-slide.open');
       horizontalScroll = true;
       console.log(sectionToClose);
       sectionToClose.classList.remove('open');
