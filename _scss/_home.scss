@@ -686,6 +686,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
+  pointer-events: none;
+
+  .inview & {
+    pointer-events: all;
+  }
 
   .uk-slider-items {
     li {
@@ -835,5 +840,29 @@ ul.gs-client-list {
 
   @include mq($from: desktop) {
     width: 50%;
+  }
+}
+
+.home-socials {
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+
+  ul {
+    margin-right: 10px;
+    color: #fff;
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+
+    &.socials {
+      flex-direction: row !important;
+    }
+
+    li {
+      margin-right: 10px;
+      color: #ffff;
+      list-style: none;
+    }
   }
 }

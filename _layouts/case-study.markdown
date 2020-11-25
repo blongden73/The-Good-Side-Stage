@@ -66,14 +66,14 @@ layout: default
         <ul class="gs-network">
           <li><strong>The Network</strong></li>
         {% for item in network %}
-          <li><a href="{{item.['Link']}}">{{item.['Network Text']}}</a></li>
+          <li><a target="_parent" href="{{item.['Link']}}">{{item.['Network Text']}}</a></li>
         {% endfor %}
         </ul>
         {% assign related = items.['Related links'] %}
         <ul class="gs-network">
           <li><strong>Related</strong></li>
         {% for item in related %}
-          <li><a href="{{item.['Link']}}">{{item.['Link Text']}}</a></li>
+          <li><a target="_parent" href="{{item.['Link']}}">{{item.['Link Text']}}</a></li>
         {% endfor %}
         </ul>
         {% assign data = items.['Data'] | split: ',' %}
@@ -89,13 +89,13 @@ layout: default
         {% assign video = items.['Video'] | split: ',' %}
         <ul class="gs-video">
         {% for item in video %}
-          <li><a href="{{item}}"><span uk-icon="vimeo"></span></a></li>
+          <li><a target="_parent" href="{{item}}"><span uk-icon="vimeo"></span></a></li>
         {% endfor %}
         </ul>
         {% assign hash = items.['Hashtag'] | split: ',' %}
         <ul class="gs-hash">
         {% for item in hash %}
-          <li><a href="">{{item}}</li>
+          <li><a target="_parent" href="">{{item}}</li>
         {% endfor %}
         </ul>
     {% endfor %}
