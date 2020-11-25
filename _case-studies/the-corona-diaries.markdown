@@ -1,7 +1,7 @@
 ---
 title: THE CORONA DIARIES
 date: 2020-11-05 13:51:00 Z
-permalink: "/case-studies/case-study-two.html"
+permalink: "/case-studies/corona-diaries"
 tags:
 - featured
 - medium
