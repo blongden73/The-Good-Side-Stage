@@ -95,7 +95,7 @@ Team:
   Image: "/uploads/Headshot.jpg"
   Question: 
   Gif image: 
-About sentence 1: We help people to understand and impact systems, society and culture.
+About sentence 1: We help people to understand and impact systems, society and culture.
 About 1 image: "/uploads/door.png"
 About sentence 2: Our team blends anthropological thinking, communications expertise
   and media production.
