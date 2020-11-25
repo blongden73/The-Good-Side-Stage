@@ -24,7 +24,6 @@ if(!isMobile()){
        });
     });
   } else {
-    console.log('case study / mobile');
   }
 }
 
@@ -39,7 +38,7 @@ function openpage() {
         closePageSelector.classList.add('active');
         horizontalScroll = false;
         var currentLocation = window.location.pathname;
-        var url = this.dataset.url;
+        var url = this.parentNode.dataset.url;
         history.pushState(null, null, currentLocation+'#'+url);
         this.parentNode.classList.add('open');
         var open = document.querySelector('.gs-slide.open');
@@ -60,9 +59,7 @@ function closepage(){
       var closedPages = document.querySelectorAll('.gs-slide.close');
       var sectionToClose = document.querySelector('.gs-slide.open');
       horizontalScroll = true;
-      console.log(sectionToClose);
       sectionToClose.classList.remove('open');
-      console.log(sectionToClose);
       setTimeout(function(){
         sectionToClose.scrollIntoView({behavior: "smooth"});
       }, 500);
@@ -87,14 +84,23 @@ function openarticle() {
       }
       horizontalScroll = false;
       var currentLocation = window.location.pathname;
-      history.pushState(null, null, currentLocation+'#'+'the-good-side-testing-article');
       var articleLink = this.dataset.link;
       var iframe = article.querySelector('iframe');
+      var forUrl = articleLink.replace('/', '');
+      history.pushState(null, null, currentLocation+'#'+forUrl);
       iframe.setAttribute('src', articleLink);
       article.classList.add('open');
       pageScroller.classList.add('fix');
     });
   }
+}
+
+function hash() {
+  console.log('checking locations', window.location)
+  window.addEventListener("hashchange", function(){
+    console.log('changed hash');
+    window.location.reload();
+  });
 }
 
 
@@ -166,7 +172,6 @@ function circlesCliked(){
           //add eventlister to screen to close cirlces
           fullScreenClose.classList.toggle('active');
           fullScreenClose.addEventListener('click', function(){
-            console.log(fullScreenClose);
             this.classList.remove('active');
             var circleOpen = document.querySelector('.circle.clicked');
             circleOpen.classList.remove('clicked');
@@ -247,13 +252,10 @@ function delayFloat() {
 
 function clickArrow(){
   var nextArrow = document.querySelectorAll('.arrow-container');
-  console.log(nextArrow);
   for(i=0; i<nextArrow.length; i++) {
     nextArrow[i].addEventListener('click', function(){
       var parent = this.parentNode;
       var next = parent.nextSibling.nextElementSibling;
-      console.log(next);
-      console.log('click');
       next.classList.add('inview');
       next.scrollIntoView({behavior: "smooth"});
     });
@@ -280,9 +282,7 @@ function themeSelector(){
       var caseStudy = document.querySelector('.case-study-theme.'+theme);
       organiser.scrollIntoView({behavior: "smooth"});
       if(caseStudy && caseStudy != null && theme != 'all') {
-        console.log(caseStudy);
         for(j=0; j<caseStudies.length; j++) {
-          console.log(caseStudies[j]);
           caseStudies[j].classList.add('hide');
         }
         caseStudy.classList.remove('hide');
@@ -297,16 +297,13 @@ function themeSelector(){
 
 function taginUrl(){
   var currentLocation = window.location.href;
-  console.log(currentLocation);
   var caseStudies = document.querySelectorAll('.case-study-theme');
   if (currentLocation.includes("/case-studies/?")){
     var tag = currentLocation.split('?');
-    console.log(tag[1]);
     var theme = tag[1].trim();
     var caseStudy = document.querySelector('.case-study-theme.'+theme);
     if(caseStudy && caseStudy != null) {
       for(j=0; j<caseStudies.length; j++) {
-        console.log(caseStudies[j]);
         caseStudies[j].classList.add('hide');
       }
       caseStudy.classList.remove('hide');
@@ -315,6 +312,7 @@ function taginUrl(){
 }
 
 function init(){
+  hash();
   openpage();
   closepage();
   openarticle();
