@@ -5,7 +5,7 @@ permalink: "/case-studies/royal-commonwealth-society-x-the-good-side.html"
 tags:
 - featured
 - medium
-position: 2
+position: 1
 Case study main image: "/uploads/Small%20_98A0417.jpg"
 Case study top image: "/uploads/Small%20_98A0417.jpg"
 Case study title: 'Creating a groundswell of youth noise to impact leaders attending
