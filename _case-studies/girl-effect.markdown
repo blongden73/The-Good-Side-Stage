@@ -1,7 +1,7 @@
 ---
 title: GIRL EFFECT
 date: 2020-11-17 17:56:00 Z
-permalink: "/case-studies/girl-effect-x-the-good-side.html"
+permalink: "/case-studies/girl-effect.html"
 position: 5
 Case study main image: "/uploads/nigeria%20girl%20at%20home.jpg"
 Case study top image: "/uploads/nigeria%20girl%20leaving%20house.jpg"
