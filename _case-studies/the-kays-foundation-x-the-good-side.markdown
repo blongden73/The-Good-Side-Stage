@@ -6,7 +6,7 @@ tags:
 - featured
 - big
 position: 1
-Case study main image: "/uploads/New%20eunice.jpg"
+Case study main image: "/uploads/Kays%20Headline%20Shot2%20copy.jpg"
 Case study top image: "/uploads/Small%20Children%20Playing%20Instruments%203.jpg"
 Case study title: A year-long mixed methods project to understand early childhood
   and parenting in coastal Kenya.
