@@ -1,5 +1,5 @@
 ---
-title: ROYAL COMMONWEALTH SOCIETY X THE GOOD SIDE
+title: ROYAL COMMONWEALTH SOCIETY
 date: 2020-11-14 11:46:00 Z
 permalink: "/case-studies/royal-commonwealth-society-x-the-good-side.html"
 tags:
