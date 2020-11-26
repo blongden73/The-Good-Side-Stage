@@ -1,5 +1,5 @@
 ---
-title: TRANSFORM X THE GOOD SIDE
+title: TRANSFORM
 date: 2020-11-17 18:22:00 Z
 permalink: "/case-studies/transform-x-the-good-side.html"
 position: 6
