@@ -2,6 +2,9 @@
 title: ROYAL COMMONWEALTH SOCIETY X THE GOOD SIDE
 date: 2020-11-14 11:46:00 Z
 permalink: "/case-studies/royal-commonwealth-society-x-the-good-side.html"
+tags:
+- featured
+- medium
 position: 2
 Case study main image: "/uploads/Small%20_98A0417.jpg"
 Case study top image: "/uploads/Small%20_98A0417.jpg"
