@@ -7,7 +7,7 @@ tags:
 - big
 position: 1
 Case study main image: "/uploads/Small%20_98A0417.jpg"
-Case study top image: "/uploads/Small%20_98A0417.jpg"
+Case study top image: "/uploads/Small%20D98A0100.jpg"
 Case study title: 'Creating a groundswell of youth noise to impact leaders attending
   CHOGM 2020. '
 Question: How can we connect young people across the Commonwealth with activists and
@@ -25,6 +25,8 @@ Blocks:
   Video: <iframe src="https://player.vimeo.com/video/379073876" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   Testimonial: 
+  Carousel:
+  - Image: 
 - Video: <iframe src="https://player.vimeo.com/video/379074251" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   Carousel:
