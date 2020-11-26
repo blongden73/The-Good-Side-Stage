@@ -1,5 +1,5 @@
 ---
-title: BOOKING.COM X THE GOOD SIDE
+title: BOOKING.COM
 date: 2020-11-17 16:30:00 Z
 permalink: "/case-studies/booking-dot-com-x-the-good-side.html"
 position: 7
