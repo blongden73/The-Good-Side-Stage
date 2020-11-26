@@ -1,5 +1,5 @@
 ---
-title: Y&R:Think! X THE GOOD SIDE
+title: Y&R:Think!
 date: 2020-11-17 18:36:00 Z
 permalink: "/case-studies/y-and-r-think-x-the-good-side.html"
 position: 4
