@@ -3,7 +3,7 @@
   position: fixed;
   top: 0;
   z-index: 10000;
-  pointer-events: none;
+  pointer-events: all;
 }
 
 @keyframes openBurger {
@@ -21,6 +21,21 @@
 
   100%{
     transform: translateY(0px);
+  }
+}
+
+@keyframes throb {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.2);
+  }
+  20% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 
@@ -44,6 +59,10 @@
       width: 60px;
       pointer-events: all;
       cursor: pointer;
+      animation-name: throb;
+      animation-duration: 5s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
 
       img {
         width: 100%;
@@ -118,9 +137,13 @@
 }
 
 .tg-header__logo {
-  width: 90px;
+  width: 68px;
   height: auto;
   transition: all ease-in-out 0.5s;
+
+  @include mq($from: desktop) {
+    width: 90px;
+  }
 
   &.black {
     path {
@@ -132,4 +155,10 @@
 .tg-footer {
   background-color: $blue;
   min-height: 300px;
+
+  .left {
+    h2 {
+      line-height: 0.9;
+    }
+  }
 }

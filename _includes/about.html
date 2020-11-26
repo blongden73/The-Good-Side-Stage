@@ -1,6 +1,7 @@
 <div class="gs-wrapper">
-  <div class="gs-wrapper__inner">
-    <h2 class="blue" >
+  <div class="gs-wrapper__inner first">
+    <h4 class="">WE ARE THE GOOD SIDE</h4>
+    <h2 class="blue bill" >
       {% assign aboutPage = site.pages %}
       {% for page in aboutPage %}
         {% if page.title == "About" %}
@@ -82,5 +83,5 @@
   {% include tg-footer-base.html %}
 </div>
 <div class="gs-section-footer">
-  <p class="blue">About The Good Side</p>
+  <p class="blue"><a href="#about">Read more about The Good Side</a></p>
 </div>

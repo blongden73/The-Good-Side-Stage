@@ -49,13 +49,14 @@ body, html {
 }
 
 .gs-wrapper {
-  padding: 2%;
+  padding: 5%;
   height: 100vh;
   box-sizing: border-box;
   position: relative;
 
   @include mq($from: desktop) {
     height: 100vh;
+    padding: 2%;
   }
 
   #about.open & {
@@ -85,7 +86,20 @@ body, html {
   box-sizing: border-box;
   width: 100%;
 }
-
+@keyframes throb {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.2);
+  }
+  20% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .gs-wrapper__inner {
   width: 80%;
   max-width: 80%;
@@ -97,13 +111,21 @@ body, html {
   .open & {
     @include mq($until: tablet) {
       position: relative;
-      max-width: 80%;
+      max-width: 100%;
+      width: 100%;
       margin-left: auto;
       margin-right: auto;
       top: unset;
       left: unset;
       transform: unset;
-      margin-top: 110px;
+    }
+  }
+
+  &.first {
+    .open & {
+      @include mq($until: tablet) {
+        margin-top: 110px;
+      }
     }
   }
 
@@ -120,13 +142,32 @@ body, html {
 
     li {
       width: 100%;
-      padding-right: 20px;
+      padding-right: 30px;
       box-sizing: border-box;
       list-style: none;
       position: relative;
 
       @include mq($from: desktop) {
         width: 33%;
+      }
+
+      &:nth-child(1) {
+
+        img {
+          margin-left: -39px;
+
+          @include mq($from: desktop){
+            margin-left: -10px;
+          }
+        }
+      }
+
+      &:nth-child(2), &:nth-child(3) {
+        img {
+          width: 70px;
+          height: 110px;
+          object-fit: contain;
+        }
       }
 
       img {
@@ -144,12 +185,31 @@ body, html {
         background-color: $blue;
         padding: 10px 10px;
         font-size: 50px;
-        display: inline-block;
+        display: block;
         line-height: 0.9;
         color: $teal;
+        margin-bottom: 10px;
 
         @include mq($from: desktop) {
           font-size: 80px;
+        }
+      }
+
+      p {
+        margin-top: 0;
+        color: $blue;
+      }
+
+      &:nth-child(1) {
+        .circle-question {
+          animation-name: throb;
+          animation-duration: 5s;
+          animation-timing-function: ease-in-out;
+          animation-iteration-count: infinite;
+
+          &.clicked {
+            left: 10%;
+          }
         }
       }
 
@@ -179,11 +239,16 @@ body, html {
         }
 
         &.clicked {
-          width: 18vw;
-          height: 18vw;
+          width: 78vw;
+          height: 78vw;
           top: 0;
-          left: 48%;
+          left: 46%;
           transform: translate(-50%, 0px);
+
+          @include mq($from: desktop) {
+            width: 18vw;
+            height: 18vw;
+          }
 
           p {
             opacity: 1;
@@ -321,6 +386,17 @@ h2 {
     line-height: 1.1;
   }
 
+  &.bill {
+    font-family: 'bill corp nar';
+    text-transform: none;
+    font-size: 5.8vw;
+    line-height: 1.2;
+
+    @include mq($from: desktop) {
+      font-size: 2.8vw;
+    }
+  }
+
   &.blue {
     color: $blue;
     background-color: transparent !important;
@@ -364,11 +440,19 @@ h4 {
   }
 
   &.padd {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+
+    @include mq($from: desktop) {
+      margin-bottom: 100px;
+    }
 
     &.client-title {
       margin-bottom: 30px;
-      margin-top: 120px;
+      margin-top: 50px;
+
+      @include mq($from: desktop) {
+        margin-top: 120px;
+      }
     }
   }
 }
@@ -501,7 +585,7 @@ a {
     padding: 0;
     list-style: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
     @include mq($from: desktop) {
       flex-direction: row;

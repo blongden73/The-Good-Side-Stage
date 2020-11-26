@@ -90,7 +90,9 @@ function openarticle() {
       history.pushState(null, null, currentLocation+'#'+forUrl);
       iframe.setAttribute('src', articleLink);
       article.classList.add('open');
-      pageScroller.classList.add('fix');
+      if(pageScroller) {
+        pageScroller.classList.add('fix');
+      }
     });
   }
 }
@@ -161,6 +163,7 @@ function circlesCliked(){
   var questions = document.querySelector('.gs-questions');
   var circlesContainer = document.querySelector('.circles-slide');
   var fullScreenClose = document.querySelector('.close-circles');
+  var ask = document.querySelector('.gs-splash.ask')
   var currentLocation = window.location.href;
   if(questions){
   var circle = questions.querySelectorAll('.circle');
@@ -191,6 +194,9 @@ function onscrollanimate() {
         var left = homeslides[i].getBoundingClientRect().left;
         if(left < (window.innerWidth / 2) && left > -(window.innerWidth / 2)) {
           homeslides[i].classList.add('inview');
+          if(homeslides[i].classList.contains('circles-slide')){
+            //do something
+          }
         }else {
           homeslides[i].classList.remove('inview');
         }
@@ -244,7 +250,7 @@ function delayFloat() {
   var circles = document.querySelectorAll('.circle');
   if(circles){
     for(i=0; i < circles.length; i++){
-      var random = Math.random() * (2 - 0) + 0;
+      var random = Math.random() * (10 - 0) + 0;
       circles[i].style.animationDelay = random + 's';
     }
   }
@@ -279,13 +285,15 @@ function themeSelector(){
   for(i=0; i<selector.length; i++) {
     selector[i].addEventListener('click', function(){
       var theme = this.dataset.theme;
-      var caseStudy = document.querySelector('.case-study-theme.'+theme);
+      var caseStudy = document.querySelectorAll('.case-study-theme.'+theme);
       organiser.scrollIntoView({behavior: "smooth"});
       if(caseStudy && caseStudy != null && theme != 'all') {
         for(j=0; j<caseStudies.length; j++) {
           caseStudies[j].classList.add('hide');
         }
-        caseStudy.classList.remove('hide');
+        for(h=0; h<caseStudies.length; h++){
+          caseStudy[h].classList.remove('hide');
+        }
       }else if(theme == 'all'){
         for(j=0; j<caseStudies.length; j++) {
           caseStudies[j].classList.remove('hide');
@@ -311,13 +319,30 @@ function taginUrl(){
   }
 }
 
+function caseStudyheight(){
+  var colHeight = document.querySelector('.gs__right-col');
+  var articleWrapper = document.querySelector('.article-wrapper');
+  if(colHeight) {
+    var height = colHeight.getBoundingClientRect().height;
+    console.log(height, articleWrapper.clientHeight);
+    setTimeout(function(){
+      if(articleWrapper.clientHeight <= colHeight.clientHeight) {
+        console.log('less');
+        articleWrapper.style.height = (height+ 40) + "px";
+      }else {
+        colHeight.style.bottom = 0;
+      }
+    },2000);
+  }
+}
+
 function init(){
   hash();
+  randomCircles();
   openpage();
   closepage();
   openarticle();
   closeArticle();
-  randomCircles();
   hamburger();
   circlesCliked();
   onscrollanimate();
@@ -328,4 +353,5 @@ function init(){
   teamQuestions();
   themeSelector();
   taginUrl();
+  caseStudyheight();
 }init();

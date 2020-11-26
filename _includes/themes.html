@@ -18,7 +18,8 @@
 <div id="case-studies" class="page-content pink">
   <div class="gs-case-study__wrapper">
     <ul>
-      {% for case in site.case-studies %}
+      {%assign caseStudyOrder = site.case-studies | sort:"position" %}
+      {% for case in caseStudyOrder %}
       {% assign meta = case.['Meta'] %}
 
         <li class="case-study-theme {% for items in meta %}{% assign tags = items.Tags | split: ',' %}{% for tag in tags %} {{tag | downcase | slugify }} {% endfor %}{% endfor %}">

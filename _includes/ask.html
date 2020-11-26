@@ -1,11 +1,11 @@
 {% assign questions = site.questions %}
 <div class="gs-wrapper">
-  <div class="gs-splash">
-    <h1>Ask us anything</h1>
+  <div class="gs-splash ask">
+    <h1>Questions we're asking</h1>
   </div>
   <div class="gs-questions">
     {% for question in questions%}
-    <div class="circle">
+    <div class="circle circle-move">
       <div class="circle-inner">
         <h3>{{question.title}}</h3>
         {% if question.['Case Study Link'] %}

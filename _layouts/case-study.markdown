@@ -40,7 +40,7 @@ layout: default
           </blockquote>
         </div>
         {% endif %}
-      {% assign blockCarousel =  block.Carousel %}
+      {% assign blockCarousel = block.Carousel %}
       {% if block.Carousel %}
         {% include block-carousel.html blocks=blockCarousel %}
       {% endif %}
@@ -64,14 +64,14 @@ layout: default
         </ul>
         {% assign network = items.['The Network'] %}
         <ul class="gs-network">
-          <li><strong>The Network</strong></li>
+          <li><strong>Explore the network</strong></li>
         {% for item in network %}
           <li><a target="_parent" href="{{item.['Link']}}">{{item.['Network Text']}}</a></li>
         {% endfor %}
         </ul>
         {% assign related = items.['Related links'] %}
         <ul class="gs-network">
-          <li><strong>Related</strong></li>
+          <li><strong>Explore topic</strong></li>
         {% for item in related %}
           <li><a target="_parent" href="{{item.['Link']}}">{{item.['Link Text']}}</a></li>
         {% endfor %}
@@ -95,12 +95,11 @@ layout: default
         {% assign hash = items.['Hashtag'] | split: ',' %}
         <ul class="gs-hash">
         {% for item in hash %}
-          <li><a target="_parent" href="">{{item}}</li>
+          <li><a target="_parent" href="https://instagram.com/{{item}}">{{item}}</a></li>
         {% endfor %}
         </ul>
     {% endfor %}
     </div>
   </div>
 </article>
-{% include tg-footer.html %}
 {% include tg-footer-base.html %}
