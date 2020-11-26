@@ -1,5 +1,5 @@
 ---
-title: THE KAYS FOUNDATION X THE GOOD SIDE
+title: THE KAYS FOUNDATION
 date: 2020-11-14 09:55:00 Z
 permalink: "/the-kays-foundation-x-the-good-side.html"
 tags:
