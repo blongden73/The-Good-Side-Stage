@@ -1,7 +1,7 @@
 ---
 title: BOOKING.COM
 date: 2020-11-17 16:30:00 Z
-permalink: "/case-studies/booking-dot-com-x-the-good-side.html"
+permalink: "/case-studies/booking-dot-com.html"
 position: 7
 Case study main image: "/uploads/mercedes-mehling-7J7x8HLXQKA-unsplash.jpg"
 Case study top image: "/uploads/115340007-lgbt-flag-blue-wooden-boards-c.jpeg"
