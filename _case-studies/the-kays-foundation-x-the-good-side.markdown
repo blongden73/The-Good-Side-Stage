@@ -47,9 +47,13 @@ Blocks:
     work.” — Sarah Forde. Communication consultant, based in coastal Kenya for 20
     years."
 Meta:
-- Related links: 
+- Related links:
+  - Link: 
+    Link Text: 
   Where we worked: Kenya
-  The Network: 
+  The Network:
+  - Link: 
+    Network text: 
   Methods: 
   Tags: Gender, Film, International development, Behaviour change, Ethnography, Quantitative,
     Qualitative
