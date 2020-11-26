@@ -25,8 +25,6 @@ Blocks:
   Testimonial: |-
     "The Good Side team combines audience insight and behaviour change strategy with a sensitive, thoughtful approach to filmmaking. The documentaries they produced with us have furthered our mission globally, and we have experienced genuine impact from their human-centred approach."
     — Emma Eastwood, Head of Strategic Communications at The Human Dignity Trust
-  Carousel:
-  - Image: 
 - Video: <iframe src="https://player.vimeo.com/video/385260549" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   Carousel:
