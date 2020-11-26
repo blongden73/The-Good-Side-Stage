@@ -1,5 +1,5 @@
 ---
-title: STARBUCKS + HUBBUB X THE GOOD SIDE
+title: STARBUCKS + HUBBUB
 date: 2020-11-05 13:51:00 Z
 permalink: "/case-studies/case-study-three.html"
 position: 10
