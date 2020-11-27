@@ -350,9 +350,8 @@
     cursor: pointer;
 
     @include mq($from: desktop) {
-      top: 20px;
       right: 10px;
-      bottom: unset;
+      bottom: 20px;
     }
   }
 

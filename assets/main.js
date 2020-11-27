@@ -78,7 +78,7 @@ function closepage(){
       sectionToClose.classList.remove('open');
       setTimeout(function(){
         sectionToClose.scrollIntoView({behavior: "smooth"});
-      }, 500);
+      }, 1000);
       for(i=0; i < closedPages.length; i++) {
         closedPages[i].classList.remove('close');
       }
@@ -105,6 +105,10 @@ function openarticle() {
       var forUrl = articleLink.replace('/', '');
       history.pushState(null, null, currentLocation+'#'+forUrl);
       iframe.contentWindow.location.replace(articleLink);
+      setTimeout(function(){
+        $(iframe).contents().find('body').addClass('case-study-iframe');
+      }, 1000)
+
       article.classList.add('open');
       if(pageScroller) {
         pageScroller.classList.add('fix');
