@@ -51,6 +51,31 @@
     width: 50%;
   }
 
+  .tg-footer & {
+    flex-direction: column;
+
+    .flex {
+      margin-bottom: 20px;
+
+      &.mailing {
+        border-top: 1px solid $yellow;
+        padding-top: 20px;
+
+        input {
+          margin-bottom: 0;
+        }
+
+        button {
+          background-color: $yellow;
+        }
+
+        h2 {
+          color: $yellow;
+        }
+      }
+    }
+  }
+
   .tg-header__right {
     display: flex;
     justify-content: flex-end;
@@ -161,5 +186,11 @@
     h2 {
       line-height: 0.9;
     }
+  }
+
+  input[type="checkbox"] {
+    width: auto;
+    display: inline;
+    height: auto;
   }
 }
