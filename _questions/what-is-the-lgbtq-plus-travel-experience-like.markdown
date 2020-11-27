@@ -1,6 +1,6 @@
 ---
 title: What is the LGBTQ+ travel experience like?
 date: 2020-11-17 16:35:00 Z
-Case Study Link: "/case-studies/booking-dot-com-x-the-good-side.html"
+Case Study Link: "/case-studies/booking-dot-com.html"
 ---
 
