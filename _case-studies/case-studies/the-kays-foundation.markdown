@@ -1,7 +1,7 @@
 ---
 title: THE KAYS FOUNDATION
 date: 2020-11-14 09:55:00 Z
-permalink: "/the-kays-foundation.html"
+permalink: "/case-studies/the-kays-foundation.html"
 tags:
 - featured
 - medium
