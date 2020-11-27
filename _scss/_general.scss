@@ -43,6 +43,10 @@
     font-display: swap;
 }
 
+body {
+  background-color: $blue;
+}
+
 body, html {
   color: #121212;
   scroll-behavior: smooth;
