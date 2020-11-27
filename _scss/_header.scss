@@ -112,7 +112,8 @@
   overflow: hidden;
 
   @include mq($from: desktop) {
-    width: 80vh;
+    height: 70vh;
+    width: 60vh;
   }
 
   &.hidden {
