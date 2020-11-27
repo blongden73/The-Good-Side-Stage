@@ -43,10 +43,6 @@
     font-display: swap;
 }
 
-body {
-  background-color: $blue;
-}
-
 body, html {
   color: #121212;
   scroll-behavior: smooth;
@@ -65,6 +61,7 @@ body, html {
 
   #about.open & {
     height: auto;
+    min-height: 800px;
 
     @include mq($from: desktop) {
       height: 100vh;
