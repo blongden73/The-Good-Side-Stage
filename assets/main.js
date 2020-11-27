@@ -360,6 +360,19 @@ function caseStudyheight(){
   }
 }
 
+function checkHash(){
+  var hashinurl = window.location;
+  if(hashinurl.hash) {
+    console.log('has hash');
+    var hashId = hashinurl.hash.replace('#', '');
+    var target = document.querySelector('[data-url="' + hashId + '"]');
+    target.classList.add('inview');
+    target.scrollIntoView({behavior: "smooth"});
+  }else {
+    console.log('no hash');
+  }
+}
+
 function init(){
   hash();
   randomCircles();
@@ -378,4 +391,5 @@ function init(){
   themeSelector();
   taginUrl();
   caseStudyheight();
+  checkHash();
 }init();
