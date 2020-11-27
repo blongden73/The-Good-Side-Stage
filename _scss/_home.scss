@@ -122,11 +122,19 @@
   }
 
   &.open {
+
+    .page-selector {
+      pointer-events: none;
+    }
+
     .read-more-container {
       display: none;
     }
     .arrow-container {
       display: none;
+    }
+    .open & {
+      pointer-events: none;
     }
   }
 
