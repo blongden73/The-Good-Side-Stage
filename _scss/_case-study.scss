@@ -68,10 +68,12 @@
   margin-bottom: 40px;
   margin-top: 40px;
   padding-left: 4%;
+  padding-right: 10px;
 
   @include mq($from: desktop) {
     max-width: 665px;
     padding-left: 10%;
+    padding-right: 0;
   }
 
   iframe {

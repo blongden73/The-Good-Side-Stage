@@ -596,6 +596,7 @@ a {
 .tg-footer-base-wrapper {
   display: flex;
   flex-direction: column;
+  width: 100%;
 
   @include mq($from: desktop) {
     flex-direction: row;

@@ -618,6 +618,9 @@
         color: #fff;
         transition: opacity 0.5s ease-in-out;
         transition-delay: 0.5s;
+        @include mq($from: desktop) {
+          margin-bottom: -60px;
+        }
       }
 
       h3 {
@@ -625,17 +628,24 @@
         transition: opacity 0.5s ease-in-out;
         transition-delay: 0.5s;
         color: #fff;
-        margin-top: 13vh;
+        margin-top: 3vh;
         padding-left: 20px;
         padding-right: 20px;
         font-size: 18px;
         position: relative;
         z-index: 10000;
+        margin-bottom: 0;
 
         @include mq($from: desktop) {
-          margin-top: 30vh;
+          margin-top:0vh;
           font-size: 2vw;
         }
+      }
+
+      .circle-inner {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
       }
     }
 
@@ -858,7 +868,10 @@ ul.gs-client-list {
   bottom: 0px;
   left: 0;
   text-align: center;
-  width: 94%;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 2%;
+  padding-right: 2%;
 
   a {
     border-bottom: 1px solid #fff;
@@ -876,6 +889,7 @@ ul.gs-client-list {
 
   @include mq($from: desktop) {
     width: 100%;
+    padding: 0;
   }
 
   p {
