@@ -507,6 +507,10 @@ a {
   }
 }
 
+small {
+  font-family: 'bill corp nar';
+}
+
 .flex {
   display: flex;
   flex-direction: column;
@@ -536,6 +540,10 @@ a {
 
     p {
       width: 80%;
+    }
+
+    small {
+      color: #fff;
     }
   }
 
