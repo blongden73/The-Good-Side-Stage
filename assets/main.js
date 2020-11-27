@@ -18,7 +18,7 @@ if(!isMobile()){
     $(function() {
        $(".gs-home-page-slider").mousewheel(function(event, delta) {
          if(horizontalScroll) {
-           this.scrollLeft -= (delta * 5);
+           this.scrollLeft -= (delta * 4);
            event.preventDefault()
           }
        });
@@ -48,6 +48,22 @@ function openpage() {
         }
       });
     }
+  }
+}
+
+function openSinglePage(el){
+  var closePageSelector = document.querySelector('.close-section');
+  var slides = document.querySelectorAll('.gs-slide');
+  closePageSelector.classList.add('active');
+  horizontalScroll = false;
+  var currentLocation = window.location.pathname;
+  var url = el.dataset.url;
+  history.pushState(null, null, currentLocation+'#'+url);
+  el.classList.add('open');
+  var open = document.querySelector('.gs-slide.open');
+  for(j=0; j<slides.length; j++ ) {
+    slides[j].classList.add('close');
+    open.classList.remove('close');
   }
 }
 
@@ -281,9 +297,13 @@ function themeSelector(){
   var selector = document.querySelectorAll('.theme-selector');
   var organiser = document.querySelector('.gs-organiser');
   var caseStudies = document.querySelectorAll('.case-study-theme');
+  var slide = document.querySelector('.gs-slide.themes');
 
   for(i=0; i<selector.length; i++) {
     selector[i].addEventListener('click', function(){
+      if(!slide.classList.contains('open')){
+        openSinglePage(slide);
+      }
       var theme = this.dataset.theme;
       var caseStudy = document.querySelectorAll('.case-study-theme.'+theme);
       organiser.scrollIntoView({behavior: "smooth"});
