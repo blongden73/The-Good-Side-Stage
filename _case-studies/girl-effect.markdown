@@ -1,8 +1,8 @@
 ---
-title: GIRL EFFECT X THE GOOD SIDE
+title: GIRL EFFECT
 date: 2020-11-17 17:56:00 Z
-permalink: "/case-studies/girl-effect-x-the-good-side.html"
-position: 4
+permalink: "/case-studies/girl-effect.html"
+position: 5
 Case study main image: "/uploads/nigeria%20girl%20at%20home.jpg"
 Case study top image: "/uploads/nigeria%20girl%20leaving%20house.jpg"
 Case study title: 'Co-creating youth media brands for behaviour change with Girl Effect. '
@@ -19,6 +19,10 @@ Blocks:
     young women and girls, and explored social norms around gender and identity through
     ethnographic immersion, media studies, participatory research methods and rich
     documentary outputs.\n\n\n\n"
+  Video: 
+  Testimonial: 
+  Carousel:
+  - Image: 
 - Carousel:
   - Image: "/uploads/IMGR_1492717494_PET_0277.jpg"
   - Image: "/uploads/IMGR_1492717494_PET_0015.jpg"

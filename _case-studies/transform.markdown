@@ -1,8 +1,8 @@
 ---
-title: TRANSFORM X THE GOOD SIDE
+title: TRANSFORM
 date: 2020-11-17 18:22:00 Z
-permalink: "/case-studies/transform-x-the-good-side.html"
-position: 5
+permalink: "/case-studies/transform.html"
+position: 6
 Case study main image: "/uploads/transform%20web.jpg"
 Case study top image: "/uploads/transform%20web%208.jpg"
 Case study title: 'Powering the comms strategy with human stories for Unilever and

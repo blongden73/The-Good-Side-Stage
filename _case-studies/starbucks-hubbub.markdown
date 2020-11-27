@@ -1,7 +1,7 @@
 ---
-title: STARBUCKS + HUBBUB X THE GOOD SIDE
+title: STARBUCKS + HUBBUB
 date: 2020-11-05 13:51:00 Z
-permalink: "/case-studies/case-study-three.html"
+permalink: "/case-studies/starbucks-hubbub.html"
 position: 10
 Case study main image: "/uploads/Coffee%20counter%20web.jpg"
 Case study top image: "/uploads/Coffee%20counter%20web.jpg"
