@@ -1,3 +1,12 @@
+.case-wrapper-fixed {
+  position: fixed;
+  height: auto;
+
+  .gs-slide {
+    height: 100vh;
+  }
+}
+
 .case-study-iframe {
   .tg-header {
     display: none;
