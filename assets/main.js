@@ -88,7 +88,7 @@ function openarticle() {
       var iframe = article.querySelector('iframe');
       var forUrl = articleLink.replace('/', '');
       history.pushState(null, null, currentLocation+'#'+forUrl);
-      iframe.setAttribute('src', articleLink);
+      iframe.contentWindow.location.replace(articleLink);
       article.classList.add('open');
       if(pageScroller) {
         pageScroller.classList.add('fix');
