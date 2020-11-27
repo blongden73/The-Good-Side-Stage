@@ -4,7 +4,7 @@ date: 2020-11-17 18:22:00 Z
 permalink: "/case-studies/transform.html"
 position: 6
 Case study main image: "/uploads/transform%20web.jpg"
-Case study top image: "/uploads/transform%20web%208.jpg"
+Case study top image: "/uploads/transform%20web.jpg"
 Case study title: 'Powering the comms strategy with human stories for Unilever and
   Department for International Development '
 Question: How can public-private partnerships deliver against the Sustainable Development
