@@ -81,7 +81,7 @@
   padding-right: 10px;
 
   @include mq($from: desktop) {
-    max-width: 665px;
+    max-width: 50vw;
     padding-left: 10%;
     padding-right: 0;
   }
