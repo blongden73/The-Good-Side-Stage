@@ -152,10 +152,11 @@
           font-weight: 400;
           font-size: 60px;
           color: #121212;
+          margin-top: 10px;
 
           @include mq($from: desktop) {
             font-size: 6vw;
-            line-height: 1.1;
+            line-height: 0.8;
           }
 
           cite {
