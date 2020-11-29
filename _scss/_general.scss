@@ -4,7 +4,7 @@
         url('../assets/BureauGrotExtraCompressed-Book.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
 }
 
 @font-face {
@@ -13,7 +13,7 @@
         url('../assets/billcorpnar-bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
 }
 
 @font-face {
@@ -22,7 +22,7 @@
         url('../assets/billcorpnar-medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
 }
 
 @font-face {
@@ -31,7 +31,7 @@
         url('../assets/billcorpnar-extralight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
-    font-display: swap;
+    font-display: block;
 }
 
 @font-face {
@@ -110,7 +110,7 @@ body, html {
   transform: translate(-50%, -50%);
 
   .open & {
-    @include mq($until: tablet) {
+    @include mq($until: desktop) {
       position: relative;
       max-width: 100%;
       width: 100%;

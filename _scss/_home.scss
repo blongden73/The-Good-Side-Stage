@@ -248,6 +248,12 @@
       width: 100%;
       height: auto;
       z-index: 100000;
+      animation-name: fadeIn;
+      opacity: 0;
+      animation-delay: 0.2s;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: 1;
 
       .circle {
         position: relative;
