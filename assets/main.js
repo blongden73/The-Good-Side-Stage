@@ -192,6 +192,17 @@ function circlesCliked(){
         circle[i].addEventListener('click', function(){
           this.classList.toggle('clicked');
           circlesContainer.classList.toggle('clickToClose');
+          ballsanimation.pause();
+          setTimeout(function(){
+            window.requestAnimationFrame(letsplayball);
+          }, 1000)
+
+          this.addEventListener('click', function(){
+            ballsanimation.pause();
+            setTimeout(function(){
+              window.requestAnimationFrame(letsplayball);
+            }, 1000)
+          });
           //add eventlister to screen to close cirlces
           fullScreenClose.classList.toggle('active');
           fullScreenClose.addEventListener('click', function(){
@@ -205,6 +216,34 @@ function circlesCliked(){
   }
 }
 
+var screenWidth = screen.width / 3;
+var screenHeight = screen.height / 3 ;
+var ballsanimation = anime({
+  targets: '.circle-move',
+  keyframes: [
+    {translateY: function() { return anime.random(0, screenHeight);} },
+    {translateX: function() { return anime.random(0, screenWidth);}},
+    {translateY: function() { return anime.random(0, screenHeight);}},
+    {translateX: function() { return anime.random(0, screenWidth);}},
+    {translateY: function() { return anime.random(0, screenHeight);}}
+  ],
+  delay: anime.stagger(100),
+  direction: 'alternate',
+  easing: 'easeOutElastic(1, .8)',
+  loop: true,
+  autoplay: false,
+  duration: 7000
+});
+
+function animateCricles(){
+  console.log(screenWidth, screenHeight);
+  randomCircles();
+}
+
+function letsplayball(){
+  ballsanimation.play();
+}
+
 function onscrollanimate() {
   var isHome = document.querySelector('.gs-splash');
   if(isHome && !isMobile()){
@@ -215,7 +254,9 @@ function onscrollanimate() {
         if(left < (window.innerWidth / 2) && left > -(window.innerWidth / 2)) {
           homeslides[i].classList.add('inview');
           if(homeslides[i].classList.contains('circles-slide')){
-            //do something
+            window.requestAnimationFrame(letsplayball);
+          } else {
+            ballsanimation.pause();
           }
         }else {
           homeslides[i].classList.remove('inview');
@@ -371,28 +412,6 @@ function checkHash(){
   }else {
     console.log('no hash');
   }
-}
-
-function animateCricles(){
-  var screenWidth = screen.width / 3;
-  var screenHeight = screen.height / 3 ;
-  console.log(screenWidth, screenHeight);
-  randomCircles();
-  anime({
-    targets: '.circle-move',
-    keyframes: [
-      {translateY: function() { return anime.random(0, screenHeight);} },
-      {translateX: function() { return anime.random(0, screenWidth);}},
-      {translateY: function() { return anime.random(0, screenHeight);}},
-      {translateX: function() { return anime.random(0, screenWidth);}},
-      {translateY: function() { return anime.random(0, screenHeight);}}
-    ],
-    delay: anime.stagger(100),
-    direction: 'alternate',
-    easing: 'easeOutElastic(1, .8)',
-    loop: true,
-    duration: 7000
-  });
 }
 
 function init(){
