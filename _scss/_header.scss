@@ -3,7 +3,7 @@
   position: fixed;
   top: 0;
   z-index: 100002;
-  pointer-events: all;
+  pointer-events: none;
 }
 
 @keyframes openBurger {

@@ -267,6 +267,11 @@ function onscrollanimate() {
     var homeslides = document.querySelectorAll('.gs-slide');
     for(i=0; i<homeslides.length; i++) {
       homeslides[i].classList.add('inview');
+      if(homeslides[i].classList.contains('circles-slide')){
+        window.requestAnimationFrame(letsplayball);
+      } else {
+        ballsanimation.pause();
+      }
     }
   }
 }
@@ -308,7 +313,7 @@ function splashHover() {
 }
 
 function delayFloat() {
-  var circles = document.querySelectorAll('.circle');
+  var circles = document.querySelectorAll('.circle.theme');
   if(circles){
     for(i=0; i < circles.length; i++){
       var random = Math.random() * (10 - 0) + 0;
@@ -349,6 +354,10 @@ function themeSelector(){
       if(!slide.classList.contains('open')){
         openSinglePage(slide);
       }
+      for(j=0; j<selector.length; j++) {
+        selector[j].classList.remove('selected');
+      }
+      this.classList.add('selected');
       var theme = this.dataset.theme;
       var caseStudy = document.querySelectorAll('.case-study-theme.'+theme);
       organiser.scrollIntoView({behavior: "smooth"});
@@ -356,7 +365,7 @@ function themeSelector(){
         for(j=0; j<caseStudies.length; j++) {
           caseStudies[j].classList.add('hide');
         }
-        for(h=0; h<caseStudies.length; h++){
+        for(h=0; h<caseStudy.length; h++){
           caseStudy[h].classList.remove('hide');
         }
       }else if(theme == 'all'){
@@ -427,7 +436,7 @@ function init(){
   onscrollanimate();
   headerLogo();
   splashHover();
-  // delayFloat();
+  delayFloat();
   clickArrow();
   teamQuestions();
   themeSelector();
