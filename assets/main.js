@@ -253,6 +253,9 @@ function onscrollanimate() {
         var left = homeslides[i].getBoundingClientRect().left;
         if(left < (window.innerWidth / 2) && left > -(window.innerWidth / 2)) {
           homeslides[i].classList.add('inview');
+          //at this point if the user stops scrolling snap to the the left of the screen
+          homeslides[i].scrollIntoView({behavior: "smooth"});
+
           if(homeslides[i].classList.contains('circles-slide')){
             window.requestAnimationFrame(letsplayball);
           } else {
