@@ -355,9 +355,10 @@ function themeSelector(){
         openSinglePage(slide);
       }
       for(j=0; j<selector.length; j++) {
-        selector[j].classList.remove('selected');
+        selector[j].classList.add('selected');
+
       }
-      this.classList.add('selected');
+      this.classList.remove('selected');
       var theme = this.dataset.theme;
       var caseStudy = document.querySelectorAll('.case-study-theme.'+theme);
       organiser.scrollIntoView({behavior: "smooth"});

@@ -727,6 +727,7 @@
       animation-duration: 2s;
       animation-iteration-count: infinite;
       animation-timing-function: linear;
+      transition: all ease-in-out 0.5s;
 
       @include mq($from: desktop) {
         font-size: 70px;
@@ -753,6 +754,10 @@
       }
       &:nth-child(5n+5) {
         color: $green;
+      }
+
+      &.selected {
+        opacity: 0.3;
       }
     }
   }
