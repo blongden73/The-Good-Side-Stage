@@ -356,7 +356,6 @@ function themeSelector(){
       }
       for(j=0; j<selector.length; j++) {
         selector[j].classList.add('selected');
-
       }
       this.classList.remove('selected');
       var theme = this.dataset.theme;
@@ -372,6 +371,9 @@ function themeSelector(){
       }else if(theme == 'all'){
         for(j=0; j<caseStudies.length; j++) {
           caseStudies[j].classList.remove('hide');
+          for(e=0; e<selector.length; e++) {
+            selector[e].classList.remove('selected');
+          }
         }
       }
     });

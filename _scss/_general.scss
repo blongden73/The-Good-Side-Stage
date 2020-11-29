@@ -87,7 +87,7 @@ body, html {
   box-sizing: border-box;
   width: 100%;
 }
-@keyframes throb {
+@keyframes throbBall {
   0% {
     transform: scale(1);
   }
@@ -203,14 +203,10 @@ body, html {
 
       &:nth-child(1) {
         .circle-question {
-          animation-name: throb;
+          animation-name: throbBall;
           animation-duration: 5s;
           animation-timing-function: ease-in-out;
           animation-iteration-count: infinite;
-
-          &.clicked {
-            left: 3%;
-          }
         }
       }
 
@@ -239,12 +235,17 @@ body, html {
           height: 8vw;
         }
 
+        p {
+          opacity: 0;
+        }
+
         &.clicked {
           width: 78vw;
           height: 78vw;
           top: 0;
           left: 46%;
           transform: translate(-50%, 0px);
+          animation: none;
 
           @include mq($from: desktop) {
             width: 18vw;
@@ -253,6 +254,8 @@ body, html {
 
           p {
             opacity: 1;
+            transition: all ease-in-out 0.5s;
+            transition-delay: 0.2s;
           }
         }
 

@@ -4,6 +4,10 @@
   top: 0;
   z-index: 100002;
   pointer-events: none;
+
+  a {
+    pointer-events: all;
+  }
 }
 
 @keyframes openBurger {
