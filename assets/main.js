@@ -373,9 +373,32 @@ function checkHash(){
   }
 }
 
+function animateCricles(){
+  var screenWidth = screen.width / 3;
+  var screenHeight = screen.height / 3 ;
+  console.log(screenWidth, screenHeight);
+  randomCircles();
+  anime({
+    targets: '.circle-move',
+    keyframes: [
+      {translateY: function() { return anime.random(0, screenHeight);} },
+      {translateX: function() { return anime.random(0, screenWidth);}},
+      {translateY: function() { return anime.random(0, screenHeight);}},
+      {translateX: function() { return anime.random(0, screenWidth);}},
+      {translateY: function() { return anime.random(0, screenHeight);}}
+    ],
+    delay: anime.stagger(100),
+    direction: 'alternate',
+    easing: 'easeOutElastic(1, .8)',
+    loop: true,
+    duration: 5000
+  });
+}
+
 function init(){
   hash();
-  randomCircles();
+  animateCricles();
+  // randomCircles();
   openpage();
   closepage();
   openarticle();
@@ -385,7 +408,7 @@ function init(){
   onscrollanimate();
   headerLogo();
   splashHover();
-  delayFloat();
+  // delayFloat();
   clickArrow();
   teamQuestions();
   themeSelector();
