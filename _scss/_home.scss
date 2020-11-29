@@ -609,14 +609,20 @@
     cursor: pointer;
     overflow: hidden;
     pointer-events: all;
+    transform: translate3d(0,0,1px);
+    -webkit-transform:translate3d(0,0,0);
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    will-change: height, width, top, left, transform;
+    display: inline-block;
 
     &.clicked {
+      transform: translate(-50%, -50%) translate3d(0,0,1px) !important;
       width: 90vw !important;
       height: 90vw !important;
       top: 50% !important;
       left: 50% !important;
       transition: all ease-in-out .5s;
-      transform: translate(-50%, -50%) !important;
       z-index: 100000;
       animation: none;
 

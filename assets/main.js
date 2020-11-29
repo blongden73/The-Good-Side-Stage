@@ -391,7 +391,7 @@ function animateCricles(){
     direction: 'alternate',
     easing: 'easeOutElastic(1, .8)',
     loop: true,
-    duration: 5000
+    duration: 7000
   });
 }
 
