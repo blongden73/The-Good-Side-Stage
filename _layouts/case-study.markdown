@@ -52,7 +52,7 @@ layout: default
         {% assign tags = items.Tags | split: ',' %}
         <ul class="gs-tags">
         {% for tag in tags %}
-          <li><a target="_blank" href="/case-studies/?{{tag | downcase | handle}}">{{tag}}</a></li>
+          <li><a target="_blank" href="/case-studies/?{{tag | downcase | handle | strip}}">{{tag}}</a></li>
         {% endfor %}
         </ul>
         {% assign where = items.['Where we worked'] | split: ',' %}
