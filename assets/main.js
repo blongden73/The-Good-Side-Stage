@@ -247,25 +247,28 @@ function letsplayball(){
 function onscrollanimate() {
   var isHome = document.querySelector('.gs-splash');
   if(isHome && !isMobile()){
-    document.addEventListener('wheel', function(){
-      var homeslides = document.querySelectorAll('.gs-slide');
-      for(i=0; i<homeslides.length; i++) {
-        var left = homeslides[i].getBoundingClientRect().left;
-        if(left < (window.innerWidth / 2) && left > -(window.innerWidth / 2)) {
-          homeslides[i].classList.add('inview');
-          //at this point if the user stops scrolling snap to the the left of the screen
-          homeslides[i].scrollIntoView({behavior: "smooth"});
+    function scroll(){
+      console.log('runnin');
+        var homeslides = document.querySelectorAll('.gs-slide');
+        for(i=0; i<homeslides.length; i++) {
+          var left = homeslides[i].getBoundingClientRect().left;
+          if(left < (window.innerWidth / 2) && left > -(window.innerWidth / 2)) {
+            homeslides[i].classList.add('inview');
+            //at this point if the user stops scrolling snap to the the left of the screen
+            homeslides[i].scrollIntoView({behavior: "smooth"});
 
-          if(homeslides[i].classList.contains('circles-slide')){
-            window.requestAnimationFrame(letsplayball);
-          } else {
-            ballsanimation.pause();
+            if(homeslides[i].classList.contains('circles-slide')){
+              window.requestAnimationFrame(letsplayball);
+            } else {
+              ballsanimation.pause();
+            }
+          }else {
+            homeslides[i].classList.remove('inview');
           }
-        }else {
-          homeslides[i].classList.remove('inview');
         }
       }
-    });
+      var throttleScroll = _.throttle(scroll, 100);
+      document.addEventListener('wheel', throttleScroll);
   } else if(isMobile()) {
     var homeslides = document.querySelectorAll('.gs-slide');
     for(i=0; i<homeslides.length; i++) {

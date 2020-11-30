@@ -41,7 +41,7 @@ layout: default
         </div>
         {% endif %}
       {% assign blockCarousel = block.Carousel %}
-      {% if block.Carousel %}
+      {% if block.Carousel[1].Image %}
         {% include block-carousel.html blocks=blockCarousel %}
       {% endif %}
     {% endfor %}
