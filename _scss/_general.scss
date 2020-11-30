@@ -478,8 +478,12 @@ cite {
 p, ul, li {
   font-family: 'bill corp nar';
   line-height: 1.6;
-  font-size: 1.3vw;
+  font-size: 18px;
   color: #121212;
+
+  @include mq($from: desktop) {
+    font-size: 1.3vw;
+  }
 }
 
 p {
