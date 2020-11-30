@@ -52,7 +52,7 @@ layout: default
         {% assign tags = items.Tags | split: ',' %}
         <ul class="gs-tags">
         {% for tag in tags %}
-          <li><a target="_parent" href="/case-studies/?{{tag | downcase | handle}}">{{tag}}</a></li>
+          <li><a target="_blank" href="/case-studies/?{{tag | downcase | handle}}">{{tag}}</a></li>
         {% endfor %}
         </ul>
         {% assign where = items.['Where we worked'] | split: ',' %}
@@ -66,14 +66,14 @@ layout: default
         <ul class="gs-network">
           <li><strong>Explore the network</strong></li>
         {% for item in network %}
-          <li><a target="_parent" href="{{item.['Link']}}">{{item.['Network Text']}}</a></li>
+          <li><a target="_blank" href="{{item.['Link']}}">{{item.['Network Text']}}</a></li>
         {% endfor %}
         </ul>
         {% assign related = items.['Related links'] %}
         <ul class="gs-network">
           <li><strong>Explore topic</strong></li>
         {% for item in related %}
-          <li><a target="_parent" href="{{item.['Link']}}">{{item.['Link Text']}}</a></li>
+          <li><a target="_blank" href="{{item.['Link']}}">{{item.['Link Text']}}</a></li>
         {% endfor %}
         </ul>
         {% assign data = items.['Data'] | split: ',' %}
@@ -89,13 +89,13 @@ layout: default
         {% assign video = items.['Video'] | split: ',' %}
         <ul class="gs-video">
         {% for item in video %}
-          <li><a target="_parent" href="{{item}}"><span uk-icon="vimeo"></span></a></li>
+          <li><a target="_blank" href="{{item}}"><span uk-icon="vimeo"></span></a></li>
         {% endfor %}
         </ul>
         {% assign hash = items.['Hashtag'] | split: ',' %}
         <ul class="gs-hash">
         {% for item in hash %}
-          <li><a target="_parent" href="https://instagram.com/{{item}}">{{item}}</a></li>
+          <li><a target="_blank" href="https://instagram.com/{{item}}">{{item}}</a></li>
         {% endfor %}
         </ul>
     {% endfor %}
