@@ -66,6 +66,7 @@ Meta:
   Data: |-
     11 jurisdictions | can or do impose the death penalty for same-sex intimacy,  35
     Commonwealth | jurisdictions which criminalise private same-sex consensual sexual activity
+  Video: https://vimeo.com/showcase/6661951
   Hashtag: "#thisisthegoodside #TGSHDT2020"
 layout: case-study
 ---
