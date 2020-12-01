@@ -25,6 +25,8 @@ Blocks:
   Video: <iframe src="https://player.vimeo.com/video/379073876" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   Testimonial: 
+  Carousel:
+  - Image: 
 - Video: <iframe src="https://player.vimeo.com/video/379074251" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   Carousel:
@@ -48,7 +50,8 @@ Meta:
     Link Text: "#Reform53"
   Where we worked: Seychelles
   Tags: Gender, LGBTQIA+, Young people, Film, International development
-  Data: In 18 Commonwealth countries | it is legal for a husband to rape his wife
+  Data: 18 | Number of Commonwealth countries it is legal for a husband to rape his
+    wife
   Video: https://vimeo.com/showcase/6648948
   Hashtag: "#TGSCYGEN"
 layout: case-study
