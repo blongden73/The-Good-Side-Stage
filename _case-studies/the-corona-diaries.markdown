@@ -53,6 +53,7 @@ Meta:
   Where we worked: UK
   Methods: Covid-19, Film, Ethnography, Online, Qualitative
   Tags: Covid-19, Film, Ethnography, Online, Qualitative
+  Video: https://vimeo.com/showcase/6901631
   Hashtag: "#TGSCoronaTag\t"
 layout: case-study
 ---
