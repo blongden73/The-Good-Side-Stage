@@ -63,9 +63,8 @@ Meta:
   - Link: https://www.facebook.com/Women-Spaces-Africa-349182032217005/
     Network Text: Women Spaces Africa
   Tags: Gender, LGBTQIA+, Film, Strategy
-  Data: |-
-    11 jurisdictions | can or do impose the death penalty for same-sex intimacy,  35
-    Commonwealth | jurisdictions which criminalise private same-sex consensual sexual activity
+  Data: 11 | jurisdictions can or do impose the death penalty for same-sex intimacy,  35
+    | Commonwealth jurisdictions criminalise private same-sex consensual sexual activity
   Video: https://vimeo.com/showcase/6661951
   Hashtag: "#thisisthegoodside #TGSHDT2020"
 layout: case-study
