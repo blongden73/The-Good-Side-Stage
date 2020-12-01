@@ -13,7 +13,8 @@ Case study title: A year-long mixed methods project to understand early childhoo
 Question: How can we encourage early childhood programme designers to think about
   the caregiver as much as the child?
 Blocks:
-- Article text: "We conducted a year-long mixed methods project with Kays Foundation
+- Image: 
+  Article text: "We conducted a year-long mixed methods project with Kays Foundation
     to understand early childhood and parenting in coastal Kenya.\n\nA literature
     review and expert interviews led to a month-long ethnographic immersion and powerful
     documentary film, validated and evidenced through a quantitative survey. \n\nWe
@@ -47,18 +48,12 @@ Blocks:
     work.” — Sarah Forde. Communication consultant, based in coastal Kenya for 20
     years."
 Meta:
-- Related links:
-  - Link: 
-    Link Text: 
-  Where we worked: Kenya
+- Where we worked: Kenya
   The Network:
-  - Link: 
-    Network text: 
-  Methods: 
+  - Network text: 
   Tags: Gender, Film, International development, Behaviour change, Ethnography, Quantitative,
     Qualitative
-  Video: <iframe src="https://player.vimeo.com/video/364765544" width="640" height="360"
-    frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  Video: https://vimeo.com/showcase/6594071
   Hashtag: "#tgskaysecd"
 layout: case-study
 ---
