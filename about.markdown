@@ -52,7 +52,7 @@ Team:
 - Name: Liz Cheesbrough
   Role: Senior Insight Director
   Image: "/uploads/Liz_TGS-1%20Small.jpg"
-  Question: 
+  Question: How can we help young people free themselves of self-consciousness?
   Gif image: 
 - Name: James Lewis
   Role: Head of production
@@ -88,7 +88,7 @@ Team:
 - Name: Matthew Huntley
   Role: Senior Researcher
   Image: "/uploads/Matthew.jpg"
-  Question: 
+  Question: What film best represents your life?
   Gif image: 
 - Name: Odette Schwartz
   Role: Researcher
