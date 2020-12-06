@@ -41,6 +41,13 @@ function openpage() {
         var url = this.parentNode.dataset.url;
         history.pushState(null, null, currentLocation+'#'+url);
         this.parentNode.classList.add('open');
+        var target = document.querySelector('.start');
+        console.log(target);
+        if(target) {
+          setTimeout(function(){
+            target.scrollIntoView({behavior: "smooth", block: "center"});
+          }, 100)
+        }
         var open = document.querySelector('.gs-slide.open');
         for(j=0; j<slides.length; j++ ) {
           slides[j].classList.add('close');
@@ -392,12 +399,16 @@ function taginUrl(){
   if (currentLocation.includes("/case-studies/?")){
     var tag = currentLocation.split('?');
     var theme = tag[1].trim();
-    var caseStudy = document.querySelector('.case-study-theme.'+theme);
+    var caseStudy = document.querySelectorAll('.case-study-theme.'+theme);
     if(caseStudy && caseStudy != null) {
+      console.log(caseStudy);
       for(j=0; j<caseStudies.length; j++) {
         caseStudies[j].classList.add('hide');
       }
-      caseStudy.classList.remove('hide');
+      for(h=0; h<caseStudy.length; h++){
+        console.log('tag');
+        caseStudy[h].classList.remove('hide');
+      }
     }
   }
 }

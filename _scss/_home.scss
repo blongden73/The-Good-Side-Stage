@@ -198,6 +198,7 @@
       transform: translateX(50px);
       border-radius: 30px;
       overflow: hidden;
+      visibility: hidden;
       width: 0;
       transition: all ease-in-out 0.2s;
       transform: translateX(50px);
@@ -205,6 +206,7 @@
 
     &:hover {
       &:before {
+        visibility: visible;
         width: 40px;
         padding-top: 15px;
         padding-bottom: 13px;
