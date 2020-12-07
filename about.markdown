@@ -93,7 +93,7 @@ Team:
 - Name: Odette Schwartz
   Role: Researcher
   Image: "/uploads/Headshot.jpg"
-  Question: 
+  Question: How do we get young men to reach out to their friends?
   Gif image: 
 - Name: Ticiana Riveiro
   Role: Administrator
