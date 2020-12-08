@@ -433,11 +433,26 @@ function caseStudyheight(){
 function checkHash(){
   var hashinurl = window.location;
   if(hashinurl.hash) {
-    console.log('has hash');
-    var hashId = hashinurl.hash.replace('#', '');
-    var target = document.querySelector('[data-url="' + hashId + '"]');
-    target.classList.add('inview');
-    target.scrollIntoView({behavior: "smooth"});
+    if(hashinurl.hash.includes('#case-studies')){
+      var article = document.querySelector('.article');
+      var currentLocation = window.location;
+      var articleLink = currentLocation.hash.split('#case-studies/');
+      var usableLink = '/case-studies/' + articleLink[1];
+      horizontalScroll = false;
+      var iframe = article.querySelector('iframe');
+      // history.pushState(null, null, currentLocation+'#'+forUrl);
+      iframe.contentWindow.location.replace(usableLink);
+      setTimeout(function(){
+        $(iframe).contents().find('body').addClass('case-study-iframe');
+      }, 1000)
+      article.classList.add('open');
+    }else {
+      console.log('has hash');
+      var hashId = hashinurl.hash.replace('#', '');
+      var target = document.querySelector('[data-url="' + hashId + '"]');
+      target.classList.add('inview');
+      target.scrollIntoView({behavior: "smooth"});
+    }
   }else {
     console.log('no hash');
   }
