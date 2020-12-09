@@ -18,10 +18,9 @@ Blocks:
     focus groups in the UK, Germany, and Netherlands, and later validated in a quantitative
     study, we were proud to be part of shaping a more inclusive travel experience
     for LGBTQ+ people."
-  Testimonial: "“If you are interested in doing similar work, research is your best
-    starting point & I can't speak highly enough of our partner agency The Good Side.
-    Please check them out & continue the good work!!” — Jennifer Summers, Senior Insights
-    Specialist at Booking.com"
+  Testimonial: |-
+    “'The research conducted by The Good Side has placed a crucial role in guiding Booking.com's strategy and communication to better support the LGBTQ+ travel community and put our company mission into practise in a real and practical way. They approached the project with sensitivity towards the audience and a real understanding of our business needs. Our final report was not only actionable but genuinely impactful in the mind's of my stakeholders - months later I still have them quoting back lines to me. Thank you to the team for your highly valued contribution to this important workstream"
+     — Jennifer Summers, Senior Insights Specialist at Booking.com
 Meta:
 - Where we worked: UK, Netherlands, Germany
   The Network:
