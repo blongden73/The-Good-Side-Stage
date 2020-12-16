@@ -78,7 +78,7 @@ Team:
 - Name: Leva Kwestany
   Role: Senior Filmmaker
   Image: "/uploads/Leva.jpg"
-  Question: 
+  Question: Which films have had the biggest impact on the world?
   Gif image: 
 - Name: Lamis Harper
   Role: Associate Director
