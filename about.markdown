@@ -98,7 +98,7 @@ Team:
 - Name: Ticiana Riveiro
   Role: Administrator
   Image: "/uploads/Ticiana_head%20&%20shoulders.png"
-  Question: 
+  Question: What did you learn from this?
   Gif image: 
 About sentence 1: We help people to understand and impact systems, society and culture.
 About 1 image: "/uploads/door.png"
