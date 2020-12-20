@@ -95,7 +95,7 @@ layout: default
         {% assign hash = items.['Hashtag'] | split: ',' %}
         <ul class="gs-hash">
         {% for item in hash %}
-          <li><a target="_blank" href="https://instagram.com/{{item}}">{{item}}</a></li>
+          <li><a target="_blank" href="https://www.instagram.com/explore/tags/{{item | replace: "#", "" }}">{{item}}</a></li>
         {% endfor %}
         </ul>
     {% endfor %}
