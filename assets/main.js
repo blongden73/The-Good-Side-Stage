@@ -396,10 +396,18 @@ function themeSelector(){
 function taginUrl(){
   var currentLocation = window.location.href;
   var caseStudies = document.querySelectorAll('.case-study-theme');
+  var organiser = document.querySelector('.gs-organiser');
   if (currentLocation.includes("/case-studies/?")){
     var tag = currentLocation.split('?');
     var theme = tag[1].trim();
     var caseStudy = document.querySelectorAll('.case-study-theme.'+theme);
+    var themeSelectors = document.querySelectorAll('.theme-selector');
+    var themeSelected = organiser.querySelector('[data-theme="'+theme+'"]');
+    for(j=0; j<themeSelectors.length; j++) {
+      themeSelectors[j].classList.add('selected');
+    }
+    themeSelected.classList.remove('selected');
+    console.log(themeSelected);
     if(caseStudy && caseStudy != null) {
       console.log(caseStudy);
       for(j=0; j<caseStudies.length; j++) {
