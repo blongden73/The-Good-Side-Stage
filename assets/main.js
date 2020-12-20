@@ -223,8 +223,8 @@ function circlesCliked(){
   }
 }
 
-var screenWidth = screen.width / 3;
-var screenHeight = screen.height / 3 ;
+var screenWidth = screen.width / 5;
+var screenHeight = screen.height / 5 ;
 var ballsanimation = anime({
   targets: '.circle-move',
   keyframes: [
@@ -234,12 +234,12 @@ var ballsanimation = anime({
     {translateX: function() { return anime.random(0, screenWidth);}},
     {translateY: function() { return anime.random(0, screenHeight);}}
   ],
-  delay: anime.stagger(100),
+  delay: anime.stagger(200),
   direction: 'alternate',
-  easing: 'easeOutElastic(1, .8)',
+  easing: 'spring(1, 80, 10, 0)',
   loop: true,
   autoplay: false,
-  duration: 7000
+  duration: anime.random(1000, 4000)
 });
 
 function animateCricles(){
