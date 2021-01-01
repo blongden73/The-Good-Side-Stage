@@ -407,7 +407,9 @@
 }
 
 .gs-home-page-slider {
-  overflow-y: hidden;
+  @include mq($from: desktop) {
+    overflow-y: hidden;
+  }
 
   &.fix {
     position: fixed;
