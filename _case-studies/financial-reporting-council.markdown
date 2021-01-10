@@ -29,7 +29,7 @@ Meta:
   - Link: https://www.frc.org.uk/
     Network Text: Financial Reporting Council
   Tags: LGBTQIA+, Qualitative, Strategy
-  Hashtag: "#TGSXFRC"
+  Hashtag: "#TGSFRC"
 layout: case-study
 ---
 
