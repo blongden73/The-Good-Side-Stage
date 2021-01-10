@@ -50,7 +50,7 @@ Meta:
     Network Text: Starbucks
   Tags: Ethnography, Qualitative, Strategy, Sustainability, Behaviour change, Film,
     Online
-  Hashtag: "#reusablecoffeecup #GrabYourCup\n"
+  Hashtag: "#reusablecoffeecup #GrabYourCup #specialtycoffee\n"
 layout: case-study
 ---
 
