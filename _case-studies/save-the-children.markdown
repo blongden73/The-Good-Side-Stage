@@ -23,7 +23,6 @@ Meta:
   - Link: https://www.savethechildren.org.uk/
     Network Text: Save the Children
   Tags: 'Ethnography, Film, Qualitative, Online, Strategy '
-  Hashtag: "#TGSXSTC"
 layout: case-study
 ---
 
