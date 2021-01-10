@@ -48,9 +48,12 @@ Meta:
     Network Text: Hubbub
   - Link: https://www.starbucks.co.uk/responsibility
     Network Text: Starbucks
+  Methods: 
   Tags: Ethnography, Qualitative, Strategy, Sustainability, Behaviour change, Film,
     Online
-  Hashtag: "#reusablecoffeecup #GrabYourCup #specialtycoffee\n"
+  Data: 
+  Hashtag: "#reusablecoffeecup\n"
+- Hashtag: "#GrabYourCup"
 layout: case-study
 ---
 
