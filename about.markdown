@@ -10,7 +10,7 @@ Manifesto:
     where culture changes.
   Image: "/uploads/The%20Good%20Side_Icons%20&%20Illustrations-Perspective-01.png"
 - Title: BRING IT TO LIFE
-  Text: We go where people are, immersing ourselves in their lives. Learning by doing.
+  Text: We see people behind the question and we tell their stories.
   Image: "/uploads/The%20Good%20Side_Icons%20&%20Illustrations-Parallels-01.png"
 - Title: DISTILL COMPLEX IDEAS
   Text: We deconstruct complex questions by looking at all the angles to discover
