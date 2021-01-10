@@ -4,7 +4,7 @@ permalink: "/about/"
 Manifesto:
 - Title: GO WHERE THE ACTION IS
   Text: We go where people are, immersing ourselves in their lives. Learning by doing.
-  Image: "/uploads/The%20Good%20Side_Icons%20&%20Illustrations-Door-01.png"
+  Image: "/uploads/The%20Good%20Side_Icons%20&%20Illustrations-Door-02.png"
 - Title: EXPLORE THE MARGINS
   Text: We look at the nascent shoots of emergent thinking and behaviour. Exploring
     where culture changes.
@@ -15,7 +15,7 @@ Manifesto:
 - Title: DISTILL COMPLEX IDEAS
   Text: We deconstruct complex questions by looking at all the angles to discover
     and tell the simple story within it.
-  Image: "/uploads/The%20Good%20Side_Icons%20&%20Illustrations-Eclipse-01-5d4516.png"
+  Image: "/uploads/The%20Good%20Side_Icons%20&%20Illustrations-Eclipse-02.png"
 - Title: CREATE WAYS TO CHANGE
   Text: We understand the bandwidth for change, what effective strategies require
     and how to inspire and shape action.
