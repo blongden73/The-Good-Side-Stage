@@ -27,7 +27,6 @@ Meta:
   - Link: https://partner.booking.com/en-gb/proud-certified
     Network Text: Booking.com Travel Proud
   Tags: Gender, LGBTQIA+, Quantitative, Qualitative, Strategy, Technology
-  Hashtag: "#TGSBooking"
 layout: case-study
 ---
 
