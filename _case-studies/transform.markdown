@@ -32,7 +32,7 @@ Meta:
   The Network:
   - Link: https://www.shujaazinc.com/
     Network Text: Shujaaz Inc
-  - Link: https://www.transform.global/modules/Content/NewsFeed.aspx?appid=2
+  - Link: https://www.transform.global/our-network/
     Network Text: Transform
   Tags: Strategy, International development, Sustainability, Ethnography, Qualitative,
     Technology
