@@ -1,8 +1,8 @@
 ---
 title: Home
 Home Splash: Change starts here
-Home page footer text: The Good Side is an insight and creative ideas studio with
-  social change at the heart
+Home page footer text: "The Good Side is an insight, ideas and film company with social
+  change at the heart\n\n"
 layout: home
 ---
 
