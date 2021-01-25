@@ -6,7 +6,7 @@ tags:
 - featured
 - medium
 position: 3
-Case study main image: "/uploads/Small%20Jenny%20and%20Piers%204%20(laughing%20only).mp4.00_00_08_00%20crop.Still001.jpg"
+Case study main image: "/uploads/Small%20Jenny%20and%20Piers%204%20(laughing%20only).mp4.00_00_08_00%20cropflip.Still001.jpg"
 Case study top image: "/uploads/Small%20Jenny%20and%20Piers%204%20(laughing%20only).mp4.00_00_08_00.Still001.jpg"
 Case study title: In the first week of widespread global lockdown we decided to create
   a documentary series exploring the social impact of COVID-19 on Britain.
