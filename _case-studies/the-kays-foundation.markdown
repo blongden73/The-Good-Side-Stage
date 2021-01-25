@@ -50,7 +50,9 @@ Blocks:
 Meta:
 - Where we worked: Kenya
   The Network:
-  - Network text: 
+  - Link: 'Dignified Storytelling '
+    Network Text: https://dignifiedstorytelling.com/
+    Network text: 
   Tags: Gender, Film, International development, Behaviour change, Ethnography, Quantitative,
     Qualitative
   Video: https://vimeo.com/showcase/6594071
