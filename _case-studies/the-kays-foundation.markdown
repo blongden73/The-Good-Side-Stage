@@ -48,12 +48,12 @@ Blocks:
     work.” — Sarah Forde. Communication consultant, based in coastal Kenya for 20
     years."
 Meta:
-- Where we worked: Kenya
-  Related links:
-  - Link: https://ecdnetworkforkenya.org/
+- Related links:
+  - Link: https://www.dropbox.com/s/c85tadkhao8atxx/CoH%E2%80%93Kays_KENYA_FINAL_REPORT_june2020.pdf?dl=0
+    Link Text: The TGS Report for Kays
+  - Link: 'https://ecdnetworkforkenya.org/ '
     Link Text: ECD Network for Kenya
-  - Link: 
-    Link Text: 
+  Where we worked: Kenya
   The Network:
   - Link: https://dignifiedstorytelling.com/
     Network Text: Dignified Storytelling
