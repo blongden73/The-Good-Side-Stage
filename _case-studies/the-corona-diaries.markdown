@@ -19,11 +19,13 @@ Blocks:
     a documentary series exploring the social impact of COVID-19 on Britain.\n\nThe
     resulting series, **The Corona Diaries**, was chosen for inclusion in the BFI’s
     **Britain in Lockdown** series of the best online videos made during the pandemic.
-    \n\n\nIn The Corona Diaries we brought to life a diverse range of experiences,
-    giving voice to people in different situations to tell their stories. In making
-    the series we have seen marked shifts in attitudes, behaviours, values and priorities,
-    and we anticipate this will continue as people adjust to their changing social
-    realities. "
+    \n\nIn The Corona Diaries we brought to life a diverse range of experiences, giving
+    voice to people in different situations to tell their stories. In making the series
+    we have seen marked shifts in attitudes, behaviours, values and priorities, and
+    we anticipate this will continue as people adjust to their changing social realities.
+    \n\nYou can watch the full series on our [YouTube](https://youtube.com/playlist?list=PLvTKdJyFRPeSalrCINXQea1awgi1bZON5),
+    or just hit play below for the first episode (the last episode is our absolute
+    favourite)."
   Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/S2Vz9CJRu_s"
     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
     gyroscope; picture-in-picture" allowfullscreen></iframe>
