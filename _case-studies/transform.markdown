@@ -24,8 +24,8 @@ Blocks:
   - Image: "/uploads/transform%20web%207.jpg"
   - Image: "/uploads/transform%20web%206.jpg"
   - Image: "/uploads/transform%20web%204.jpg"
-  - Image: "/uploads/transform%20web%205.jpg"
-  - Image: "/uploads/transform%20web%201.jpg"
+  - Image: "/uploads/transform%20web%205-4e3432.jpg"
+  - Image: "/uploads/transform%20web%201-d1f0fe.jpg"
   - Image: "/uploads/transform%20web%202.jpg"
 Meta:
 - Where we worked: 'Kenya, Bangladesh '
