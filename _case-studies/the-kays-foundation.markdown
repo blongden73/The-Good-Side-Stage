@@ -14,26 +14,22 @@ Question: How can we encourage early childhood programme designers to think abou
   the caregiver as much as the child?
 Blocks:
 - Image: 
-  Article text: "A year-long mixed methods project with The Kays Foundation to understand
-    early childhood and parenting in coastal Kenya.\n\nA literature review and expert
-    interviews led to a month-long ethnographic immersion and a powerful documentary
-    film, validated and evidenced through a quantitative survey. \n\nWe were inspired
-    by the aims of The Kays Foundation, which exists to create momentum around early
-    childhood to make it a priority for everyone.\n\n\"Decades of research have brought
-    us to the undeniable truth that the early years of human life are inextricably
-    and measurably linked to almost every outcome in adulthood.\" - Khilen Nathwani
-    - Founder & CEO, The Kays Foundation\n\nThis worked has sparked debate and helped
-    decision-makers in the early child development field to make better decisions
-    on policy, practice and funding.\n\nWe workshopped insights and conclusions with
-    The Kays Foundation and local government and NGO stakeholders, to ensure the outputs
-    were owned and co-created with people who could truly act on them. We revisited
-    the women at the heart of the film, checking in with them about the depiction
-    of them and their lives, and receiving their endorsement.\n\nCentring the voices
-    of mothers and their children, our work solidified our belief in the responsibilities
-    of storytellers, including researchers, to do so with respect, dignity and cultural
-    awareness.\n\nWe built a microsite to house our report and documentary, so it
-    could act as an ongoing source of insight and guidance for anybody involved in
-    Early Child Development."
+  Article text: |-
+    **A year-long mixed methods project with The Kays Foundation to understand early childhood and parenting in coastal Kenya.**
+
+    A literature review and expert interviews led to a month-long ethnographic immersion and a powerful documentary film, validated and evidenced through a quantitative survey.
+
+    We were inspired by the aims of The Kays Foundation, which exists to create momentum around early childhood to make it a priority for everyone.
+
+    **"Decades of research have brought us to the undeniable truth that the early years of human life are inextricably and measurably linked to almost every outcome in adulthood." - Khilen Nathwani - Founder & CEO, The Kays Foundation**
+
+    This worked has sparked debate and helped decision-makers in the early child development field to make better decisions on policy, practice and funding.
+
+    We workshopped insights and conclusions with The Kays Foundation and local government and NGO stakeholders, to ensure the outputs were owned and co-created with people who could truly act on them. We revisited the women at the heart of the film, checking in with them about the depiction of them and their lives, and receiving their endorsement.
+
+    Centring the voices of mothers and their children, our work solidified our belief in the responsibilities of storytellers, including researchers, to do so with respect, dignity and cultural awareness.
+
+    We built a microsite to house our report and documentary, so it could act as an ongoing source of insight and guidance for anybody involved in Early Child Development.
   Video: <iframe src="https://player.vimeo.com/video/364756937" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   Testimonial: '"The Good Side was a delight to work with. Their multi-disciplinary
