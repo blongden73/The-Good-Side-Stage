@@ -28,12 +28,13 @@ Blocks:
 - Video: <iframe src="https://player.vimeo.com/video/379074251" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   Carousel:
-  - Image: "/uploads/Small%20D98A0859.jpg"
   - Image: "/uploads/Small%20D98A0693.jpg"
   - Image: "/uploads/Small%20D98A0403.jpg"
   - Image: "/uploads/Small%20D98A0662.jpg"
   - Image: "/uploads/Small%20D98A0100.jpg"
-  - Image: "/uploads/Small%20_98A0369.jpg"
+  - Image: "/uploads/SMALL%20IMG_2907%20sized.jpg"
+  - Image: "/uploads/new%20beach%20small.jpg"
+  - Image: "/uploads/new%20david.jpg"
 Meta:
 - Related links:
   - Link: https://www.dosomething.org/us/11-young-activists-leading-the-way-for-lgbtq-equality
