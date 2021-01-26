@@ -13,6 +13,7 @@ Case study title: In the first week of widespread global lockdown we decided to 
 Question: How can we remotely use our research and storytelling skills to capture
   insights during the Covid-19 lockdown?
 Blocks:
+- 
 - Image: 
   Article text: "In the first week of widespread global lockdown we decided to create
     a documentary series exploring the social impact of COVID-19 on Britain.\n\nThe
@@ -23,8 +24,9 @@ Blocks:
     the series we have seen marked shifts in attitudes, behaviours, values and priorities,
     and we anticipate this will continue as people adjust to their changing social
     realities. "
-  Video: <iframe src="https://player.vimeo.com/video/400023781" width="640" height="360"
-    frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/S2Vz9CJRu_s"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+    gyroscope; picture-in-picture" allowfullscreen></iframe>
   Testimonial: '"A thoughtful series put together by creative strategy company The
     Good Side, its broader age demographic facilitating adult subjects including local
     businesses, financial hardships and the government’s handling of the crisis."
@@ -38,8 +40,6 @@ Blocks:
   - Image: "/uploads/Bee.png"
   - Image: "/uploads/John%20and%20Marion%206a.mov.00_07_38_14.Still001.png"
   - Image: "/uploads/Bob%20Painting.png"
-- Video: <iframe src="https://player.vimeo.com/video/421584273" width="640" height="360"
-    frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 Meta:
 - Related links:
   - Link: https://www.bfi.org.uk/bfi-national-archive/look-behind-scenes/britain-lockdown-online-video-archive
