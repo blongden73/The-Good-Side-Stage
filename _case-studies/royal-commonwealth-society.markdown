@@ -15,6 +15,8 @@ Question: How can we connect young people across the Commonwealth with activists
 Blocks:
 - Image: 
   Article text: |-
+    **Six campaign films and  strategic communications advice**
+
     We wanted to create a groundswell of youth noise to impact global leaders attending CHOGM 2020, and highlight the need to urgently reform discriminatory colonial era laws.
 
     We created six short campaign films in collaboration with 12 young activists from across the Commonwealth, to share their stories and amplify their voices to the growing movement for change.
@@ -48,6 +50,11 @@ Meta:
   - Link: 'https://www.medium.com/tsrkbd/reform53-a-call-to-reform-discriminatory-laws-of-the-commonwealth-countries-80553e37cc51 '
     Link Text: "#Reform53"
   Where we worked: Seychelles
+  The Network:
+  - Link: https://www.royalcwsociety.org/
+    Network Text: Royal Commonwealth Society
+  - Link: https://commonwealthyouthcouncil.com/commonwealth-youth-gender-equality-network/
+    Network Text: CYGEN
   Tags: Gender, LGBTQIA+, Young people, Film, International development
   Data: 18 | Number of Commonwealth countries it is legal for a husband to rape his
     wife
