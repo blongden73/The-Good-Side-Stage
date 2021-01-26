@@ -49,9 +49,14 @@ Blocks:
     years."
 Meta:
 - Where we worked: Kenya
+  Related links:
+  - Link: https://ecdnetworkforkenya.org/
+    Link Text: ECD Network for Kenya
+  - Link: 
+    Link Text: 
   The Network:
-  - Link: 'Dignified Storytelling '
-    Network Text: https://dignifiedstorytelling.com/
+  - Link: https://dignifiedstorytelling.com/
+    Network Text: Dignified Storytelling
     Network text: 
   Tags: Gender, Film, International development, Behaviour change, Ethnography, Quantitative,
     Qualitative
