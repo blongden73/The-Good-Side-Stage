@@ -19,7 +19,7 @@ Blocks:
 
     We developed a messaging and media strategy tailored to fit audiences across vastly different cultures. We extended the life of the film through cutdowns, short soundbite films and social media content to support HDT’s online fundraising and advocacy.
 
-    Our work for HDT has involved filming in seven countries on five continents, all at different languages, socio political and religious contexts, varying and complex legal jargon to make digestible, safeguarding implications and varying stages of reform.
+    Our work for HDT has involved filming in seven countries on five continents - all with different languages, socio political and religious contexts, complex legal jargon, safeguarding implications and varying stages of reform.
 
     The films have been widely praised by creatives, activists and experts, and are now producing real-world impact.
   Video: <iframe src="https://player.vimeo.com/video/377610592" width="640" height="360"
