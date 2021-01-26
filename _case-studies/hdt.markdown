@@ -11,7 +11,7 @@ Question: How can we connect Commonwealth leaders to the impact of discriminator
 Blocks:
 - Image: 
   Article text: |-
-    **Impact documentaries, social content and communications strategy, to drive reform and repeal of discriminator, archaic colonial laws.**
+    **Impact documentaries, social content and communications strategy**
 
     We immersed ourselves in the lives of activists, lawyers, legislators, faith leaders, world leaders and many of those affected by colonial-era laws, documenting powerful movements for change around the Commonwealth.
 
