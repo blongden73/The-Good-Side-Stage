@@ -15,8 +15,8 @@ Question: How can we encourage early childhood programme designers to think abou
 Blocks:
 - Image: 
   Article text: "**A year-long mixed methods project with The Kays Foundation to understand
-    early childhood and parenting in coastal Kenya. **\n\nA literature review and
-    expert interviews led to a month-long ethnographic immersion and powerful documentary
+    early childhood and parenting in coastal Kenya.**\n\nA literature review and expert
+    interviews led to a month-long ethnographic immersion and powerful documentary
     film, validated and evidenced through a quantitative survey. \n\nWe were inspired
     by the aims of The Kays Foundation, which exists to create momentum around early
     childhood to make it a priority for everyone.\n\n**\"Decades of research have
