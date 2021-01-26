@@ -10,9 +10,10 @@ Case study title: 'Powering the comms strategy with human stories for Unilever a
 Question: How can public-private partnerships deliver against the Sustainable Development
   Goals and support social enterprises in the global South?
 Blocks:
-- Article text: "We partnered with MLS to develop a communications strategy aimed
-    at inspiring engagement from donors and social entrepreneurs for Unilever and
-    DFID’s TRANSFORM programme.\n\nThrough ethnographic immersion, multi-stakeholder
+- Article text: "**Ethnographic immersion, photography, stakeholder interviews and
+    communications strategy**\n\nWe partnered with MLS to develop a communications
+    strategy aimed at inspiring engagement from donors and social entrepreneurs for
+    Unilever and DFID’s TRANSFORM programme.\n\nThrough ethnographic immersion, multi-stakeholder
     interviews, documentary photography and systems-mapping work, we uncovered the
     human stories and real social impact that TRANSFORM social enterprises were making.
     We also brought to life the benefit that entrepreneurs gained from partnering
