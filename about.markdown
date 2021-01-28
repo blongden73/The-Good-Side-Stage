@@ -92,9 +92,9 @@ Team:
   Gif image: 
 - Name: Odette Schwartz
   Role: Researcher
-  Image: "/uploads/Headshot.jpg"
+  Image: "/uploads/Odette-2.jpg"
   Question: How do we get young men to reach out to their friends?
-  Gif image: 
+  Gif image: "/uploads/Odette-GIF.gif"
 - Name: Ticiana Riveiro
   Role: Administrator
   Image: "/uploads/Ticiana_head%20&%20shoulders.png"
