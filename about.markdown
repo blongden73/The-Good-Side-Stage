@@ -85,6 +85,11 @@ Team:
   Image: "/uploads/Lamiswebsquare.jpg"
   Question: 
   Gif image: 
+- Name: JJ Tomlinson
+  Role: Research Manager
+  Image: "/uploads/JJ%20Photo.jpg"
+  Question: 
+  Gif image: 
 - Name: Matthew Huntley
   Role: Senior Researcher
   Image: "/uploads/Matthew.jpg"
@@ -98,7 +103,7 @@ Team:
 - Name: Ticiana Riveiro
   Role: Administrator
   Image: "/uploads/Ticiana_head%20&%20shoulders.png"
-  Question: What did you learn from this?
+  Question: 
   Gif image: 
 About sentence 1: We help people to understand and impact systems, society and culture.
 About 1 image: "/uploads/door.png"
