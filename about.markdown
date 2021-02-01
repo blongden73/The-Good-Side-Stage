@@ -57,7 +57,7 @@ Team:
 - Name: James Lewis
   Role: Head of production
   Image: "/uploads/James_headshot-4_websquare.jpg"
-  Question: What is Madonna’s best album?
+  Question: How can we instil behaviour change techniques into our films?
   Gif image: "/uploads/low_james.gif"
 - Name: Adrianne Colyer
   Role: People and Projects Manager
