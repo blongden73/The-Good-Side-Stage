@@ -88,7 +88,7 @@ Team:
 - Name: JJ Tomlinson
   Role: Research Manager
   Image: "/uploads/JJ%20Photo.jpg"
-  Question: 
+  Question: How do we help sympathy evolve into action?
   Gif image: 
 - Name: Matthew Huntley
   Role: Senior Researcher
