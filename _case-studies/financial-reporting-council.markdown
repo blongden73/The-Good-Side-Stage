@@ -16,8 +16,9 @@ Blocks:
     review, in-depth interviews with LGBTQ+ leaders and inclusion experts, and a series
     of deliberative workshops, our research explored and surfaced important implications
     for the development of inclusive company policies and practices.\n\nOur report
-    was launched at a webinar co-hosted by The Good Side and the FRC, with guest speakers
-    from Amazon, Santander and Global Butterflies. \n"
+    (see \"Explore topic\" in side bar) was launched at a webinar co-hosted by The
+    Good Side and the FRC, with guest speakers from Amazon, Santander and Global Butterflies.
+    \n"
 Meta:
 - Related links:
   - Link: https://www.frc.org.uk/getattachment/19f3b216-bd45-4d46-af2f-f191f5bf4a07/The-Good-Side-x-Financial-Reporting-Council-1811-AMENDED.pdf
