@@ -83,7 +83,7 @@ Team:
 - Name: Lamis Harper
   Role: Associate Director
   Image: "/uploads/Lamiswebsquare.jpg"
-  Question: 
+  Question: What is the most interesting thing you've read or seen this week?
   Gif image: 
 - Name: JJ Tomlinson
   Role: Research Manager
