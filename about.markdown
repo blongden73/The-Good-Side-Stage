@@ -36,7 +36,7 @@ Clients:
 - Logo: "/uploads/TGS_clients_bond.png"
 - Logo: "/uploads/TGS_clients_hub.png"
 - Logo: "/uploads/TGS_clients_glimpse.png"
-- Logo: "/uploads/TGS_clients_deptdev.png"
+- Logo: "/uploads/FCDO%20Blue.png"
 - Logo: "/uploads/TGS_clients_year.png"
 - Logo: "/uploads/TGS_clients_girl.png"
 - Logo: "/uploads/TGS_clients_world.png"
