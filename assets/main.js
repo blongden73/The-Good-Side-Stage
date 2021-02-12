@@ -48,6 +48,12 @@ function openpage() {
             target.scrollIntoView({behavior: "smooth", block: "center"});
           }, 100)
         }
+        if(this.classList.contains('about-scroller')){
+          var aboutPageScroller = document.querySelector('.scrolltome');
+          setTimeout(function(){
+            aboutPageScroller.scrollIntoView({behavior: "smooth", block: "center"});
+          }, 150)
+        }
         var open = document.querySelector('.gs-slide.open');
         for(j=0; j<slides.length; j++ ) {
           slides[j].classList.add('close');
