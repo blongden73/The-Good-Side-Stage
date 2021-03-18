@@ -72,7 +72,7 @@ Team:
   Gif image: "/uploads/cat_low.gif"
 - Name: Kymberly Loeb
   Role: Associate Director
-  Image: 
+  Image: "/uploads/IMG_20210304_165426-01-6e2f64.jpeg"
   Question: 
   Gif image: 
 - Name: Connie Flude
