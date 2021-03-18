@@ -70,6 +70,11 @@ Team:
   Image: "/uploads/Trina_Headshots-6_websquare.jpg"
   Question: How can we uncover what people actually do, vs. what they say they do?
   Gif image: "/uploads/cat_low.gif"
+- Name: Kymberly Loeb
+  Role: Associate Director
+  Image: 
+  Question: 
+  Gif image: 
 - Name: Connie Flude
   Role: Project Director
   Image: "/uploads/uzhuBG5wQ0eHOnGiJ1OiKw_thumb_1a3d.jpg"
