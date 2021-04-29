@@ -73,7 +73,7 @@ Team:
 - Name: Kymberly Loeb
   Role: Associate Director
   Image: "/uploads/IMG_20210304_165426-01-6e2f64.jpeg"
-  Question: 
+  Question: How can we work with people's cognitive biasis to impact social change?
   Gif image: 
 - Name: Connie Flude
   Role: Project Director
@@ -84,11 +84,6 @@ Team:
   Role: Senior Filmmaker
   Image: "/uploads/Leva.jpg"
   Question: Which films have had the biggest impact on the world?
-  Gif image: 
-- Name: Lamis Harper
-  Role: Associate Director
-  Image: "/uploads/Lamiswebsquare.jpg"
-  Question: What is the most interesting thing you've read or seen this week?
   Gif image: 
 - Name: JJ Tomlinson
   Role: Research Manager
