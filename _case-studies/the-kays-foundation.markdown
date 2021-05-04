@@ -5,7 +5,7 @@ permalink: "/case-studies/the-kays-foundation.html"
 tags:
 - featured
 - medium
-position: 4
+position: 5
 Case study main image: "/uploads/Kays%20Headline%20Shot2%20copy.jpg"
 Case study top image: "/uploads/Small%20Children%20Playing%20Instruments%203.jpg"
 Case study title: A year-long mixed methods project to understand early childhood

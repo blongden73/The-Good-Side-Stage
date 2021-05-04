@@ -2,7 +2,7 @@
 title: FINANCIAL REPORTING COUNCIL
 date: 2020-11-17 12:49:00 Z
 permalink: "/case-studies/financial-reporting-council.html"
-position: 7
+position: 4
 Case study main image: "/uploads/Small%20FRS.jpg"
 Case study top image: "/uploads/Small%20FRS.jpg"
 Case study title: 'Building more open businesses: supporting the progression of LGBQT+
