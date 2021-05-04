@@ -3,7 +3,7 @@ title: SAVE THE CHILDREN
 date: 2020-11-17 16:43:00 Z
 permalink: "/case-studies/save-the-children.html"
 published: false
-position: 9
+position: 10
 Case study main image: "/uploads/110929606-dark-background-colorful-handp.jpeg"
 Case study top image: "/uploads/110929606-dark-background-colorful-handp.jpeg"
 Case study title: Bringing audiences to life through ethnography, documentary and
