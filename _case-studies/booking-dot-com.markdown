@@ -2,9 +2,6 @@
 title: BOOKING.COM
 date: 2020-11-17 16:30:00 Z
 permalink: "/case-studies/booking-dot-com.html"
-tags:
-- featured
-- big
 position: 0
 Case study main image: "/uploads/mercedes-mehling-7J7x8HLXQKA-unsplash.jpg"
 Case study top image: "/uploads/115340007-lgbt-flag-blue-wooden-boards-c.jpeg"
