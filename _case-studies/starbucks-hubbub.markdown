@@ -2,7 +2,7 @@
 title: STARBUCKS + HUBBUB
 date: 2020-11-05 13:51:00 Z
 permalink: "/case-studies/starbucks-hubbub.html"
-position: 3
+position: 2
 Case study main image: "/uploads/Coffee%20counter%20web.jpg"
 Case study top image: "/uploads/Coffee%20counter%20web.jpg"
 Case study title: 'In partnership with creative collective Glimpse, we used our behavioural
