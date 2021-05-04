@@ -5,7 +5,7 @@ permalink: "/case-studies/royal-commonwealth-society.html"
 tags:
 - featured
 - big
-position: 2
+position: 3
 Case study main image: "/uploads/Small%20_98A0295%202%20sm.jpg"
 Case study top image: "/uploads/Small%20D98A0100.jpg"
 Case study title: 'Creating a groundswell of youth noise to impact leaders attending
