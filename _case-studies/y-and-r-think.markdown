@@ -2,9 +2,6 @@
 title: Y&R:Think!
 date: 2020-11-17 18:36:00 Z
 permalink: "/case-studies/y-and-r-think.html"
-tags:
-- featured
-- big
 position: 6
 Case study main image: "/uploads/rezasaad-U9XPkBu3oc8-unsplash.jpg"
 Case study top image: "/uploads/charles-postiaux-R_Umtq1j6gA-unsplash.jpg"
