@@ -2,7 +2,7 @@
 title: UNILEVER / TRANSFORM
 date: 2020-11-17 18:22:00 Z
 permalink: "/case-studies/transform.html"
-position: 4
+position: 2
 Case study main image: "/uploads/transform%20web.jpg"
 Case study top image: "/uploads/transform%20web.jpg"
 Case study title: 'Powering the comms strategy with human stories for Unilever and
