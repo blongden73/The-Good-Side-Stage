@@ -85,11 +85,6 @@ Team:
   Image: "/uploads/Leva.jpg"
   Question: Which films have had the biggest impact on the world?
   Gif image: 
-- Name: JJ Tomlinson
-  Role: Research Manager
-  Image: "/uploads/JJ%20Photo.jpg"
-  Question: How do we help sympathy evolve into action?
-  Gif image: 
 - Name: Matthew Huntley
   Role: Senior Researcher
   Image: "/uploads/Matthew.jpg"
