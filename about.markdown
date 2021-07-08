@@ -87,9 +87,9 @@ Team:
   Gif image: 
 - Name: Matthew Huntley
   Role: Senior Researcher
-  Image: "/uploads/Matthew.jpg"
+  Image: "/uploads/Mathew%20GIF%20Still.jpg"
   Question: What film best represents your life?
-  Gif image: 
+  Gif image: "/uploads/Mathew-GIF_low-res.gif"
 - Name: Odette Schwartz
   Role: Researcher
   Image: "/uploads/Odette-2.jpg"
