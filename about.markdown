@@ -75,11 +75,6 @@ Team:
   Image: "/uploads/IMG_20210304_165426-01-6e2f64.jpeg"
   Question: How can we work with people's cognitive biasis to impact social change?
   Gif image: 
-- Name: Connie Flude
-  Role: Project Director
-  Image: "/uploads/uzhuBG5wQ0eHOnGiJ1OiKw_thumb_1a3d.jpg"
-  Question: 'How ironic is the phrase ''sleeping like a baby''? '
-  Gif image: 
 - Name: Leva Kwestany
   Role: Senior Filmmaker
   Image: "/uploads/Leva.jpg"
