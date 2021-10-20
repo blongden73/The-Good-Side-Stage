@@ -12,6 +12,7 @@ function isMobile(){
 
 if(!isMobile()){
   var horizontalScroll = true;
+  var opened = false;
   var caseStudyCheck = document.querySelector('.gs-case-study_top');
   //when the page loads it needs to check the url to see if there is a horizontal scroll query in there
   if(!caseStudyCheck){
@@ -472,6 +473,112 @@ function checkHash(){
   }
 }
 
+function carousel(){
+  var current = 0,
+    slides = document.querySelectorAll(".mani-slide");
+
+setInterval(function() {
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.opacity = 0;
+  }
+  current = (current != slides.length - 1) ? current + 1 : 0;
+  slides[current].style.opacity = 1;
+}, 10000);
+}
+
+function hoverEnlarger() {
+  var hover = document.querySelectorAll('.hover-enlarge');
+  var info = document.querySelector('.studio-info-wrapper');
+  for(i=0; i<hover.length; i++){
+    hover[i].addEventListener('click', function(){
+      for(j=0; j<hover.length; j++){
+        hover[j].classList.toggle('hide');
+      }
+      var selector = this.dataset.selector;
+      console.log('.studio-info-wrapper.'+selector);
+      document.querySelector('.studio-info-wrapper.'+selector).classList.toggle('visible');
+      this.classList.toggle('enlarge');
+    })
+  }
+}
+
+function caseStudyMore() {
+  console.log('read-more');
+  var caseStudyReadMore = document.querySelectorAll('.case-read-more');
+  var info = document.querySelector('.case-study-info-wrapper');
+  for(i=0;i<caseStudyReadMore.length; i++){
+    caseStudyReadMore[i].addEventListener('click', function(){
+      if(!opened) {
+        opened = true;
+        horizontalScroll = false;
+      }else {
+        opened = false;
+        horizontalScroll = true;
+      }
+      console.log('clicking');
+      var selector = this.dataset.selector;
+      document.querySelector('.case-study-info-wrapper.'+selector).classList.toggle('visible');
+    });
+  }
+}
+
+function logoChange() {
+  console.log('logo');
+  var mainVideo = document.querySelector('.gs-video');
+  var siteLogo = document.querySelector('.tg-header__logo');
+  document.addEventListener('wheel', function(){
+    console.log(mainVideo.getBoundingClientRect());
+
+    if(mainVideo.getBoundingClientRect().x <= -400) {
+      console.log('pause');
+      mainVideo.querySelector('video').pause();
+      siteLogo.classList.add('black');
+    }else {
+      console.log('play');
+      mainVideo.querySelector('video').play();
+      siteLogo.classList.remove('black');
+    }
+  });
+}
+
+function carouselVideos(){
+  var mainIframe = document.querySelector('.carousel-main');
+  var videoList = document.querySelectorAll('.video-item');
+  videoList[0].parentNode.classList.remove('deactive');
+  for(i=0; i<videoList.length; i++){
+    videoList[i].addEventListener('click', function(){
+      for(g=0; g<videoList.length; g++){
+        videoList[g].parentNode.classList.add('deactive');
+      }
+      this.parentNode.classList.remove('deactive');
+      var videoVim = this.dataset.vimeo;
+      mainIframe.src = videoVim;
+    });
+  }
+}
+
+function closeWindow() {
+  var closeButton = document.querySelectorAll('.close-window');
+  for(i=0; i<closeButton.length; i++){
+    closeButton[i].addEventListener('click', function(){
+      var visible = document.querySelector('.visible');
+      var enlarge = document.querySelector('.enlarge');
+      if(enlarge) {
+        var enlargeList = document.querySelectorAll('.hover-enlarge');
+        for(j=0; j<enlargeList.length; j++) {
+          enlargeList[j].classList.remove('hide');
+        }
+        enlarge.classList.remove('enlarge');
+      }
+      if(visible) {
+        opened = false;
+        horizontalScroll = true;
+        visible.classList.remove('visible');
+      }
+    })
+  }
+}
+
 function init(){
   hash();
   animateCricles();
@@ -492,4 +599,13 @@ function init(){
   taginUrl();
   caseStudyheight();
   checkHash();
+
+  if(document.querySelector('.mani-slide')){
+    carousel();
+    hoverEnlarger();
+    logoChange();
+    caseStudyMore();
+    closeWindow()
+    carouselVideos();
+  }
 }init();

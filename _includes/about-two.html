@@ -1,0 +1,50 @@
+<div class="gs-wrapper new">
+  <div class="gs-wrapper__inner first about-new ">
+    <div class="flex">
+      <div class="left relative">
+        <h4 class="start centered textblack">WE ARE THE GOOD SIDE</h4>
+      </div>
+      <div class="right">
+        {% assign aboutPage = site.pages %}
+        {% for page in aboutPage %}
+          {% if page.title == "About" %}
+            <p>
+              The Good Side is an insight, strategy and creative studio.
+            </p>
+            <p>
+              We unpack cultural complexity and set fresh directions.
+            </p>
+            <p>
+              We give trusted guidance in changing times.
+            </p>
+            <p>
+              We humanise audiences and navigate issues.
+            </p>
+            <p>
+              We craft strategies and stories for impact.
+            </p>
+            <p>
+              We are plugged into change at ground level, worldwide.
+            </p>
+            <p>
+              We work with leading and emerging organisations to understand the world and make things happen.
+            </p>
+          {% endif %}
+        {% endfor %}
+        <ul class="gs-client-list new">
+          {% assign aboutPage = site.pages %}
+          {% for page in aboutPage %}
+            {% if page.title == "About" %}
+              {% assign clients = page.Clients %}
+              {% for item in clients limit: 6 %}
+              <li class="new">
+                <img src="{{item.Logo}}">
+              </li>
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

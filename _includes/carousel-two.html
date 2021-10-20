@@ -1,0 +1,46 @@
+{% assign carousel = site.home-carousel %}
+{{carousel}}
+<div class="gs-wrapper">
+<!-- <div class="gs-splash ask">
+  <h1>Watch our videos</h1>
+</div> -->
+<!-- <div class="big-video">
+  {% for item in carousel limit: 1 %}
+    {{item.['Video Link']]}}
+  {% endfor %}
+</div>
+<ul class="flex video-carousel">
+    {% for item in carousel %}
+    <li>
+        <div class="video-item">
+            <div class="">
+              {{item.['Video Link']]}}
+            </div>
+        </div>
+    </li>
+    {% endfor %}
+</ul> -->
+<div class="flex video-wrapper">
+  <div class="video-left">
+    {% for item in carousel limit: 1 %}
+      {{item.['Video Link']]}}
+    {% endfor %}
+  </div>
+  <div class="list-right">
+    <ul class="video-carousel">
+        {% for item in carousel %}
+        <li class="deactive">
+            <div class="video-item" data-vimeo="{{item.video-id}}?autoplay=1">
+                <div class="video-image">
+                  <img src="{{item.Image}}">
+                </div>
+                <div class="video-item-title">
+                  <p>{{item.title}}</p>
+                </div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+  </div>
+</div>
+</div>

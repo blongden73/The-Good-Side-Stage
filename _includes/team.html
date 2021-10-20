@@ -1,0 +1,29 @@
+<div class="gs-wrapper nopadd">
+  <div class="centered width-eighty gs-team">
+  <div class="gs-wrapper__inner">
+  <ul>
+    {% assign aboutPage = site.pages %}
+    {% for page in aboutPage %}
+      {% if page.title == "About" %}
+        {% assign team = page.Team %}
+        {% for item in team %}
+        <li>
+          <div class="cirlce">
+            {% if item.['Gif image'] %}
+              <img class="gif-hover" src="{{item.['Gif image']}}">
+            {% endif %}
+            <img src="{{item.Image}}">
+          </div>
+          <div class="circle-question">
+            <p>{{item.Question}}</p>
+          </div>
+          <h2>{{item.Name}}</h2>
+          <h6>{{item.Role}}</h6>
+        </li>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+    </ul>
+    </div>
+  </div>
+</div>

@@ -172,3 +172,122 @@
     }
   }
 }
+
+.gs-case-header {
+  color: #2FEA2F;
+
+  &.yellow {
+    color: $yellow;
+  }
+
+  &.blue-text {
+    color: $blue;
+  }
+
+  &.red-text {
+    color: $red;
+  }
+}
+
+@keyframes visible {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.gs-case-image {
+  mix-blend-mode: lighten;
+  pointer-events: none;
+  transition: all ease-in-out 0.5s;
+  transition-delay: 2s;
+  visibility: hidden;
+
+  @include mq($until: tablet) {
+    display: none;
+  }
+
+  &.opacity-six {
+    opacity: 0.6 !important;
+  }
+  &.opacity-three {
+    opacity: 0.2 !important;
+  }
+
+  .inview & {
+    visibility: visible;
+    animation-name: visible;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+}
+
+.gs-case-image-floating {
+  position: absolute;
+  right: 2%;
+  bottom: 40px;
+  width: 39%;
+  z-index: 10;
+  height: 500px;
+  overflow: hidden;
+
+  @include mq($until: tablet) {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    right: unset;
+    bottom: unset;
+  }
+
+  &.zoom {
+    img {
+      height: 112%;
+    }
+  }
+
+  img {
+    width: 100%;
+    opacity: 1;
+    transition: all ease-in-out 0.5s;
+  }
+}
+
+.hover-case {
+  top: 38%;
+}
+
+.case-study-footer {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  @include mq($until: tablet) {
+    position: relative;
+    bottom: unset;
+    left: unset;
+    transform: unset;
+    margin-top: 20px;
+    margin-left: 5%;
+  }
+}
+
+.gs-button {
+  border: 1px solid #000;
+  width: max-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  font-family: 'bill corp nar';
+  line-height: 1.6;
+  font-size: 18px;
+  color: #121212;
+}

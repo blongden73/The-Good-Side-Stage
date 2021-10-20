@@ -4,6 +4,7 @@
   {% include head.html %}
 
   <body>
+    <div class="bg"></div>
 
     {% include header.html %}
 
