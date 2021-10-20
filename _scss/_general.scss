@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Bureau Grot Extra Compressed';
-    src: url('../assets/BureauGrotExtraCompressed-Book.woff2') format('woff2'),
-        url('../assets/BureauGrotExtraCompressed-Book.woff') format('woff');
+    src: url('../The-Good-Side-Stage/assets/BureauGrotExtraCompressed-Book.woff2') format('woff2'),
+        url('../The-Good-Side-Stage/assets/BureauGrotExtraCompressed-Book.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'bill corp nar';
-    src: url('../assets/billcorpnar-bold.woff2') format('woff2'),
-        url('../assets/billcorpnar-bold.woff') format('woff');
+    src: url('../The-Good-Side-Stage/assets/billcorpnar-bold.woff2') format('woff2'),
+        url('../The-Good-Side-Stage/assets/billcorpnar-bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: block;
@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'bill corp nar';
-    src: url('../assets/billcorpnar-medium.woff2') format('woff2'),
-        url('../assets/billcorpnar-medium.woff') format('woff');
+    src: url('../The-Good-Side-Stage/assets/billcorpnar-medium.woff2') format('woff2'),
+        url('../The-Good-Side-Stage/assets/billcorpnar-medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: block;
@@ -27,8 +27,8 @@
 
 @font-face {
     font-family: 'bill corp nar';
-    src: url('../assets/billcorpnar-extralight.woff2') format('woff2'),
-        url('../assets/billcorpnar-extralight.woff') format('woff');
+    src: url('../The-Good-Side-Stage/assets/billcorpnar-extralight.woff2') format('woff2'),
+        url('../The-Good-Side-Stage/assets/billcorpnar-extralight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
     font-display: block;
@@ -36,8 +36,8 @@
 
 @font-face {
     font-family: 'bill corp nar';
-    src: url('../assets/billcorpnar-extrabold.woff2') format('woff2'),
-        url('../assets/billcorpnar-extrabold.woff') format('woff');
+    src: url('../The-Good-Side-Stage/assets/billcorpnar-extrabold.woff2') format('woff2'),
+        url('../The-Good-Side-Stage/assets/billcorpnar-extrabold.woff') format('woff');
     font-weight: 800;
     font-style: normal;
     font-display: swap;
@@ -829,21 +829,21 @@ small {
 }
 
 .background-one {
-  background-image: url('/uploads/dots.png');
+  background-image: url('/The-Good-Side-Stage/uploads/dots.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .background-two {
-  background-image: url('/uploads/dots-2.png');
+  background-image: url('/The-Good-Side-Stage/uploads/dots-2.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .background-three {
-  background-image: url('/uploads/dots-1.png');
+  background-image: url('/The-Good-Side-Stage/uploads/dots-1.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;

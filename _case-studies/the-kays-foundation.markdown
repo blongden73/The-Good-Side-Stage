@@ -6,8 +6,8 @@ tags:
 - featured
 - medium
 position: 5
-Case study main image: "/uploads/Kays%20Headline%20Shot2%20copy.jpg"
-Case study top image: "/uploads/Small%20Children%20Playing%20Instruments%203.jpg"
+Case study main image: "/The-Good-Side-Stage/uploads/Kays%20Headline%20Shot2%20copy.jpg"
+Case study top image: "/The-Good-Side-Stage/uploads/Small%20Children%20Playing%20Instruments%203.jpg"
 Case study title: A year-long mixed methods project to understand early childhood
   and parenting in coastal Kenya.
 Question: How can we encourage early childhood programme designers to think about
@@ -39,13 +39,13 @@ Blocks:
     has already created impact in a short space of time" — Genevieve Wastie, Consultant
     at The Kays Foundation'
   Carousel:
-  - Image: "/uploads/Small%20Claris%20Eye%20Contact.jpg"
-  - Image: "/uploads/Small%20Komaza_956_2058.jpg"
-  - Image: "/uploads/Small%20Children%20Playing%20Sand.jpg"
-  - Image: "/uploads/Small%20Anzazi%20and%20Rye.jpg"
-  - Image: "/uploads/Small%20Eunice%20(b)%20and%20Baby%204.jpg"
-  - Image: "/uploads/Small%20Child%20Solhouette%20Kibarani.jpg"
-  - Image: "/uploads/Small%20Untended%20Child%201.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/Small%20Claris%20Eye%20Contact.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/Small%20Komaza_956_2058.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/Small%20Children%20Playing%20Sand.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/Small%20Anzazi%20and%20Rye.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/Small%20Eunice%20(b)%20and%20Baby%204.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/Small%20Child%20Solhouette%20Kibarani.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/Small%20Untended%20Child%201.jpg"
 - Testimonial: "“Wow – just watched your Mama Kwanza video from Kilifi and Mombasa
     on mothers and their children under 3... It is such a powerful video, with clear
     messages, a strong narrative, great pictures etc etc. I found it heart breaking

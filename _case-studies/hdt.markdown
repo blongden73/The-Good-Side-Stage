@@ -3,8 +3,8 @@ title: THE HUMAN DIGNITY TRUST
 date: 2020-11-04 17:50:00 Z
 permalink: "/case-studies/hdt.html"
 position: 3
-Case study main image: "/uploads/tgs_human.jpg"
-Case study top image: "/uploads/tgs_human.jpg"
+Case study main image: "/The-Good-Side-Stage/uploads/tgs_human.jpg"
+Case study top image: "/The-Good-Side-Stage/uploads/tgs_human.jpg"
 Case study title: The Human Dignity Trust x The Good Side
 Question: How can we connect Commonwealth leaders to the impact of discriminatory
   colonial laws, and drive legal reform?
@@ -32,10 +32,10 @@ Blocks:
 - Video: <iframe src="https://player.vimeo.com/video/385260549" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   Carousel:
-  - Image: "/uploads/small%20hdt%20girls.jpg"
-  - Image: "/uploads/small%20hdt%20delhi.jpg"
-  - Image: "/uploads/small%20hdt%20carousel%20caleb.jpg"
-  - Image: "/uploads/small%20hdt%20women.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/small%20hdt%20girls.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/small%20hdt%20delhi.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/small%20hdt%20carousel%20caleb.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/small%20hdt%20women.jpg"
 Meta:
 - Related links:
   - Link: 'https://www.twitter.com/victor_madrigal/status/1273726042289713162 '

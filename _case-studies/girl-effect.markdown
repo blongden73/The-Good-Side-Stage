@@ -4,8 +4,8 @@ date: 2020-11-17 17:56:00 Z
 permalink: "/case-studies/girl-effect.html"
 published: false
 position: 9
-Case study main image: "/uploads/nigeria%20girl%20at%20home.jpg"
-Case study top image: "/uploads/nigeria%20girl%20leaving%20house.jpg"
+Case study main image: "/The-Good-Side-Stage/uploads/nigeria%20girl%20at%20home.jpg"
+Case study top image: "/The-Good-Side-Stage/uploads/nigeria%20girl%20leaving%20house.jpg"
 Case study title: 'Co-creating youth media brands for behaviour change with Girl Effect. '
 Question: What can we learn about gender norms for young people, and how can branded
   media change the status quo?
@@ -25,9 +25,9 @@ Blocks:
   Carousel:
   - Image: 
 - Carousel:
-  - Image: "/uploads/IMGR_1492717494_PET_0277.jpg"
-  - Image: "/uploads/IMGR_1492717494_PET_0015.jpg"
-  - Image: "/uploads/GIRL%20EFFECT_NAGPUR_GUNJAN8%20smallweb.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/IMGR_1492717494_PET_0277.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/IMGR_1492717494_PET_0015.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/GIRL%20EFFECT_NAGPUR_GUNJAN8%20smallweb.jpg"
 Meta:
 - Where we worked: Rwanda, Ethiopia, Malawi, Tanzania and India
   Tags: Gender, International development, Film, Ethnography, Qualitative, Young people,

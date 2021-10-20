@@ -6,8 +6,8 @@ tags:
 - featured
 - medium
 position: 8
-Case study main image: "/uploads/Small%20Jenny%20and%20Piers%204%20(laughing%20only).mp4.00_00_08_00%20cropflip.Still001.jpg"
-Case study top image: "/uploads/Small%20Jenny%20and%20Piers%204%20(laughing%20only).mp4.00_00_08_00.Still001.jpg"
+Case study main image: "/The-Good-Side-Stage/uploads/Small%20Jenny%20and%20Piers%204%20(laughing%20only).mp4.00_00_08_00%20cropflip.Still001.jpg"
+Case study top image: "/The-Good-Side-Stage/uploads/Small%20Jenny%20and%20Piers%204%20(laughing%20only).mp4.00_00_08_00.Still001.jpg"
 Case study title: In the first week of widespread global lockdown we decided to create
   a documentary series exploring the social impact of COVID-19 on Britain.
 Question: How can we remotely use our research and storytelling skills to capture
@@ -34,14 +34,14 @@ Blocks:
     businesses, financial hardships and the government’s handling of the crisis."
     — BFI Lockdown Archive'
   Carousel:
-  - Image: "/uploads/Maz.png"
-  - Image: "/uploads/Michal%203.mp4.00_04_52_09.Still001.png"
-  - Image: "/uploads/Fleur.png"
-  - Image: "/uploads/Brendan.png"
-  - Image: "/uploads/Lila%202.png"
-  - Image: "/uploads/Bee.png"
-  - Image: "/uploads/John%20and%20Marion%206a.mov.00_07_38_14.Still001.png"
-  - Image: "/uploads/Bob%20Painting.png"
+  - Image: "/The-Good-Side-Stage/uploads/Maz.png"
+  - Image: "/The-Good-Side-Stage/uploads/Michal%203.mp4.00_04_52_09.Still001.png"
+  - Image: "/The-Good-Side-Stage/uploads/Fleur.png"
+  - Image: "/The-Good-Side-Stage/uploads/Brendan.png"
+  - Image: "/The-Good-Side-Stage/uploads/Lila%202.png"
+  - Image: "/The-Good-Side-Stage/uploads/Bee.png"
+  - Image: "/The-Good-Side-Stage/uploads/John%20and%20Marion%206a.mov.00_07_38_14.Still001.png"
+  - Image: "/The-Good-Side-Stage/uploads/Bob%20Painting.png"
 Meta:
 - Related links:
   - Link: https://www.bfi.org.uk/bfi-national-archive/look-behind-scenes/britain-lockdown-online-video-archive

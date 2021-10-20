@@ -4,8 +4,8 @@ date: 2020-11-17 16:43:00 Z
 permalink: "/case-studies/save-the-children.html"
 published: false
 position: 10
-Case study main image: "/uploads/110929606-dark-background-colorful-handp.jpeg"
-Case study top image: "/uploads/110929606-dark-background-colorful-handp.jpeg"
+Case study main image: "/The-Good-Side-Stage/uploads/110929606-dark-background-colorful-handp.jpeg"
+Case study top image: "/The-Good-Side-Stage/uploads/110929606-dark-background-colorful-handp.jpeg"
 Case study title: Bringing audiences to life through ethnography, documentary and
   design processes for Save The Children
 Question: How can we better target and support Save The Children's key audiences?

@@ -6,8 +6,8 @@ tags:
 - featured
 - big
 position: 6
-Case study main image: "/uploads/rezasaad-U9XPkBu3oc8-unsplash.jpg"
-Case study top image: "/uploads/charles-postiaux-R_Umtq1j6gA-unsplash.jpg"
+Case study main image: "/The-Good-Side-Stage/uploads/rezasaad-U9XPkBu3oc8-unsplash.jpg"
+Case study top image: "/The-Good-Side-Stage/uploads/charles-postiaux-R_Umtq1j6gA-unsplash.jpg"
 Case study title: We partnered with Y&R to rethink their approach to engaging with
   risky young drivers for the UK Dept. for Transport Think! Campaign.
 Question: What role do cars and driving play in young people's lives, and how can

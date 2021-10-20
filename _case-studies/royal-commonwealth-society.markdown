@@ -7,8 +7,8 @@ tags:
 - featured
 - big
 position: 7
-Case study main image: "/uploads/Small%20_98A0295%202%20sm.jpg"
-Case study top image: "/uploads/Small%20D98A0100.jpg"
+Case study main image: "/The-Good-Side-Stage/uploads/Small%20_98A0295%202%20sm.jpg"
+Case study top image: "/The-Good-Side-Stage/uploads/Small%20D98A0100.jpg"
 Case study title: 'Creating a groundswell of youth noise to impact leaders attending
   CHOGM 2020. '
 Question: How can we connect young people across the Commonwealth with activists and
@@ -31,13 +31,13 @@ Blocks:
 - Video: <iframe src="https://player.vimeo.com/video/379074251" width="640" height="360"
     frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   Carousel:
-  - Image: "/uploads/Small%20D98A0693.jpg"
-  - Image: "/uploads/Small%20D98A0403.jpg"
-  - Image: "/uploads/Small%20D98A0662.jpg"
-  - Image: "/uploads/Small%20D98A0100.jpg"
-  - Image: "/uploads/SMALL%20IMG_2907%20sized.jpg"
-  - Image: "/uploads/new%20beach%20small.jpg"
-  - Image: "/uploads/new%20david.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/Small%20D98A0693.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/Small%20D98A0403.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/Small%20D98A0662.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/Small%20D98A0100.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/SMALL%20IMG_2907%20sized.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/new%20beach%20small.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/new%20david.jpg"
 Meta:
 - Related links:
   - Link: https://www.dosomething.org/us/11-young-activists-leading-the-way-for-lgbtq-equality

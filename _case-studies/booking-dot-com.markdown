@@ -3,8 +3,8 @@ title: BOOKING.COM
 date: 2020-11-17 16:30:00 Z
 permalink: "/case-studies/booking-dot-com.html"
 position: 0
-Case study main image: "/uploads/mercedes-mehling-7J7x8HLXQKA-unsplash.jpg"
-Case study top image: "/uploads/115340007-lgbt-flag-blue-wooden-boards-c.jpeg"
+Case study main image: "/The-Good-Side-Stage/uploads/mercedes-mehling-7J7x8HLXQKA-unsplash.jpg"
+Case study top image: "/The-Good-Side-Stage/uploads/115340007-lgbt-flag-blue-wooden-boards-c.jpeg"
 Case study title: Understanding the LGBTQ+ travel experience.
 Question: How might we help LGBTQ+ travelers make travel plans in a safe and welcoming
   way?

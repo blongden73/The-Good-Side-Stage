@@ -3,8 +3,8 @@ title: UNILEVER / TRANSFORM
 date: 2020-11-17 18:22:00 Z
 permalink: "/case-studies/transform.html"
 position: 2
-Case study main image: "/uploads/transform%20web.jpg"
-Case study top image: "/uploads/transform%20web.jpg"
+Case study main image: "/The-Good-Side-Stage/uploads/transform%20web.jpg"
+Case study top image: "/The-Good-Side-Stage/uploads/transform%20web.jpg"
 Case study title: 'Powering the comms strategy with human stories for Unilever and
   Department for International Development '
 Question: How can public-private partnerships deliver against the Sustainable Development
@@ -22,12 +22,12 @@ Blocks:
     as a leading example of a public private partnership, inspiring and equipping
     other partners to replicate and invest in the model.\n\n\n\n"
   Carousel:
-  - Image: "/uploads/transform%20web%207.jpg"
-  - Image: "/uploads/transform%20web%206.jpg"
-  - Image: "/uploads/transform%20web%204.jpg"
-  - Image: "/uploads/transform%20web%205-4e3432.jpg"
-  - Image: "/uploads/transform%20web%201-d1f0fe.jpg"
-  - Image: "/uploads/transform%20web%202.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/transform%20web%207.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/transform%20web%206.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/transform%20web%204.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/transform%20web%205-4e3432.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/transform%20web%201-d1f0fe.jpg"
+  - Image: "/The-Good-Side-Stage/uploads/transform%20web%202.jpg"
 Meta:
 - Where we worked: 'Kenya, Bangladesh '
   The Network:
