@@ -879,11 +879,16 @@ small {
   height: 200vh;
   background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
   background-repeat: repeat;
-  // animation: bg-animation .2s infinite;
+  animation: bg-animation .2s infinite;
   opacity: .9;
   visibility: visible;
   z-index: 10;
   pointer-events: none;
+
+  @media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+      animation: none !important;
+  }}
 }
 
 @keyframes bg-animation {
@@ -1116,9 +1121,23 @@ small {
 
 .case-new {
   @include mq($until: tablet) {
+    &.gs-slide {
+      height: auto;
+      padding-bottom: 60px;
+    }
 
-    &.height-ninty {
-      height: 90vh !important;
+    // &.height-ninty {
+    //   height: 90vh !important;
+    // }
+
+    .gs-wrapper {
+      height: auto;
+    }
+
+    &.movember {
+      @include mq($until: tablet) {
+        padding-top: 100px;
+      }
     }
 
     .centered {
@@ -1158,7 +1177,7 @@ small {
 .close-window {
   color: #fff;
   font-family: 'Bureau Grot Extra Compressed';
-  font-size: 13vw;
+  font-size: 30px;
   line-height: 1;
   text-transform: uppercase;
   cursor: pointer;

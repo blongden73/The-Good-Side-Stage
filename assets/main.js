@@ -224,6 +224,16 @@ function hamburger() {
   });
 }
 
+function menu() {
+  var menuItems = document.querySelectorAll('.gs-hamburger-menu ul li');
+  var menuWrapper = document.querySelector('.gs-hamburger-menu');
+  for(i=0;i<menuItems.length; i++) {
+    menuItems[i].addEventListener('click', function(){
+      menuWrapper.classList.toggle('hidden');
+    })
+  }
+}
+
 function circlesCliked(){
   var questions = document.querySelector('.gs-questions');
   var circlesContainer = document.querySelector('.circles-slide');
@@ -736,5 +746,6 @@ function init(){
     carouselVideos();
     exitIntent();
     specialCircles();
+    menu();
   }
 }init();

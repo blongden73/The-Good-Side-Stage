@@ -1171,6 +1171,7 @@ ul.gs-client-list {
     padding-left: 5%;
     padding-right: 10%;
     height: 60vh;
+    padding-top: 18vh;
     overflow: scroll;
     padding-bottom: 20vh;
     z-index: 20;
@@ -1188,7 +1189,7 @@ ul.gs-client-list {
     max-width: 650px;
 
     @include mq($until: tablet) {
-      font-size: 18px;
+      font-size: 18px !important;
       line-height: 1.6;
     }
   }
@@ -1232,6 +1233,7 @@ ul.gs-client-list {
 
   @include mq($until: tablet) {
     pointer-events: none;
+    margin-bottom: 20px;
   }
 
   h2 {
