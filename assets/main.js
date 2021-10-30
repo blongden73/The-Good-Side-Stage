@@ -541,9 +541,13 @@ function hoverEnlarger() {
       var selector = this.dataset.selector;
       console.log('.studio-info-wrapper.'+selector);
       document.querySelector('.studio-info-wrapper.'+selector).classList.toggle('visible');
+      if(this.classList.contains('enlarge')){
+        horizontalScroll = true;
+      }else {
+        horizontalScroll = false;
+      }
       this.classList.toggle('enlarge');
       pageWrapper.classList.toggle('no-scroll');
-      horizontalScroll = false;
     })
   }
 }
@@ -647,8 +651,8 @@ function exitIntent() {
 }
 
 function specialCircles() {
-  var specialscreenWidth = screen.width / 3;
-  var specialscreenHeight = screen.height / 3;
+  var specialscreenWidth = screen.width / 4;
+  var specialscreenHeight = screen.height / 3.5 ;
   var specialballsanimation = anime({
     targets: '.random-circle',
     keyframes: [
@@ -663,7 +667,7 @@ function specialCircles() {
     easing: 'spring(1, 80, 10, 0)',
     loop: true,
     autoplay: false,
-    duration: anime.random(10000, 7000)
+    duration: anime.random(10000, 8000)
   });
 
   console.log(specialballsanimation);

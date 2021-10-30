@@ -1067,7 +1067,7 @@ ul.gs-client-list {
   h5 {
     font-family: 'bill corp nar';
     text-transform: none !important;
-    font-size: 6.5vw;
+    font-size: 18px;
     line-height: 1.2;
     @include mq($from: desktop) {
       font-size: 2.5vw;
@@ -1178,6 +1178,9 @@ ul.gs-client-list {
   }
 
   iframe {
+    width: 100%;
+    height: 47vw;
+
     @include mq($from: desktop){
       width: 82%;
       height: 28vw;
@@ -1214,7 +1217,7 @@ ul.gs-client-list {
 
   h2 {
     @include mq($until: tablet) {
-      font-size: 20vw;
+      font-size: 20vw !important;
       line-height: 0.9;
     }
   }
@@ -1228,7 +1231,7 @@ ul.gs-client-list {
 
   .close-window {
     margin-bottom: 40px;
-    display: block;
+    display: inline-block;
   }
 
   @include mq($until: tablet) {
@@ -1276,5 +1279,15 @@ ul.gs-client-list {
   iframe {
     width: 100%;
     height: 560px;
+  }
+}
+
+.case-read-more {
+  cursor: pointer;
+
+  &:hover {
+    background-color: $red;
+    color: $yellow;
+    border-color: $red;
   }
 }
